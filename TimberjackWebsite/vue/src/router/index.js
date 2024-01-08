@@ -3,9 +3,6 @@ import { useStore } from 'vuex'
 
 // Import components
 import HomeView from '../views/HomeView.vue';
-import LoginView from '../views/LoginView.vue';
-import LogoutView from '../views/LogoutView.vue';
-import RegisterView from '../views/RegisterView.vue';
 import ContactView from '../views/ContactView.vue';
 import ServicesView from '../views/ServicesView.vue';
 import AboutUsView from '../views/AboutUsView.vue';
@@ -23,30 +20,6 @@ const routes = [
     path: '/',
     name: 'home',
     component: HomeView,
-    meta: {
-      requiresAuth: true
-    }
-  },
-  {
-    path: "/login",
-    name: "login",
-    component: LoginView,
-    meta: {
-      requiresAuth: false
-    }
-  },
-  {
-    path: "/logout",
-    name: "logout",
-    component: LogoutView,
-    meta: {
-      requiresAuth: false
-    }
-  },
-  {
-    path: "/register",
-    name: "register",
-    component: RegisterView,
     meta: {
       requiresAuth: false
     }
