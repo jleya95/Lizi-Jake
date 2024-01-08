@@ -6,6 +6,9 @@ import HomeView from '../views/HomeView.vue';
 import LoginView from '../views/LoginView.vue';
 import LogoutView from '../views/LogoutView.vue';
 import RegisterView from '../views/RegisterView.vue';
+import ContactView from '../views/ContactView.vue';
+import ServicesView from '../views/ServicesView.vue';
+import AboutUsView from '../views/AboutUsView.vue';
 
 /**
  * The Vue Router is used to "direct" the browser to render a specific view component
@@ -44,6 +47,30 @@ const routes = [
     path: "/register",
     name: "register",
     component: RegisterView,
+    meta: {
+      requiresAuth: false
+    }
+  },
+  {
+    path: "/contact",
+    name: "contact",
+    component: ContactView,
+    meta: {
+      requiresAuth: false
+    }
+  },
+  {
+    path: "/services",
+    name: "contact",
+    component: ServicesView,
+    meta: {
+      requiersAuth: false
+    }
+  },
+  {
+    path: "/about",
+    name: "about",
+    component: AboutUsView,
     meta: {
       requiresAuth: false
     }
