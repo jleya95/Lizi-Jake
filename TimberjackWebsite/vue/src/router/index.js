@@ -5,7 +5,7 @@ import { useStore } from 'vuex'
 import HomeView from '../views/HomeView.vue';
 import ContactView from '../views/ContactView.vue';
 import ServicesView from '../views/ServicesView.vue';
-import AboutUsView from '../views/AboutUsView.vue';
+import AboutView from '../views/AboutView.vue';
 
 /**
  * The Vue Router is used to "direct" the browser to render a specific view component
@@ -34,7 +34,7 @@ const routes = [
   },
   {
     path: "/services",
-    name: "contact",
+    name: "services",
     component: ServicesView,
     meta: {
       requiersAuth: false
@@ -43,7 +43,7 @@ const routes = [
   {
     path: "/about",
     name: "about",
-    component: AboutUsView,
+    component: AboutView,
     meta: {
       requiresAuth: false
     }
