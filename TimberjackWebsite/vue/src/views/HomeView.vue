@@ -1,11 +1,16 @@
 <template>
   <div class="home">
     <h1>Home</h1>
-    <p>You must be authenticated to see this</p>
+    <contact-form></contact-form>
   </div>
 </template>
 
 <script>
+import ContactForm from '@/components/ContactForm.vue'
+
 export default {
+  components: {
+    ContactForm
+  }
 };
 </script>
