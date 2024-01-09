@@ -9,6 +9,7 @@
   </div> -->
 
   <nav-bar-components></nav-bar-components>
+  <router-view />
 </template>
 
 
