@@ -2,7 +2,7 @@
   <div class="home">
     <home-picture-component></home-picture-component>
     <contact-form></contact-form>
-    <testimonial-carousel-component></testimonial-carousel-component>
+    <!-- <testimonial-carousel-component></testimonial-carousel-component> -->
   </div>
 </template>
 
