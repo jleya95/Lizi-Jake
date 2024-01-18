@@ -77,7 +77,7 @@
           <input type="submit" class="forminput" value="Submit">
       </div>
   </form> -->
-
+  <div class="center-form">
   <form class="Form" @submit.prevent="checkForm">
       <div class="field">
           <label class="label">Name</label>
@@ -248,6 +248,7 @@
           </div>
       </div>
   </form>
+  </div>
 </template>
 
 <script>
@@ -303,5 +304,13 @@ export default {
 }
 .button:hover{
   background-color: orange;
+}
+
+.center-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-top: 3%;
 }
 </style>
