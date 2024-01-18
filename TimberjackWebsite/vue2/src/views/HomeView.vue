@@ -15,7 +15,8 @@ export default {
   components: {
     ContactForm,
     TestimonialCarouselComponent,
-    HomePictureComponent
+    HomePictureComponent,
+
   }
 };
 </script>
