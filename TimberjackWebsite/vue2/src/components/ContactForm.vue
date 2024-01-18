@@ -1,4 +1,5 @@
 <template>
+  <div class="center-form">
 
   <form class="Form" id="ContactForm" method="POST" action="https://formsubmit.co/57a97cd2daec8f5142e6d74ebebe82c0">
       <div class="field">
@@ -170,6 +171,7 @@
           </div>
       </div>
   </form>
+  </div>
 </template>
 
 <script>
@@ -232,6 +234,15 @@ export default {
 .button:hover{
   background-color: orange;
 }
+
+.center-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-top: 3%;
+}
+
 </style>
 
   <!-- <form class="form">
