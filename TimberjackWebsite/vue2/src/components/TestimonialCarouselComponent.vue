@@ -86,6 +86,8 @@
     align-items: center;
     color: rgb(74, 74, 74);
     font-size: 24px;
+    margin-top: 5%;
+    
   }
   
   .Google {
@@ -98,10 +100,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
+  
   }
   
   .small-carousel {
-    width: 60%;
+    width: 80%;
     margin: auto;
+    font-size: 18px;
   }
+
   </style>
