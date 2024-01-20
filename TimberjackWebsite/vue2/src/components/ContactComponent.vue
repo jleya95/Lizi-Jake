@@ -124,4 +124,9 @@ export default {
 .button:hover {
   background-color: orange;
 }
+
+.center_form {
+margin-right: 10%;
+
+}
 </style>

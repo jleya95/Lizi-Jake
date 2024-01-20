@@ -88,6 +88,7 @@
     font-size: 24px;
     margin-top: 5%;
     
+    
   }
   
   .Google {
@@ -108,5 +109,7 @@
     margin: auto;
     font-size: 18px;
   }
+
+
 
   </style>
