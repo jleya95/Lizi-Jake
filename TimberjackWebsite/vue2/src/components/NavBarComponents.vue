@@ -52,7 +52,7 @@
 
 <style>
 .navbar{
-background-color:rgba(138, 189, 157, 0.755)
+background-color:rgba(138, 189, 157, 0.755);
 }
 .icon1{
 margin: 5%;
