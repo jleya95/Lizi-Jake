@@ -238,7 +238,9 @@ export default {
     justify-content: center;
     align-items: center;
     align-content: center;
-    margin-top: 3%;
+    margin-top: 7%;
+    margin-bottom: 7%;
+
 }
 
 </style>

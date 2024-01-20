@@ -22,7 +22,7 @@
       font-size: 24px;
   }
 
-  .welcome{
+  .welcome{   
     font-size: 34px;
     font-weight:600;
   }
