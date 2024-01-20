@@ -1,15 +1,29 @@
 <template>
-    <h1>Contact Us</h1>
-    <contact-component></contact-component>
+    <div class="contact">
+        <h1>Contact Us</h1>
+        <contact-component></contact-component>
+    </div>
 </template>
 
 <script>
 
 import ContactComponent from '../components/ContactComponent.vue';
 
-export default{
+export default {
     components: {
         ContactComponent
     }
 }
 </script>
+
+<style>
+.contact{
+  margin-top: 5%;
+  background-color: rgba(255, 255, 255, 0.777);
+  margin-left: 10%;
+  margin-right: 10%;
+  border-radius: 2%;
+  padding-bottom: 2%;
+  padding-top: 2%;
+}
+</style>
