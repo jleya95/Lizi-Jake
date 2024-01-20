@@ -1,4 +1,5 @@
 <template>
+    <h1>About Us</h1>
     <about-pic-carousel-component></about-pic-carousel-component>
 </template>
 
