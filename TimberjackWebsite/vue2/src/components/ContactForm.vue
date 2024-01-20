@@ -26,36 +26,36 @@
 
       <div class="field">
           <label class="label">Address</label>
-          <div class="control">
-              <div class="field-body">
-                  <p class="control is-expanded">
+          <div class="field">
+              <div class="field-body is-grouped">
+                  <p class="field is-expanded">
                       <input class="input" name="AddressLine1" type="text" placeholder="Line 1" v-model="Info.Address.Line1">
                   </p>
               </div>
               <div class="field-body">
-                  <p class="control is-expanded">
+                  <p class="field is-expanded">
                       <input class="input" name="AddressLine2" type="text" placeholder="Line 2" v-model="Info.Address.Line2">
                   </p>
               </div>
               <div class="field-body is-grouped">
-                  <div class="field is-narrow">
+                  <div class="field is-expanded">
                       <p class="control is-expanded">
                           <input class="input" name="City" type="text" placeholder="City" v-model="Info.Address.City">
                       </p>
                   </div>
-                  <div class="field is-narrow">
+                  <div class="field is-grounded">
                       <p class="control is-expanded">
                           <input class="input" name="State" type="text" placeholder="State" v-model="Info.Address.State">
                       </p>
                   </div>
               </div>
               <div class="field-body is-grouped">
-                  <div class="field is-narrow">
+                  <div class="field is-grounded">
                       <p class="control is-expanded">
                           <input class="input" name="ZipCode" type="text" placeholder="Zip Code" v-model="Info.Address.ZipCode">
                       </p>
                   </div>
-                  <div class="field is-narrow">
+                  <div class="field is-grounded">
                       <p class="control is-expanded">
                           <input class="input" name="Country" type="text" placeholder="Country" v-model="Info.Address.Country">
                       </p>
@@ -66,7 +66,7 @@
 
       <div class="field">
           <label class="label">Email</label>
-          <div class="field-body">
+          <div class="field is-expanded">
               <p class="control is-expanded has-icons-left">
                   <input class="input is-success" name="email" type="email" placeholder="address@email.com" v-model="Info.Email">
                   <span class="icon is-small is-left">
@@ -76,9 +76,9 @@
           </div>
       </div>
 
-      <div class="field">
+      <div class="field is-expanded">
           <label class="label">Phone Number</label>
-          <div class="field-body">
+          <div class="field">
               <div class="field">
                   <div class="field has-addons">
                       <p class="control">
@@ -86,7 +86,7 @@
                               +1
                           </a>
                       </p>
-                      <p class="control">
+                      <p class="control is-expanded">
                           <input class="input" name="PhoneNumber" type="tel" placeholder="Your phone number" v-model="Info.Phone">
                       </p>
                   </div>
@@ -95,15 +95,13 @@
       </div>
 
       <div class="field">
-          <label class="label">Comment(s)</label>
-          <div class="field-body">
-              <div class="control">
-                  <input class="input" name="Comment(s)" type="text" v-model="Info.Comments">
-              </div>
-          </div>
-      </div>
+  <label class="label">Comment(s)</label>
+  <div class="control">
+    <textarea class="textarea" placeholder="Comment(s)" v-model="Info.Comments"></textarea>
+  </div>
+</div>
 
-      <div class="field">
+      <div class="field is-expanded">
           <label class="label">Contact Preference</label>
           <div class="field-body">
               <div class="field is-narrow">
