@@ -1,5 +1,5 @@
 <template>
-  <nav class="navbar has-text-weight-bold is-size-6" role="navigation" aria-label="main navigation">
+  <nav class="navbar has-text-weight-bold is-size-6 is-fixed-top" role="navigation" aria-label="main navigation">
 <div class="navbar-brand">
   <a class="navbar-item" href="/">
     <img src="../../img/logo8.png" width="120" height="200">
@@ -52,7 +52,7 @@
 
 <style>
 .navbar{
-background-color:rgb(138, 189, 157)
+background-color:rgba(138, 189, 157, 0.755)
 }
 .icon1{
 margin: 5%;
