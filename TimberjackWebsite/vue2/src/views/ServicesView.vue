@@ -1,6 +1,8 @@
 <template>
-    <h1>Our Services</h1>
-    <services-component></services-component>
+    <div class="services">
+        <h1>Our Services</h1>
+        <services-component></services-component>
+    </div>
     <!-- <tree-risk-assessment-component></tree-risk-assessment-component>
     <tree-removal-component></tree-removal-component>
     <land-lot-clearing-component></land-lot-clearing-component>
@@ -38,8 +40,19 @@ export default {
 </script>
 
 <style>
-h1{
+h1 {
+    margin-left: 5%;
     font-size: 200%;
     font-weight: bold;
+}
+
+.services {
+    margin-top: 5%;
+    background-color: rgba(255, 255, 255, 0.777);
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 2%;
+    padding-bottom: 2%;
+    padding-top: 2%;
 }
 </style>

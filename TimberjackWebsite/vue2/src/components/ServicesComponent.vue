@@ -103,7 +103,8 @@ h2 {
 }
 
 .flex-container-services {
-    margin: 1%;
+    margin-left: 5%;
+    margin-right: 5%;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -116,6 +117,6 @@ h2 {
 }
 
 .service-img {
-    width: 20%;
+    width: 25%;
 }
 </style>
