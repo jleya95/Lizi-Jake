@@ -1,28 +1,28 @@
 <template>
-  <div class="center-form">
+    <div class="center-form">
 
-  <form class="Form" id="ContactForm" method="POST" action="https://formsubmit.co/57a97cd2daec8f5142e6d74ebebe82c0">
-      <div class="field">
-          <label class="label">Name</label>
-          <div class="field-body">
-              <div class="field is-narrow">
-                  <p class="control is-expanded has-icons-left">
-                      <input class="input" name="FirstName" type="text" placeholder="First" v-model="Info.Name.First">
-                      <span class="icon is-small is-left">
-                          <i class="fas fa-user"></i>
-                      </span>
-                  </p>
-              </div>
-              <div class="field is-narrow">
-                  <p class="control is-expanded has-icons-left">
-                      <input class="input" name="LastName" type="text" placeholder="Last" v-model="Info.Name.Last">
-                      <span class="icon is-small is-left">
-                          <i class="fas fa-user"></i>
-                      </span>
-                  </p>
-              </div>
-          </div>
-      </div>
+        <form class="Form" id="ContactForm" method="POST" action="https://formsubmit.co/57a97cd2daec8f5142e6d74ebebe82c0">
+            <div class="field">
+                <label class="label">Name</label>
+                <div class="field-body">
+                    <div class="field is-narrow">
+                        <p class="control is-expanded has-icons-left">
+                            <input class="input" name="FirstName" type="text" placeholder="First" v-model="Info.Name.First">
+                            <span class="icon is-small is-left">
+                                <i class="fas fa-user"></i>
+                            </span>
+                        </p>
+                    </div>
+                    <div class="field is-narrow">
+                        <p class="control is-expanded has-icons-left">
+                            <input class="input" name="LastName" type="text" placeholder="Last" v-model="Info.Name.Last">
+                            <span class="icon is-small is-left">
+                                <i class="fas fa-user"></i>
+                            </span>
+                        </p>
+                    </div>
+                </div>
+            </div>
 
       <div class="field">
           <label class="label">Address</label>
@@ -119,57 +119,66 @@
           </div>
       </div>
 
-      <div class="field">
-          <label class="label">Service(s) Needed</label>
-          <div class="field-body">
-              <div class="field is-narrow">
-                  <div class="control">
-                      <input type="checkbox" name="Service(s) Needed" id="pruning" value="Tree Pruning & Removal" v-model="Info.Services">
-                      <label for="pruning">Tree Pruning & Removal</label><br>
-                      <input type="checkbox" name="Service(s) Needed" id="stump" value="Stump Grinding" v-model="Info.Services">
-                      <label for="stump">Stump Grinding</label><br>
-                      <input type="checkbox" name="Service(s) Needed" id="firewood" value="Firewood" v-model="Info.Services">
-                      <label for="firewood">Firewood</label><br>
-                      <input type="checkbox" name="Service(s) Needed" id="storm" value="Storm Damage" v-model="Info.Services">
-                      <label for="storm">Storm Damage</label><br>
-                      <input type="checkbox" name="Service(s) Needed" id="leaf" value="Leaf Cleanups" v-model="Info.Services">
-                      <label for="leaf">Leaf Cleanups</label>
-                  </div>
-              </div>
-          </div>
-      </div>
+            <div class="field">
+                <label class="label">Service(s) Needed</label>
+                <div class="field-body">
+                    <div class="field is-narrow">
+                        <div class="control">
+                            <input type="checkbox" name="Service(s) Needed" id="pruning" value="Tree Pruning & Removal"
+                                v-model="Info.Services">
+                            <label for="pruning">Tree Pruning & Removal</label><br>
+                            <input type="checkbox" name="Service(s) Needed" id="stump" value="Stump Grinding"
+                                v-model="Info.Services">
+                            <label for="stump">Stump Grinding</label><br>
+                            <input type="checkbox" name="Service(s) Needed" id="firewood" value="Firewood"
+                                v-model="Info.Services">
+                            <label for="firewood">Firewood</label><br>
+                            <input type="checkbox" name="Service(s) Needed" id="storm" value="Storm Damage"
+                                v-model="Info.Services">
+                            <label for="storm">Storm Damage</label><br>
+                            <input type="checkbox" name="Service(s) Needed" id="leaf" value="Leaf Cleanups"
+                                v-model="Info.Services">
+                            <label for="leaf">Leaf Cleanups</label>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
-      <div class="field">
-          <label class="label">How did you hear about us?</label>
-          <div class="field-body">
-              <div class="field is-narrow">
-                  <div class="control">
-                      <input type="checkbox" name="How did you hear about us?" id="internet" value="Internet Search" v-model="Info.HeardAbout">
-                      <label for="internet">Internet Search</label><br>
-                      <input type="checkbox" name="How did you hear about us?" id="facebook" value="Facebook" v-model="Info.HeardAbout">
-                      <label for="facebook">Facebook</label><br>
-                      <input type="checkbox" name="How did you hear about us?" id="friend" value="Friend" v-model="Info.HeardAbout">
-                      <label for="friend">Friend</label><br>
-                      <input type="checkbox" name="How did you hear about us?" id="other" value="Other" v-model="Info.HeardAbout">
-                      <label for="other">Other</label>
-                  </div>
-              </div>
-          </div>
-      </div>
-      <p v-if="Error">{{ Error }}</p>
-      <div class="field">
-          <div class="field-label">
-              <!-- Left empty for spacing -->
-          </div>
-          <div class="control">
-              <!-- <button class="button" type="submit" @click="submitForm">
+            <div class="field">
+                <label class="label">How did you hear about us?</label>
+                <div class="field-body">
+                    <div class="field is-narrow">
+                        <div class="control">
+                            <input type="checkbox" name="How did you hear about us?" id="internet" value="Internet Search"
+                                v-model="Info.HeardAbout">
+                            <label for="internet">Internet Search</label><br>
+                            <input type="checkbox" name="How did you hear about us?" id="facebook" value="Facebook"
+                                v-model="Info.HeardAbout">
+                            <label for="facebook">Facebook</label><br>
+                            <input type="checkbox" name="How did you hear about us?" id="friend" value="Friend"
+                                v-model="Info.HeardAbout">
+                            <label for="friend">Friend</label><br>
+                            <input type="checkbox" name="How did you hear about us?" id="other" value="Other"
+                                v-model="Info.HeardAbout">
+                            <label for="other">Other</label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <p v-if="Error">{{ Error }}</p>
+            <div class="field">
+                <div class="field-label">
+                    <!-- Left empty for spacing -->
+                </div>
+                <div class="control">
+                    <!-- <button class="button" type="submit" @click="submitForm">
                   Submit
               </button> -->
-              <input type="submit" class="button">
-          </div>
-      </div>
-  </form>
-  </div>
+                    <input type="submit" class="button">
+                </div>
+            </div>
+        </form>
+    </div>
 </template>
 
 <script>
@@ -177,63 +186,64 @@ import ContactService from '@/services/ContactService.js'
 
 export default {
 
-  data() {
-      return {
-          Info: {
-              Name: {
-                  First: "",
-                  Last: ""
-              },
-              Address: {
-                  Line1: "",
-                  Line2: "",
-                  City: "",
-                  State: "",
-                  ZipCode: "",
-                  Country: ""
-              },
-              Email: "",
-              Phone: "",
-              Comments: "",
-              Preference: "",
-              Services: [],
-              HeardAbout: []
-          },
-          Error: ""
-      }
-  },
-  methods: {
-      checkForm: function(e){
-          if(this.Info.Name && this.Info.Address && this.Info.Phone && this.Info.Preference && this.Info.Services.length){
-            //   return true;
-              return this.submitForm();
-          }
+    data() {
+        return {
+            Info: {
+                Name: {
+                    First: "",
+                    Last: ""
+                },
+                Address: {
+                    Line1: "",
+                    Line2: "",
+                    City: "",
+                    State: "",
+                    ZipCode: "",
+                    Country: ""
+                },
+                Email: "",
+                Phone: "",
+                Comments: "",
+                Preference: "",
+                Services: [],
+                HeardAbout: []
+            },
+            Error: ""
+        }
+    },
+    methods: {
+        checkForm: function (e) {
+            if (this.Info.Name && this.Info.Address && this.Info.Phone && this.Info.Preference && this.Info.Services.length) {
+                //   return true;
+                return this.submitForm();
+            }
 
-          if(!this.Info.Name || !this.Info.Address || !this.Info.Phone || !this.Info.Preference || !this.Info.Services.length){
-              this.Error="Please fill out all required elements"
-          }
-          
-          e.preventDefault();
-      },
-      submitForm() {
-          ContactService.formSubmit(this.Info)
-        // document.getElementById("contactForm").method = "post"
-        // document.getElementById("contactForm").action = "mailto: jleya95@gmail.com"
+            if (!this.Info.Name || !this.Info.Address || !this.Info.Phone || !this.Info.Preference || !this.Info.Services.length) {
+                this.Error = "Please fill out all required elements"
+            }
 
-      }
-  }
+            e.preventDefault();
+        },
+        submitForm() {
+            ContactService.formSubmit(this.Info)
+            // document.getElementById("contactForm").method = "post"
+            // document.getElementById("contactForm").action = "mailto: jleya95@gmail.com"
+
+        }
+    }
 };
 </script>
 
 <style>
-.button{
-  background-color: rgb(138, 189, 157);
-}
-.button:hover{
-  background-color: orange;
+.button {
+    background-color: rgb(138, 189, 157);
 }
 
-.center-form{
+.button:hover {
+    background-color: orange;
+}
+
+.center-form {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -242,7 +252,6 @@ export default {
     margin-bottom: 7%;
 
 }
-
 </style>
 
   <!-- <form class="form">
