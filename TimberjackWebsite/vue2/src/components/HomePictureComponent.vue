@@ -28,18 +28,25 @@
         <div class="seventhp">
           <p class = "email">TIMBERJACKTREE@GMAIL.COM</p>
         </div>
+        <p class="call">Call, Text or Email Today To Schedule A FREE Estimate & Experience the TimberJack Difference! </p>
+        <div class="sixthp">
+          <p class="numb">412-770-7617 </p>
+          <div class="seventhp">
+            <p class="email">TIMBERJACKTREE@GMAIL.COM</p>
+          </div>
         </div>
-          <div class="thirdp">
-        <p class ="licensed" >Fully Licensed & Insured</p>
+        <div class="thirdp">
+          <p class="licensed">Fully Licensed & Insured</p>
+        </div>
+
       </div>
 </div>
 </div>
 
   </div>
-
-  </template>
+</template>
   
-  <style>
+<style>
   
   /* .welcome, .neighbor, .crew, .licensed, .mind, .call, .numb, .email, .exceed{
     display: flex;
@@ -52,13 +59,14 @@
   color: orange;
   font-size: 30px;
 }
-  .welcome{
-    font-size: 34px;
-    font-weight:600;
-    
-  }
-  
-  .containerlogo {
+
+.welcome {
+  font-size: 34px;
+  font-weight: 600;
+
+}
+
+.containerlogo {
   margin: 0;
   padding: 0;
 } */
@@ -71,7 +79,7 @@
   width: 100%;
 } */
 
-.mod-20{
+.mod-20 {
   height: 400px;
   margin: 5%;
   margin-top: 10%;
@@ -83,11 +91,12 @@
   align-items: center;
 }
 
-.firstp{
+.firstp {
   margin-top: 5%;
 }
 
-.sixthp, .seventhp{
+.sixthp,
+.seventhp {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -105,7 +114,8 @@ margin-top: 5%;
   margin-top: 2%;
 }
 
-.welcome, .exceed{
+.welcome,
+.exceed {
   display: flex;
   flex-direction: row;
   justify-content: center;
