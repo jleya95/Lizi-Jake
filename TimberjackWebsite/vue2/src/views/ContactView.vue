@@ -1,6 +1,6 @@
 <template>
     <div class="contact">
-        <h1 class="contactH1">Contact Us</h1>
+        <h1 class="contactH1">CONTACT US</h1>
          <h1 class="phoneNumb">412-770-7617</h1>
         <contact-component></contact-component>
     </div>
@@ -33,6 +33,8 @@ export default {
     justify-content: center;
     align-items: center;
     margin-bottom: 1%;
+    font-size: 200%;
+    font-weight: bold;
 }
 .phoneNumb{
     display: flex;
