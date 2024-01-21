@@ -83,12 +83,11 @@ export default {
 <style scoped>
 .review {
   display: flex;
-  justify-content: left;
+  justify-content: center;
   align-items: center;
   margin-left: 7%;
   color: rgb(74, 74, 74);
   font-size: 24px;
-  margin-top: 5%;
   font-weight: bold;
 
 }

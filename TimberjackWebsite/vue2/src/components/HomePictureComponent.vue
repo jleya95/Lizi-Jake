@@ -19,25 +19,32 @@
 .flex-containerHome {
   display: flex;
   align-items: center;
-  justify-content: center;
-  text-align: center;
+  /* justify-content: center; */
+  text-align: left;
   font-family: "Rockwell Extra Bold";
-  margin-right: 5%;
+  margin-right: 4%;
+
 }
 
 .decription {
   display: flex;
   align-items: center;
   justify-content: center;
+
 }
 
 .welcome {
   align-items: center;
   justify-content: center;
+  font-size: 200%;
+  font-weight: 800;
+
 }
 
 .numb,.email {
-  margin: 2%;
+  /* margin: 2%; */
+  margin-bottom: 2%;
+  margin-top:2%;
   display: inline-block; 
   font-size: 150%;
   font-weight: 800;
@@ -55,9 +62,9 @@
   color:orange;
 }
 .mod-20 {
-  height: 400px;
-  margin: 5%;
-  margin-top: 10%;
+  height: 600px;
+  margin: 2%;
+  margin-top: 0%;
 }
 
 .decription,.call{
