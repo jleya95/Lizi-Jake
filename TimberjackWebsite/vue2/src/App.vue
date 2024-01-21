@@ -28,6 +28,7 @@ export default {
 html{
   background-color: unset;
 }
+
 </style>
 
 
