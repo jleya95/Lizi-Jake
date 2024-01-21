@@ -18,11 +18,12 @@
 <style>
 .flex-containerHome {
   display: flex;
+  flex-direction: row;
   align-items: center;
   justify-content: center;
   text-align: center;
   font-family: "Rockwell Extra Bold";
-  margin-right: 5%;
+  /* margin-right: 5%; */
 }
 
 .decription {
@@ -55,7 +56,9 @@
   color:orange;
 }
 .mod-20 {
-  height: 400px;
+  /* height: 400px; */
+  height: auto;
+  max-width: 40%;
   margin: 5%;
   margin-top: 10%;
 }
