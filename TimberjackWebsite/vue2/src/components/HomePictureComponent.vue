@@ -5,51 +5,59 @@
   <div class="flex-container">
     <img class="mod-20" src="img/20-modified.png">
     <div class="firstp">
-  <p class ="welcome">Welcome to TimberJack Tree Service! </p> 
-  <p class="exceed"> “Exceeding Your Expectations One Cut At A Time!"</p>
-  <div class="secondp">
-    <div class="paragh">
-  <p class = "neighbor"> We are your Neighborhoods Tree Care & Tree Removal Professionals!
-    Our crews have the know-how, equipment, and skills to tackle all of your tree care needs!
-    We are here to give you piece of mind while performing our services on your property.</p>
-  </div>
-      <p class = "call">Call, Text or Email Today To Schedule A FREE Estimate & Experience the TimberJack Difference! </p>
-      <div class="sixthp">
-        <p class = "numb">412-770-7617 </p>
-        <div class="seventhp">
-          <p class = "email">TIMBERJACKTREE@GMAIL.COM</p>
+      <p class="welcome">Welcome to TimberJack Tree Service! </p>
+      <p class="exceed"> “Exceeding Your Expectations One Cut At A Time!"</p>
+      <div class="secondp">
+        <div class="paragh">
+          <p class="neighbor"> We are your Neighborhoods Tree Care & Tree Removal Professionals!
+            Our crews have the know-how, equipment, and skills to tackle all of your tree care needs!
+            We are here to give you piece of mind while performing our services on your property.</p>
         </div>
+        <p class="call">Call, Text or Email Today To Schedule A FREE Estimate & Experience the TimberJack Difference! </p>
+        <div class="sixthp">
+          <p class="numb">412-770-7617 </p>
+          <div class="seventhp">
+            <p class="email">TIMBERJACKTREE@GMAIL.COM</p>
+          </div>
         </div>
-          <div class="thirdp">
-        <p class ="licensed" >Fully Licensed & Insured</p>
+        <div class="thirdp">
+          <p class="licensed">Fully Licensed & Insured</p>
+        </div>
+
       </div>
-
-</div>
-</div>
+    </div>
   </div>
+</template>
+  
+<style>
+.welcome,
+.neighbor,
+.crew,
+.licensed,
+.mind,
+.call,
+.numb,
+.email,
+.exceed {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Rockwell Extra Bold";
+  font-size: 24px;
+}
 
-  </template>
-  
-  <style>
-  
-  .welcome, .neighbor, .crew, .licensed, .mind, .call, .numb, .email, .exceed{
-    display: flex;
-      align-items: center;
-      justify-content: center;
-      font-family: "Rockwell Extra Bold";
-      font-size: 24px;
-  }
-.exceed{
+.exceed {
   color: orange;
   font-size: 30px;
 }
-  .welcome{
-    font-size: 34px;
-    font-weight:600;
-    
-  }
-  
-  .containerlogo {
+
+.welcome {
+  font-size: 34px;
+  font-weight: 600;
+
+}
+
+.containerlogo {
   margin: 0;
   padding: 0;
 }
@@ -62,41 +70,43 @@
   width: 100%;
 }
 
-.mod-20{
+.mod-20 {
   height: 400px;
   margin: 5%;
   margin-top: 10%;
 }
 
-.flex-container{
+.flex-container {
   display: flex;
 }
 
-.firstp{
+.firstp {
   margin-top: 5%;
 }
 
-.sixthp, .seventhp{
+.sixthp,
+.seventhp {
   display: flex;
   flex-direction: row;
   justify-content: center;
   margin: 2%;
 }
+
 /* .seventhp{
   margin-left: 5%;
 margin-top: 5%;
 } */
 
-.thirdp{
+.thirdp {
   display: flex;
   flex-direction: row;
   justify-content: center;
   margin-top: 2%;
 }
 
-.welcome, .exceed{
+.welcome,
+.exceed {
   display: flex;
   flex-direction: row;
   justify-content: center;
-}
-  </style>
+}</style>
