@@ -2,6 +2,14 @@
   <!-- <div class="containerlogo">
     <img class="homelogo" src="/img/cover10.png" >
   </div> -->
+  <div class="flex-containerHome">
+    <img class="mod-20" src="img/20-modified.png">
+    <div class="text">
+      <h1>Welcome to TimberJack Tree Service!</h1>
+      <h2></h2>
+    </div>
+  </div>
+
   
   <div class="flex-containerhome">
     <img class="mod-20" src="img/20-modified.png">
@@ -26,17 +34,17 @@
       </div>
 </div>
 </div>
+
   </div>
-  
 
   </template>
   
   <style>
   
-  .welcome, .neighbor, .crew, .licensed, .mind, .call, .numb, .email, .exceed{
+  /* .welcome, .neighbor, .crew, .licensed, .mind, .call, .numb, .email, .exceed{
     display: flex;
       align-items: center;
-      justify-content: center;
+      justify-content: left;
       font-family: "Rockwell Extra Bold";
       font-size: 24px;
   }
@@ -53,7 +61,7 @@
   .containerlogo {
   margin: 0;
   padding: 0;
-}
+} */
 
 
 
@@ -68,7 +76,7 @@
   margin: 5%;
   margin-top: 10%;
 }
-
+/* 
 .flex-containerhome{
   display: flex;
   justify-content: center;
@@ -84,13 +92,13 @@
   flex-direction: row;
   justify-content: center;
   margin: 2%;
-}
+} */
 /* .seventhp{
   margin-left: 5%;
 margin-top: 5%;
 } */
 
-.thirdp{
+/* .thirdp{
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -108,5 +116,5 @@ margin-top: 5%;
   align-items: center;
   font-family: "Rockwell Extra Bold";
       font-size: 24px;
-}
+} */
   </style>
