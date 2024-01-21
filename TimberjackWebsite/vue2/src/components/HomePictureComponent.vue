@@ -18,6 +18,7 @@
 <style>
 .flex-containerHome {
   display: flex;
+  flex-direction: row;
   align-items: center;
   /* justify-content: center; */
   text-align: left;
@@ -62,9 +63,11 @@
   color:orange;
 }
 .mod-20 {
-  height: 600px;
-  margin: 2%;
-  margin-top: 0%;
+  /* height: 400px; */
+  height: auto;
+  max-width: 40%;
+  margin: 5%;
+  margin-top: 10%;
 }
 
 .decription,.call{

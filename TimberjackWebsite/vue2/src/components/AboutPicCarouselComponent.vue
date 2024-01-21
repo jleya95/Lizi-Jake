@@ -117,7 +117,7 @@ export default {
 
 .about-text {
   width: 70%;
-  margin: 0 auto;
+  margin: auto;
   /* display: flex;
   align-items: center;
   justify-content: center; */
