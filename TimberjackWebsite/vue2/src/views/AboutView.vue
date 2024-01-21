@@ -1,6 +1,6 @@
 <template>
     <div class="about">
-        <h1>About Us</h1>
+        <h1 class="about-h1">ABOUT US</h1>
         <about-pic-carousel-component></about-pic-carousel-component>
     </div>
 </template>
@@ -24,5 +24,14 @@ export default {
   border-radius: 2%;
   padding-bottom: 2%;
   padding-top: 2%;
+}
+
+.about-h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1%;
+    font-size: 200%;
+    font-weight: bold;
 }
 </style>

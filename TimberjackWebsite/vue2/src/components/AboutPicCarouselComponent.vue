@@ -3,7 +3,7 @@
     Our goal is to provide our customers and their trees with the best care possible by keeping up to date with the
     latest industry standards and practices.</h1> -->
   <div class="about-text">
-    <h2>WHO WE ARE</h2>
+    <h2 class="about-h2">WHO WE ARE</h2>
     <p>TimberJack Tree Service is a Pennsylvania based, family owned & operated tree service providing quality services to
       residential and commercial customers in the Greater Pittsburgh Area, our mission is to provide our customers with
       the best service possible at a competitive but/yet affordable price. From the initial inquiry to the completion of
@@ -15,7 +15,7 @@
     </vueper-slide>
   </vueper-slides>
   <div class="about-text">
-    <h2>WHY CHOOSE TIMBERJACK TREE SERVICE?</h2>
+    <h2 class="about-h2">WHY CHOOSE TIMBERJACK TREE SERVICE?</h2>
     <P>As much as we would like to say that what we do everyday is easy, it is not. There are many factors involved when
       pruning or taking down a tree down properly in sometimes tight areas with lots of obstacles near and below. It is a
       lot like building a puzzle at times and if you do not have every piece of the puzzle in place, then it is just
@@ -123,8 +123,14 @@ export default {
   justify-content: center; */
   text-align: center;
   /* font-size: 24px; */
-  font-size: 125%;
+  font-size: 100%;
   margin-top: 3%;
   margin-bottom: 3%;
-}</style>
+}
+
+.about-h2 {
+  font-size: 150%;
+  font-weight: bold;
+}
+</style>
   

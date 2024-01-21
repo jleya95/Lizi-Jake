@@ -1,6 +1,6 @@
 <template>
     <div class="services">
-        <h1>Our Services</h1>
+        <h1 class="services-h1">OUR SERVICES</h1>
         <services-component></services-component>
     </div>
     <!-- <tree-risk-assessment-component></tree-risk-assessment-component>
@@ -40,8 +40,11 @@ export default {
 </script>
 
 <style>
-h1 {
-    margin-left: 5%;
+.services-h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1%;
     font-size: 200%;
     font-weight: bold;
 }
