@@ -1,6 +1,6 @@
 <template>
   <div class="center_form">
-    <form class="Form">
+    <form class="Form" id="EmailForm" method="POST" action="https://formsubmit.co/57a97cd2daec8f5142e6d74ebebe82c0">
       <div class="field is-horizontal">
         <div class="field-label is-normal">
           <label class="label">From</label>
@@ -8,7 +8,7 @@
         <div class="field-body">
           <div class="field">
             <p class="control is-expanded has-icons-left">
-              <input class="input" type="text" placeholder="Name" v-model="Info.Name">
+              <input class="input" type="text" name="Name" placeholder="Name" v-model="Info.Name">
               <span class="icon is-small is-left">
                 <i class="fas fa-user"></i>
               </span>
@@ -16,7 +16,7 @@
           </div>
           <div class="field">
             <p class="control is-expanded has-icons-left has-icons-right">
-              <input class="input is-success" type="email" placeholder="Email" v-model="Info.Email">
+              <input class="input is-success" type="email" name="Email" placeholder="Email" v-model="Info.Email">
               <span class="icon is-small is-left">
                 <i class="fas fa-envelope"></i>
               </span>
@@ -39,7 +39,7 @@
                 </a>
               </p>
               <p class="control is-expanded">
-                <input class="input" type="tel" placeholder="Your phone number" v-model="Info.Phone">
+                <input class="input" type="tel" name="Phone Number" placeholder="Your phone number" v-model="Info.Phone">
               </p>
             </div>
           </div>
@@ -53,7 +53,7 @@
         <div class="field-body">
           <div class="field">
             <div class="control">
-              <input class="input" type="text" placeholder="e.g. Partnership opportunity" v-model="Info.Subject">
+              <input class="input" type="text" name="Subject" placeholder="e.g. Partnership opportunity" v-model="Info.Subject">
             </div>
           </div>
         </div>
@@ -66,7 +66,7 @@
         <div class="field-body">
           <div class="field">
             <div class="control">
-              <textarea class="textarea" placeholder="Explain how we can help you" v-model="Info.Question"></textarea>
+              <textarea class="textarea" name="Message" placeholder="Explain how we can help you" v-model="Info.Question"></textarea>
             </div>
           </div>
         </div>
