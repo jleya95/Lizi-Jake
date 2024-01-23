@@ -23,9 +23,10 @@
         <a class="navbar-item" href="/contact">
           Contact
         </a>
+        
   </div>
 
-  <div class="navbar-end">
+  <div class="navbar-end"> 
     <div class="navbar-icons">
         <span class="icon1"> 
           <a class="contact-link" href="/contact">
@@ -108,6 +109,9 @@
   color: rgb(74, 74, 74);
 }
 
+.icon1 a.contact-link:hover {
+  color: orange;
+}
 .icon3 a.facebook-link:hover {
   color: orange;
 }
@@ -132,4 +136,5 @@
 .navbar-itemPic {
   margin-top: 2%;
 }
+
 </style>
