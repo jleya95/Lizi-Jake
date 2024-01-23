@@ -9,13 +9,16 @@
 <script>
 import ContactForm from '@/components/ContactForm.vue'
 import TestimonialCarouselComponent from '../components/TestimonialCarouselComponent.vue';
-import HomePictureComponent from '../components/HomePictureComponent.vue';
+import HomePictureComponent from '@/components/HomePictureComponent.vue';
 
 export default {
   components: {
     ContactForm,
     TestimonialCarouselComponent,
-    HomePictureComponent,
+    HomePictureComponent
+    
+
+    
 
   }
 };
