@@ -1,6 +1,6 @@
 <template>
   <div class="flex-containerHome">
-    <img class="mod-20" src="img/20-modified.png">
+    <img class="mod-20" src="img/16copyCircle.png">
     <div class="text">
       <h1 class="welcome">Welcome to TimberJack Tree Service!</h1>
       <h2 class="exceed">“Exceeding Your Expectations One Cut At A Time!"</h2>
@@ -23,6 +23,7 @@
 .text {
   position: relative;
   top: 0;
+
 }
 
 
@@ -47,14 +48,14 @@ margin-right: 4%;
 .welcome {
   align-items: center;
   justify-content: center;
-  font-size: 200%;
+  font-size: 190%;
   font-weight: 800;
   margin-top: 5%;
+  color: rgb(20, 91, 30)
 
 }
 
 .numb,.email {
-   margin: 2%; 
   margin-bottom: 2%;
   margin-top: 2%;
   display: inline-block;
@@ -82,15 +83,23 @@ margin-right: 4%;
    height: 400px; 
    height: auto;
   max-width: 40%;
-  margin: 5%;
+  /* margin: 5%; */
   float: left;
-  margin-right: 20px;
-  margin-top: 1%;
+  margin-right: 2%;
+  margin-top: -3%;
+  margin-bottom: 5%;
+  margin-left: 5%;
+  
+  
 }
 
 .decription,
 .call {
   font-size: 120%;
+}
+
+.exceed{
+  font-size: 140%;
 }
 
 </style> 
