@@ -1,7 +1,7 @@
 <template>
     <div class="tree-risk-assessment">
         <div class="flex-container-services">
-            <img class="service-img" src="/img/CircleImgs/12-modified.png">
+            <img class="service-img" src="/img/RoundCornerServiceImgs/12-modified.png">
             <div class="service-text">
                 <h2>TREE RISK ASSESSMENT</h2>
                 <p>Let one of our professionals take a walk around your property with you and have a look at the health and
@@ -28,7 +28,8 @@
     </div>
     <div class="land-lot-clearing">
         <div class="flex-container-services">
-            <img src="/img/CircleImgs/10-modified.png" class="service-img">
+            <!-- <img src="/img/CircleImgs/10-modified.png" class="service-img"> -->
+            <img src="/img/beforeAfterGif.gif" class="service-img">
             <div class="service-text">
                 <h2>LAND & LOT CLEARING</h2>
                 <p>Looking to build a home in a wooded area or just wanting to expand your yard space?...</p>
@@ -41,12 +42,12 @@
                 <h2>STUMP GRINDING</h2>
                 <p>Say goodbye to unsightly stumps and reclaim your yard space...</p>
             </div>
-            <img src="/img/CircleImgs/stump_grinding-modified.png" class="service-img">
+            <img src="/img/RoundCornerServiceImgs/stump_grinding-modified.png" class="service-img">
         </div>
     </div>
     <div class="tree-pruning">
         <div class="flex-container-services">
-            <img src="/img/CircleImgs/pruning-modified.png" class="service-img">
+            <img src="/img/RoundCornerServiceImgs/pruning-modified.png" class="service-img">
             <div class="service-text">
                 <h2>TREE PRUNING</h2>
                 <p>Proper pruning enhances the health, safety and appearance of your trees and property…</p>
@@ -65,12 +66,12 @@
                     your
                     door.</p>
             </div>
-            <img class="service-img" src="/img/CircleImgs/timberjack_firewood-modified.png">
+            <img class="service-img" src="/img/RoundCornerServiceImgs/timberjack_firewood-modified.png">
         </div>
     </div>
     <div class="leaf-cleanup">
         <div class="flex-container-services">
-            <img src="/img/CircleImgs/leaf_cleanup-modified.png" class="service-img">
+            <img src="/img/RoundCornerServiceImgs/leaf_cleanup-modified.png" class="service-img">
             <div class="service-text">
                 <h2>SPRING & FALL LEAF CLEANUPS</h2>
                 <p>Lets face it, not everyone loves to clean leaves. Except for TimberJack Tree Service! We can clean
@@ -88,7 +89,7 @@
                     with
                     that too.</p>
             </div>
-            <img class="service-img" src="/img/CircleImgs/15-modified.png">
+            <img class="service-img" src="/img/RoundCornerServiceImgs/15-modified.png">
         </div>
     </div>
 </template>
@@ -117,6 +118,6 @@ h2 {
 }
 
 .service-img {
-    width: 25%;
+    width: 35%;
 }
 </style>
