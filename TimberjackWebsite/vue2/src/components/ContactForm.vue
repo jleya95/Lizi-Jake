@@ -248,7 +248,7 @@ export default {
 }
 
 .button:hover {
-    background-color: orange;
+    background-color:rgb(217, 102, 42);
 }
 
 .center-form {
@@ -275,5 +275,27 @@ export default {
 
 img {
     border-radius: 5%;
+}
+
+@media screen and (max-width: 800px){
+
+    .center-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-top: 20%;
+    margin-bottom: 7%;
+    margin-left: 7%;
+    text-align: left;
+
+}  
+.form-image {
+    border-radius: 5%;
+    width: 0%;
+}
+.control{
+    font-size: 120%;
+}
 }
 </style>

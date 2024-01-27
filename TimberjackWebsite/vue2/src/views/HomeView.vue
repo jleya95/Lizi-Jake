@@ -35,12 +35,12 @@ export default {
   padding-top: 2%;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 900px) {
   .home{
   margin-top: 5%;
   background-color: rgba(255, 255, 255, 0.777);
-  margin-left: 5%;
-  margin-right: 5%;
+  margin-left: 2%;
+  margin-right: 2%;
   border-radius: 2%;
   padding-bottom: 2%;
   padding-top: 2%;

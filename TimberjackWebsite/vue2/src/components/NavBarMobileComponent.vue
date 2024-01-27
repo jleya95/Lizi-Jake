@@ -32,6 +32,7 @@
                             <a class="navbar-item" href="/about">About</a>
                             <a class="navbar-item" href="/services">Services</a>
                             <a class="navbar-item" href="/contact">Contact</a>
+                            <a class="navbar-item" href="/meet">Meet The Owner</a>
                         </div>
                     </div>
             </div>
@@ -55,7 +56,7 @@ export default {
 </script>
   
 <style scoped>
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
     .navbar-icons {
         display: flex;
         justify-content: flex-end;
@@ -65,15 +66,20 @@ export default {
     }
     .menuDrop{
         position: fixed;
-        top:2.5%; /* Optional: You can adjust the top position as needed */
-        right: 5%; /* Optional: You can adjust the right position as needed */
-        cursor: pointer; /* Optional: Add a pointer cursor to indicate it's clickable */
+        top:2.5%; 
+        right: 5%; 
+        cursor: pointer;
+        margin-top: -0.8%;
+        color: rgb(217, 102, 42); 
+       
     }
     .navbar-dropdown.is-right {
         position: absolute;
         right: -50px;
         background-color: rgba(138, 189, 157);
         top: 34px;
+        width: 230px;
+        text-align: right;
     }
     .navbar {
   background-color: rgba(138, 189, 157);
