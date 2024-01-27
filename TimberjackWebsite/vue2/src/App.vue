@@ -7,8 +7,9 @@
     </div>
     <router-view />
   </div> -->
-
-  <nav-bar-components></nav-bar-components>
+<nav-bar-mobile-component v-if="mobileView"></nav-bar-mobile-component>
+  <nav-bar-components v-if="!mobileView"></nav-bar-components>
+  
   <router-view />
 </template>
 
@@ -16,10 +17,28 @@
 <script>
 
 import NavBarComponents from './components/NavBarComponents.vue';
+import NavBarMobileComponent from './components/NavBarMobileComponent.vue';
 
 export default {
   components: {
-    NavBarComponents
+    NavBarComponents,
+    NavBarMobileComponent
+
+  },
+  data: () => {
+    return {
+      mobileView: true,
+      showNav: false,
+    };
+  },
+  methods: {
+    handleView() {
+      this.mobileView = window.innerWidth <= 800;
+    }
+},
+created() {
+    this.handleView();
+    window.addEventListener('resize', this.handleView);
   }
 }
 </script>
