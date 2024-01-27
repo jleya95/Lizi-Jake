@@ -35,6 +35,7 @@ export default {
     margin-bottom: 1%;
     font-size: 200%;
     font-weight: bold;
+    color: rgb(20, 91, 30);
 }
 .phoneNumb{
     display: flex;
