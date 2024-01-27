@@ -122,7 +122,7 @@ export default {
 }
 
 .button:hover {
-  background-color: orange;
+  background-color: rgb(217, 102, 42);
 }
 
 .center_form {

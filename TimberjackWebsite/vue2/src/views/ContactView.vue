@@ -43,6 +43,6 @@ export default {
     align-items: center;
     margin-bottom: 5%;
     font-size: 140%;
-    color: orange;
+    color: rgb(217, 102, 42);
 }
 </style>
