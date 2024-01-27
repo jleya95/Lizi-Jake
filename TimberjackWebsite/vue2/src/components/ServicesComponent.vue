@@ -1,9 +1,9 @@
 <template>
     <div class="tree-risk-assessment">
         <div class="flex-container-services">
-            <img class="service-img" src="/img/RoundCornerServiceImgs/12-modified.png">
+            <img class="service-img" src="/img/RoundCornerServiceImgs/RoundedEdits/12-edit-modified.png">
             <div class="service-text">
-                <h2>TREE RISK ASSESSMENT</h2>
+                <h2 class="service-header">TREE RISK ASSESSMENT</h2>
                 <p>Let one of our professionals take a walk around your property with you and have a look at the health and
                     well
                     being
@@ -19,11 +19,11 @@
     <div class="tree-removal">
         <div class="flex-container-services">
             <div class="service-text">
-                <h2>TREE REMOVAL</h2>
+                <h2 class="service-header">TREE REMOVAL</h2>
                 <p>TimberJack Tree Service will remove hazardous and unwanted trees from your property safely & efficiently…
                 </p>
             </div>
-            <img src="/img/CircleImgs/2.3-modified.png" class="service-img">
+            <img src="/img/RoundCornerServiceImgs/RoundedEdits/tree-removal-cropped-modified.png" class="service-img">
         </div>
     </div>
     <div class="land-lot-clearing">
@@ -31,7 +31,7 @@
             <!-- <img src="/img/CircleImgs/10-modified.png" class="service-img"> -->
             <img src="/img/beforeAfterGif.gif" class="service-img">
             <div class="service-text">
-                <h2>LAND & LOT CLEARING</h2>
+                <h2 class="service-header">LAND & LOT CLEARING</h2>
                 <p>Looking to build a home in a wooded area or just wanting to expand your yard space?...</p>
             </div>
         </div>
@@ -39,17 +39,17 @@
     <div class="stump-grinding">
         <div class="flex-container-services">
             <div class="service-text">
-                <h2>STUMP GRINDING</h2>
+                <h2 class="service-header">STUMP GRINDING</h2>
                 <p>Say goodbye to unsightly stumps and reclaim your yard space...</p>
             </div>
-            <img src="/img/RoundCornerServiceImgs/stump_grinding-modified.png" class="service-img">
+            <img src="/img/RoundCornerServiceImgs/RoundedEdits/stump_grinding-edit-modified.png" class="service-img">
         </div>
     </div>
     <div class="tree-pruning">
         <div class="flex-container-services">
-            <img src="/img/RoundCornerServiceImgs/pruning-modified.png" class="service-img">
+            <img src="/img/RoundCornerServiceImgs/RoundedEdits/pruning-edit-modified.png" class="service-img">
             <div class="service-text">
-                <h2>TREE PRUNING</h2>
+                <h2 class="service-header">TREE PRUNING</h2>
                 <p>Proper pruning enhances the health, safety and appearance of your trees and property…</p>
             </div>
         </div>
@@ -57,7 +57,7 @@
     <div class="firewood">
         <div class="flex-container-services">
             <div class="service-text">
-                <h2>FIREWOOD</h2>
+                <h2 class="service-header">FIREWOOD</h2>
                 <p>Need to stock up on firewood at your home or business for the winter months or just looking to have a
                     relaxing
                     campfire with family and friends this summer/fall. We have dry seasoned firewood that can be delivered
@@ -71,9 +71,9 @@
     </div>
     <div class="leaf-cleanup">
         <div class="flex-container-services">
-            <img src="/img/RoundCornerServiceImgs/leaf_cleanup-modified.png" class="service-img">
+            <img src="/img/RoundCornerServiceImgs/RoundedEdits/leaf_cleanup-edit-modified.png" class="service-img">
             <div class="service-text">
-                <h2>SPRING & FALL LEAF CLEANUPS</h2>
+                <h2 class="service-header">SPRING & FALL LEAF CLEANUPS</h2>
                 <p>Lets face it, not everyone loves to clean leaves. Except for TimberJack Tree Service! We can clean
                     unwanted leaves &
                     fall debris from your property to keep it looking clean and crisp.
@@ -84,12 +84,12 @@
     <div class="truck-crane">
         <div class="flex-container-services">
             <div class="service-text">
-                <h2>BUCKET TRUCK & CRANE SERVICE</h2>
+                <h2 class="service-header">BUCKET TRUCK & CRANE SERVICE</h2>
                 <p>Need a lift? Building a home? Or have a heavy object that needs to be set in a specific spot? We can help
                     with
                     that too.</p>
             </div>
-            <img class="service-img" src="/img/RoundCornerServiceImgs/15-modified.png">
+            <img class="service-img" src="/img/RoundCornerServiceImgs/RoundedEdits/15-edited-modified.png">
         </div>
     </div>
 </template>
@@ -119,5 +119,9 @@ h2 {
 
 .service-img {
     width: 35%;
+}
+
+.service-header {
+    color: rgb(20, 91, 30);
 }
 </style>
