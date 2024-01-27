@@ -2,7 +2,7 @@
   <nav class="navbar has-text-weight-bold is-size-6 is-fixed-top" role="navigation" aria-label="main navigation">
 <div class="navbar-brand">
   <a class="navbar-itemPic" href="/">
-    <img src="../../img/logo8.png" width="150" height="100">
+    <img class="logoImage" src="../../img/logo6.6.png" width="150" height="100">
   </a>
 </div>
 
@@ -137,4 +137,7 @@
   margin-top: 2%;
 }
 
+.logoImage{
+  margin-left: 5%;
+}
 </style>
