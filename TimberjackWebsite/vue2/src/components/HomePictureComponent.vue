@@ -89,8 +89,6 @@ margin-right: 4%;
   margin-top: -3%;
   margin-bottom: 5%;
   margin-left: 5%;
-  
-  
 }
 
 .decription,
@@ -100,6 +98,29 @@ margin-right: 4%;
 
 .exceed{
   font-size: 140%;
+}
+
+@media screen and (max-width: 600px) {
+ 
+  .flex-containerHome {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .welcome {
+    margin-top: 5%; /* Adjust this value as needed */
+    font-size: 180%;
+  }
+
+  .mod-20 {
+    max-width: 95%;
+    margin: 2; /* Adjust this value as needed */
+  }
+
+
+
 }
 
 </style> 
