@@ -6,6 +6,7 @@ import HomeView from '../views/HomeView.vue';
 import ContactView from '../views/ContactView.vue';
 import ServicesView from '../views/ServicesView.vue';
 import AboutView from '../views/AboutView.vue';
+import OwnerView from '../views/OwnerView.vue';
 
 /**
  * The Vue Router is used to "direct" the browser to render a specific view component
@@ -44,6 +45,14 @@ const routes = [
     path: "/about",
     name: "about",
     component: AboutView,
+    meta: {
+      requiresAuth: false
+    }
+  },
+  {
+    path: "/MeetTheOwner",
+    name: "meet",
+    component: OwnerView,
     meta: {
       requiresAuth: false
     }

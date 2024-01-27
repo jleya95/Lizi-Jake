@@ -43,14 +43,15 @@ margin-right: 4%;
   align-items: center;
   justify-content: center;
 
+
 }
 
 .welcome {
   align-items: center;
   justify-content: center;
-  font-size: 190%;
+  font-size: 220%;
   font-weight: 800;
-  margin-top: 5%;
+  margin-top: 10%;
   color: rgb(20, 91, 30)
 
 }
@@ -71,22 +72,22 @@ margin-right: 4%;
 
 .exceed,
 .free {
-  color: orange;
+  color: rgb(217, 102, 42);
 }
 
 .numb:hover,
 .email:hover {
-  color: orange;
+  color: rgb(217, 102, 42);
 } 
 
 .mod-20 { 
-   height: 400px; 
-   height: auto;
+   height: 600px; 
+   /* height: auto; */
   max-width: 40%;
   /* margin: 5%; */
   float: left;
   margin-right: 2%;
-  margin-top: -3%;
+  margin-top: -8%;
   margin-bottom: 5%;
   margin-left: 5%;
 }
@@ -100,7 +101,7 @@ margin-right: 4%;
   font-size: 140%;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
  
   .flex-containerHome {
     flex-direction: column;
@@ -110,14 +111,24 @@ margin-right: 4%;
   }
 
   .welcome {
-    margin-top: 5%; /* Adjust this value as needed */
-    font-size: 180%;
+    margin-top: 5%; 
+    font-size: 350%;
   }
 
   .mod-20 {
     max-width: 95%;
-    margin: 2; /* Adjust this value as needed */
+    margin: 2; 
+    height: 50%;
   }
+  .exceed{
+  font-size: 180%;
+  margin-bottom: 2%;
+}
+.licensed {
+  font-size: 110%;
+  font-weight: 800;
+  margin-bottom: 10%;
+}
 
 
 

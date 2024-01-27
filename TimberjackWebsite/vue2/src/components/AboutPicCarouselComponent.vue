@@ -132,5 +132,10 @@ export default {
   font-size: 150%;
   font-weight: bold;
 }
+
+@media screen and (max-width: 800px) {
+
+
+}
 </style>
   

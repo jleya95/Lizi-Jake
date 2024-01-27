@@ -28,7 +28,7 @@ export default {
   data: () => {
     return {
       mobileView: true,
-      showNav: false,
+      // showNav: false,
     };
   },
   methods: {

@@ -82,24 +82,24 @@
 }
 
 .navbar-start .navbar-item:first-child:hover {
-  color: orange;
+  color:rgb(217, 102, 42);
   background-color: transparent;
 }
 
 .navbar-start .navbar-item:hover {
-  color: orange;
+  color: rgb(217, 102, 42);
   background-color: transparent;
 }
 
 .icon1:hover,
 .icon2:hover,
 .icon3:hover {
-  color: orange;
+  color: rgb(217, 102, 42);
 }
 
 .navbar-menu a.navbar-icons:hover {
   background-color: rgb(138, 189, 157);
-  color: orange;
+  color: rgb(217, 102, 42);
 }
 
 .icon3 a.facebook-link {
@@ -110,10 +110,10 @@
 }
 
 .icon1 a.contact-link:hover {
-  color: orange;
+  color: rgb(217, 102, 42);
 }
 .icon3 a.facebook-link:hover {
-  color: orange;
+  color: rgb(217, 102, 42);
 }
 
 .icon2 a.insta-link {
@@ -121,7 +121,7 @@
 }
 
 .icon2 a.insta-link:hover {
-  color: orange;
+  color: rgb(217, 102, 42);
 }
 
 .navbar-item {
