@@ -128,5 +128,14 @@ export default {
 .center_form {
 margin-right: 10%;
 
+
+}
+
+@media screen and (max-width: 800) {
+  .center_form {
+margin-right: 10%;
+margin-left: 10%;
+
+}
 }
 </style>
