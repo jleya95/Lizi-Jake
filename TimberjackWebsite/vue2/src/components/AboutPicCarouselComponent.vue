@@ -105,6 +105,7 @@ export default {
 
 .image-slide {
   height: 550px;
+  /* height: 80%; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -135,7 +136,25 @@ export default {
 }
 
 @media screen and (max-width: 800px) {
+  /* .carousel-container {
+    height: 50%;
+  }
+ */
+  .small-carousel {
+    width: 80%;
+    height: 50%;
+    /* height: auto;
+    margin: auto; */
+  }
 
+  /* .image-slide {
+    height: 50%;
+  } */
+  .image {
+    /* max-width: auto;
+    max-height: auto; */
+    height: 40%;
+  }
 
 }
 </style>
