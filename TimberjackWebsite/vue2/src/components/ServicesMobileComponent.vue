@@ -19,11 +19,11 @@
     <div class="tree-removal">
         <div class="flex-container-services">
             <div class="service-text">
+                <img src="/img/RoundCornerServiceImgs/RoundedEdits/tree-removal-cropped-modified.png" class="service-img">
                 <h2 class="service-header">TREE REMOVAL</h2>
                 <p>TimberJack Tree Service will remove hazardous and unwanted trees from your property safely & efficiently…
                 </p>
             </div>
-            <img src="/img/RoundCornerServiceImgs/RoundedEdits/tree-removal-cropped-modified.png" class="service-img">
         </div>
     </div>
     <div class="land-lot-clearing">
@@ -38,11 +38,11 @@
     </div>
     <div class="stump-grinding">
         <div class="flex-container-services">
+            <img src="/img/RoundCornerServiceImgs/RoundedEdits/stump_grinding-edit-modified.png" class="service-img">
             <div class="service-text">
                 <h2 class="service-header">STUMP GRINDING</h2>
                 <p>Say goodbye to unsightly stumps and reclaim your yard space...</p>
             </div>
-            <img src="/img/RoundCornerServiceImgs/RoundedEdits/stump_grinding-edit-modified.png" class="service-img">
         </div>
     </div>
     <div class="tree-pruning">
@@ -57,6 +57,7 @@
     <div class="firewood">
         <div class="flex-container-services">
             <div class="service-text">
+                <img class="service-img" src="/img/RoundCornerServiceImgs/timberjack_firewood-modified.png">
                 <h2 class="service-header">FIREWOOD</h2>
                 <p>Need to stock up on firewood at your home or business for the winter months or just looking to have a
                     relaxing
@@ -66,7 +67,6 @@
                     your
                     door.</p>
             </div>
-            <img class="service-img" src="/img/RoundCornerServiceImgs/timberjack_firewood-modified.png">
         </div>
     </div>
     <div class="leaf-cleanup">
@@ -84,12 +84,12 @@
     <div class="truck-crane">
         <div class="flex-container-services">
             <div class="service-text">
+                <img class="service-img" src="/img/RoundCornerServiceImgs/RoundedEdits/15-edited-modified.png">
                 <h2 class="service-header">BUCKET TRUCK & CRANE SERVICE</h2>
                 <p>Need a lift? Building a home? Or have a heavy object that needs to be set in a specific spot? We can help
                     with
                     that too.</p>
             </div>
-            <img class="service-img" src="/img/RoundCornerServiceImgs/RoundedEdits/15-edited-modified.png">
         </div>
     </div>
 </template>
@@ -125,5 +125,33 @@ h2 {
     color: rgb(20, 91, 30);
 }
 
+@media screen and (max-width: 800px) {
 
+    .flex-container-services {
+    margin-left: 5%;
+    margin-right: 5%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 100%;
+    text-align: center;
+}
+.service-img {
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+.tree-risk-assessment{
+    margin-top: 5%;
+}
+/* .service-headerLeaf{
+  font-size: 120%;  
+} */
+}
 </style>
