@@ -1,6 +1,7 @@
 <template>
     <div class="center-form">
-        <form class="Form" id="ContactForm" method="POST" action="https://formsubmit.co/57a97cd2daec8f5142e6d74ebebe82c0">
+        <!-- <form class="Form" id="ContactForm" method="POST" action="https://formsubmit.co/57a97cd2daec8f5142e6d74ebebe82c0"> -->
+        <form class="Form" id="ContactForm">
             <h1 class="form-h1">WANT US TO CONTACT YOU?</h1>
             <div class="field">
                 <label class="label">Name</label>
@@ -183,7 +184,7 @@
                 <div class="field-label">
                 </div>
                 <div class="control">
-                    <input type="submit" class="button">
+                    <input type="submit" class="button" @click="submitForm()">
                 </div>
             </div>
         </form>
@@ -248,7 +249,7 @@ export default {
 }
 
 .button:hover {
-    background-color:rgb(217, 102, 42);
+    background-color: rgb(217, 102, 42);
 }
 
 .center-form {
@@ -277,25 +278,27 @@ img {
     border-radius: 5%;
 }
 
-@media screen and (max-width: 800px){
+@media screen and (max-width: 800px) {
 
     .center-form {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-    margin-top: 20%;
-    margin-bottom: 7%;
-    margin-left: 7%;
-    text-align: left;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        margin-top: 20%;
+        margin-bottom: 7%;
+        margin-left: 7%;
+        text-align: left;
 
-}  
-.form-image {
-    border-radius: 5%;
-    width: 0%;
-}
-.control{
-    font-size: 120%;
-}
+    }
+
+    .form-image {
+        border-radius: 5%;
+        width: 0%;
+    }
+
+    .control {
+        font-size: 120%;
+    }
 }
 </style>

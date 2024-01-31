@@ -56,7 +56,7 @@ export default {
 </script>
   
 <style scoped>
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1024px) {
     .navbar-icons {
         display: flex;
         justify-content: flex-end;
