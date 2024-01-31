@@ -12,10 +12,10 @@ namespace TimberjackWebsite.Services
         public bool SendEmail(ContactForm formToSend)
         {
             MailAddress to = new MailAddress("jleya95@gmail.com");
-            MailAddress from = new MailAddress("jleya95@gmail.com");
+            MailAddress from = new MailAddress($"{formToSend.Email}");
 
             MailMessage email = new MailMessage(from, to);
-            email.Subject = $"Message from {formToSend.Name.First} {formToSend.Name.Last}";
+            email.Subject = $"Message from {formToSend.Name.First} {formToSend.Name.Last} - TimberJack Tree Service";
             email.Body = GenerateEmailBody(formToSend);
             SmtpClient smtp = new SmtpClient();
             smtp.Host = "smtp.gmail.com";
@@ -63,10 +63,10 @@ namespace TimberjackWebsite.Services
 
         public string GenerateEmailBody(ContactForm formForEmail)
         {
-            string emailBody = $"Name: {formForEmail.Name.First} {formForEmail.Name.Last} " +
-                $"Address: {formForEmail.Address.Line1} {formForEmail.Address.Line2} " +
-                $"{formForEmail.Address.City}, {formForEmail.Address.State} {formForEmail.Address.ZipCode} {formForEmail.Address.Country}" +
-                $"Email: {formForEmail.Email} " +
+            string emailBody = $"Name: {formForEmail.Name.First} {formForEmail.Name.Last}\n" +
+                $"Address: {formForEmail.Address.Line1} {formForEmail.Address.Line2}\n" +
+                $"{formForEmail.Address.City}, {formForEmail.Address.State} {formForEmail.Address.ZipCode} {formForEmail.Address.Country}\n" +
+                $"Email: {formForEmail.Email}\n" +
                 $"Phone: {formForEmail.PhoneNumber} " +
                 $"Comments: {formForEmail.Comments} " +
                 $"Contact Preference: {formForEmail.ContactPreference} " +

@@ -33,7 +33,7 @@ export default {
   },
   methods: {
     handleView() {
-      this.mobileView = window.innerWidth <= 800;
+      this.mobileView = window.innerWidth <= 1024;
     }
 },
 created() {
