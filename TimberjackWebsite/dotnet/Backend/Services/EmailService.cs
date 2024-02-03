@@ -39,6 +39,36 @@ namespace TimberjackWebsite.Services
 
         }
 
+        public bool SendContactUsEmail(ContactUsForm formToSend)
+        {
+            MailAddress to = new MailAddress("jleya95@gmail.com");
+            MailAddress from = new MailAddress($"{formToSend.Email}");
+
+            MailMessage email = new MailMessage(from, to);
+            email.Subject = $"From: {formToSend.Email} - {formToSend.Subject}";
+            email.Body = GenerateContactUsEmailBody(formToSend);
+            SmtpClient smtp = new SmtpClient();
+            smtp.Host = "smtp.gmail.com";
+            smtp.Port = 587;
+            smtp.Credentials = new NetworkCredential("jleya95@gmail.com", "plje adtv ksmm xyih");
+            smtp.DeliveryMethod = SmtpDeliveryMethod.Network;
+            smtp.EnableSsl = true;
+
+            try
+            {
+                /* Send method called below is what will send off our email 
+                 * unless an exception is thrown.
+                 */
+                smtp.Send(email);
+                return true;
+            }
+            catch (SmtpException ex)
+            {
+                return false;
+            }
+
+        }
+
         public ContactForm GenerateContactForm(string firstName, string lastName, string addressLine1, string addressLine2, string city,
             string state, string zipCode, string country, string email, string phone, string comments, string preference, string service, string heardAbout)
         {
@@ -74,6 +104,27 @@ namespace TimberjackWebsite.Services
                 $"How did you hear about us?: {formForEmail.HowHeard}";
 
             return emailBody;
+        }
+
+        public string GenerateContactUsEmailBody(ContactUsForm contactUsFormForEmail)
+        {
+            string emailBody = $"Name: {contactUsFormForEmail.Name}\n" +
+                $"Email: {contactUsFormForEmail.Email}\n" +
+                $"Phone: {contactUsFormForEmail.Phone}\n" +
+                $"Message: {contactUsFormForEmail.Message}";
+
+            return emailBody;
+        }
+
+        public ContactUsForm GenerateContactUsForm(string name, string email, string phone, string subject, string body)
+        {
+            ContactUsForm contactUsForm = new ContactUsForm();
+            contactUsForm.Name = name;
+            contactUsForm.Email = email;
+            contactUsForm.Phone = phone;
+            contactUsForm.Subject = subject;
+            contactUsForm.Message = body;
+            return contactUsForm;
         }
     }
 }

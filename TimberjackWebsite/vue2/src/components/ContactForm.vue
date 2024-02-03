@@ -4,7 +4,7 @@
         <form class="Form" id="ContactForm">
             <h1 class="form-h1">WANT US TO CONTACT YOU?</h1>
             <div class="field">
-                <label class="label">Name</label>
+                <label class="label">Name<span class="required">*</span></label>
                 <div class="field-body">
                     <div class="field is-narrow">
                         <p class="control is-expanded has-icons-left">
@@ -71,7 +71,7 @@
             </div>
 
             <div class="field">
-                <label class="label">Email</label>
+                <label class="label">Email<span class="required">*</span></label>
                 <div class="field is-expanded">
                     <p class="control is-expanded has-icons-left">
                         <input class="input is-success" name="email" type="email" placeholder="address@email.com"
@@ -84,7 +84,7 @@
             </div>
 
             <div class="field is-expanded">
-                <label class="label">Phone Number</label>
+                <label class="label">Phone Number<span class="required">*</span></label>
                 <div class="field">
                     <div class="field">
                         <div class="field has-addons">
@@ -128,7 +128,7 @@
             </div>
 
             <div class="field">
-                <label class="label">Service(s) Needed</label>
+                <label class="label">Service(s) Needed<span class="required">*</span></label>
                 <div class="field-body">
                     <div class="field is-narrow">
                         <div class="control">
@@ -179,12 +179,13 @@
                     </div>
                 </div>
             </div>
-            <p v-if="Error">{{ Error }}</p>
+            <p class="error-message" v-if="FormError">{{ ErrorMessage }}</p>
             <div class="field">
                 <div class="field-label">
                 </div>
                 <div class="control">
-                    <input type="submit" class="button" @click="submitForm()">
+                    <!-- <input type="submit" class="button" @click="submitForm()"> -->
+                    <input type="submit" class="button" @click="checkForm">
                 </div>
             </div>
         </form>
@@ -221,17 +222,19 @@ export default {
                 Services: "",
                 HeardAbout: ""
             },
-            Error: ""
+            FormError: false,
+            ErrorMessage: ""
         }
     },
     methods: {
         checkForm: function (e) {
-            if (this.Info.Name && this.Info.Address && this.Info.Phone && this.Info.Preference && this.Info.Services.length) {
+            if (this.Info.Name.First && this.Info.Email && this.Info.Phone && this.Info.Services) {
                 return this.submitForm();
             }
 
-            if (!this.Info.Name || !this.Info.Address || !this.Info.Phone || !this.Info.Preference || !this.Info.Services.length) {
-                this.Error = "Please fill out all required elements"
+            if (!this.Info.Name.First || !this.Info.Email || !this.Info.Phone || !this.Info.Services) {
+                this.FormError = true
+                this.ErrorMessage = "Please fill out all required(*) elements"
             }
 
             e.preventDefault();
@@ -276,6 +279,10 @@ export default {
 
 img {
     border-radius: 5%;
+}
+
+.required, .error-message {
+    color: red;
 }
 
 @media screen and (max-width: 800px) {
