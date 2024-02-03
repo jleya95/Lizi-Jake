@@ -7,6 +7,7 @@
         </div>
         <div class="navbar-end">
             <div class="navbar-icons">
+                
                 <span class="icon1">
                     <a class="contact-link" href="/contact">
                         <i class="fa-solid fa-envelope fa-2x" aria-hidden="true"></i>
@@ -22,6 +23,12 @@
                         <i class="fa-brands fa-facebook fa-2x" aria-hidden="true"></i>
                     </a>
                 </span>
+                
+                                <span class="icon4">
+                                    <a class="google-link" href="" target="_blank">
+                                  <i class="fa-brands fa-google fa-2x"  aria-hidden="true"></i>
+                                </a>
+                                </span>
                 <div class="navbar-item has-dropdown is-right" :class="{ 'is-active': dropdownVisible }"
                         @click="toggleDropdown">
                         <span class="menuDrop">
@@ -58,11 +65,18 @@ export default {
 <style scoped>
 @media screen and (max-width: 1024px) {
     .navbar-icons {
-        display: flex;
+        /* display: flex;
         justify-content: flex-end;
         align-items: center;
-        margin-right: 10%;
-        margin-top: -15%;
+        margin-right: 10%; 
+        margin-top: -15%; */
+
+        position: fixed;
+        top: 1.8%;
+        right: 15%; 
+        cursor: pointer;
+        margin-top: -0.8%;
+    
     }
     .menuDrop{
         position: fixed;
@@ -71,13 +85,14 @@ export default {
         cursor: pointer;
         margin-top: -0.8%;
         color: rgb(217, 102, 42); 
+        padding-right: 1%;
        
     }
     .navbar-dropdown.is-right {
         position: absolute;
-        right: -50px;
+        right: 0%;
         background-color: rgba(138, 189, 157);
-        top: 34px;
+        top: 18px;
         width: 230px;
         text-align: right;
     }
