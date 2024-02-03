@@ -26,17 +26,16 @@
               Meet the owner
             </a>
           </div>
+          </div>
 
           <a class="navbar-item" href="/services">
             Services
           </a>
 
-          <a class="navbar-item" href="/contact">
+          <a class="navbar-item menuContact" href="/contact">
             Contact
           </a>
 
-
-        </div>
       </div>
 
       <div class="navbar-end">
@@ -192,7 +191,7 @@ export default {
   margin-left: 5%;
 }
  .menuDrop2{
-margin-top: 5.3%;
+margin-top: 24%;
  }
 
  .menuDrop2:hover{
@@ -219,5 +218,7 @@ margin-top: 5.3%;
 .itemMeet{
 margin-left: 8%;
 }
-
+.menuContact{
+  margin-left: -3%;
+}
 </style>
