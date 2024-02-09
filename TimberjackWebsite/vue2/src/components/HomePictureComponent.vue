@@ -9,7 +9,7 @@
       <p class="call">Call, Text or Email Today To Schedule a <span class="free">FREE</span>
          Estimate & Experience the TimberJack Difference! </p>
       <div clas="contactInfo"></div>
-      <p class="numb">412-770-7617</p>
+      <a class="numb" href="tel:412-770-7617">412-770-7617</a>
       <p class="email">TIMBERJACKTREE@GMAIL.COM</p>
       <p class="licensed">FULLY LICENSED & INSURED</p>
       <div style="clear: both;"></div>
@@ -99,6 +99,9 @@ margin-right: 4%;
 
 .exceed{
   font-size: 140%;
+}
+.numb{
+  color: rgb(65, 65, 65);
 }
 
 @media screen and (max-width: 800px) {
