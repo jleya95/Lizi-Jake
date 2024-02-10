@@ -16,10 +16,6 @@ export default {
     ContactForm,
     TestimonialCarouselComponent,
     HomePictureComponent
-    
-
-    
-
   }
 };
 </script>

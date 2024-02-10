@@ -97,10 +97,10 @@ namespace TimberjackWebsite.Services
                 $"Address: {formForEmail.Address.Line1} {formForEmail.Address.Line2}\n" +
                 $"{formForEmail.Address.City}, {formForEmail.Address.State} {formForEmail.Address.ZipCode} {formForEmail.Address.Country}\n" +
                 $"Email: {formForEmail.Email}\n" +
-                $"Phone: {formForEmail.PhoneNumber} " +
-                $"Comments: {formForEmail.Comments} " +
-                $"Contact Preference: {formForEmail.ContactPreference} " +
-                $"Service Needed: {formForEmail.ServiceNeeded} " +
+                $"Phone: {formForEmail.PhoneNumber}\n" +
+                $"Comments: {formForEmail.Comments}\n" +
+                $"Contact Preference: {formForEmail.ContactPreference}\n" +
+                $"Service Needed: {formForEmail.ServiceNeeded}\n" +
                 $"How did you hear about us?: {formForEmail.HowHeard}";
 
             return emailBody;

@@ -193,13 +193,17 @@
             <img src="img/formpic.jpg" alt="Image">
         </div>
     </div>
+    <form-popup-component v-if="showPopUp"></form-popup-component>
 </template>
 
 <script>
-import ContactService from '@/services/ContactService.js'
+import ContactService from '@/services/ContactService.js';
+import FormPopupComponent from '@/components/FormPopupComponent.vue'
 
 export default {
-
+    components: {
+        FormPopupComponent
+    },
     data() {
         return {
             Info: {
@@ -223,13 +227,14 @@ export default {
                 HeardAbout: ""
             },
             FormError: false,
-            ErrorMessage: ""
+            ErrorMessage: "",
+            showPopUp: false
         }
     },
     methods: {
         checkForm: function (e) {
             if (this.Info.Name.First && this.Info.Email && this.Info.Phone && this.Info.Services) {
-                return this.submitForm();
+                return this.submitForm(e);
             }
 
             if (!this.Info.Name.First || !this.Info.Email || !this.Info.Phone || !this.Info.Services) {
@@ -239,9 +244,34 @@ export default {
 
             e.preventDefault();
         },
-        submitForm() {
+        submitForm(e) {
             ContactService.formSubmit(this.Info)
-        }
+            // .then(response => {
+            //     if (response.status == 200) {
+            //         return this.displayPopUp(e);
+            //     }
+            // })
+            // .catch((error) => {
+            //     this.handleErrorResponse(error, "Form Submit")
+            // })
+            return this.displayPopUp(e)
+        },
+        displayPopUp(e) {
+            this.showPopUp = true;
+            e.preventDefault();
+        },
+        handleErrorResponse(error, verb) {
+            if (error.response) {
+                console.log(
+                    `Error ${verb} topic. Response received was "${error.response.statusText}".`
+                );
+            } else if (error.request) {
+                console.log(`Error ${verb} topic. Server could not be reached.`);
+            } else {
+                console.log(`Error ${verb} topic. Request could not be created.`);
+            }
+        },
+
     }
 };
 </script>
@@ -281,7 +311,8 @@ img {
     border-radius: 5%;
 }
 
-.required, .error-message {
+.required,
+.error-message {
     color: red;
 }
 
