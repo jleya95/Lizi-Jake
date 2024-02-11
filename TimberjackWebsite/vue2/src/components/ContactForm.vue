@@ -128,31 +128,31 @@
             </div>
 
             <div class="field">
-                <label class="label">Service(s) Needed<span class="required">*</span></label>
+                <label class="label">Service Needed<span class="required">*</span></label>
                 <div class="field-body">
                     <div class="field is-narrow">
                         <div class="control">
-                            <input type="radio" name="Service(s) Needed" id="risk" value="Tree Risk Assessment"
+                            <input type="radio" name="Service Needed" id="risk" value="Tree Risk Assessment"
                                 v-model="Info.Services">
-                            <label for="pruning">Tree Risk Assessment</label><br>
-                            <input type="radio" name="Service(s) Needed" id="pruning" value="Tree Pruning & Removal"
+                            <label for="risk">Tree Risk Assessment</label><br>
+                            <input type="radio" name="Service Needed" id="pruning" value="Tree Pruning & Removal"
                                 v-model="Info.Services">
                             <label for="pruning">Tree Pruning & Removal</label><br>
-                            <input type="radio" name="Service(s) Needed" id="land" value="Land & Lot Clearing"
+                            <input type="radio" name="Service Needed" id="land" value="Land & Lot Clearing"
                                 v-model="Info.Services">
-                            <label for="storm">Land & Lot Clearing</label><br>
-                            <input type="radio" name="Service(s) Needed" id="stump" value="Stump Grinding"
+                            <label for="land">Land & Lot Clearing</label><br>
+                            <input type="radio" name="Service Needed" id="stump" value="Stump Grinding"
                                 v-model="Info.Services">
                             <label for="stump">Stump Grinding</label><br>
-                            <input type="radio" name="Service(s) Needed" id="firewood" value="Firewood"
+                            <input type="radio" name="Service Needed" id="firewood" value="Firewood"
                                 v-model="Info.Services">
                             <label for="firewood">Firewood</label><br>
-                            <input type="radio" name="Service(s) Needed" id="leaf" value="Leaf Cleanups"
+                            <input type="radio" name="Service Needed" id="leaf" value="Leaf Cleanups"
                                 v-model="Info.Services">
                             <label for="leaf">Leaf Cleanups</label><br>
-                            <input type="radio" name="Service(s) Needed" id="truck" value="Bucket Truck & Crane Service"
+                            <input type="radio" name="Service Needed" id="truck" value="Bucket Truck & Crane Service"
                                 v-model="Info.Services">
-                            <label for="leaf">Bucket Truck & Crane Service</label>
+                            <label for="truck">Bucket Truck & Crane Service</label>
                         </div>
                     </div>
                 </div>
@@ -193,7 +193,9 @@
             <img src="img/formpic.jpg" alt="Image">
         </div>
     </div>
-    <form-popup-component v-if="showPopUp"></form-popup-component>
+    <div v-if="showPopUp" class="popup">
+        <form-popup-component></form-popup-component>
+    </div>
 </template>
 
 <script>
@@ -245,20 +247,19 @@ export default {
             e.preventDefault();
         },
         submitForm(e) {
+            e.preventDefault();
             ContactService.formSubmit(this.Info)
-            // .then(response => {
-            //     if (response.status == 200) {
-            //         return this.displayPopUp(e);
-            //     }
-            // })
-            // .catch((error) => {
-            //     this.handleErrorResponse(error, "Form Submit")
-            // })
-            return this.displayPopUp(e)
+                .then((response) => {
+                    if (response.status === 200) {
+                        return this.displayPopUp(e);
+                    }
+                })
+                .catch((error) => {
+                    this.handleErrorResponse(error, "Form Submit")
+                })
         },
         displayPopUp(e) {
             this.showPopUp = true;
-            e.preventDefault();
         },
         handleErrorResponse(error, verb) {
             if (error.response) {
@@ -315,6 +316,20 @@ img {
 .error-message {
     color: red;
 }
+
+.popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 99;
+  background-color: rgba(0, 0, 0, 0.2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 
 @media screen and (max-width: 800px) {
 
