@@ -3,15 +3,18 @@
     <img class="mod-20" src="img/16copyCircle.png">
     <div class="text">
       <h1 class="welcome">Welcome to TimberJack Tree Service!</h1>
-      <h2 class="exceed">“Exceeding Your Expectations One Cut At A Time!"</h2>
       <p class="decription">We are your Neighborhoods Tree Care & Tree Removal Professionals!
         Our crews have the know-how, equipment, and skills to tackle all of your tree care needs!</p>
-      <p class="call">Call, Text or Email Today To Schedule a <span class="free">FREE</span>
-         Estimate & Experience the TimberJack Difference! </p>
-      <div clas="contactInfo"></div>
-      <a class="numb" href="tel:412-770-7617">412-770-7617</a>
-      <p class="email">TIMBERJACKTREE@GMAIL.COM</p>
+        <p class="call">Call, Text or Email Today To Schedule a <span class="free">FREE</span>
+          Estimate & Experience the TimberJack Difference! </p>
+          <h2 class="exceed">“Exceeding Your Expectations One Cut At A Time!"</h2>
+          <!-- <div clas="contactInfo"></div> -->
+      <!-- <a class="numb" href="tel:412-770-7617">412-770-7617</a>
+      <p class="email">TIMBERJACKTREE@GMAIL.COM</p> -->
       <p class="licensed">FULLY LICENSED & INSURED</p>
+      <div class="bbb">
+      <img src="img/bbb.png">
+    </div>
       <div style="clear: both;"></div>
     </div>
   </div>
@@ -42,6 +45,7 @@ margin-right: 4%;
   display: flex;
   align-items: center;
   justify-content: center;
+  text-align: center;
 
 
 }
@@ -49,10 +53,12 @@ margin-right: 4%;
 .welcome {
   align-items: center;
   justify-content: center;
-  font-size: 220%;
+  font-size: 190%;
   font-weight: 800;
   margin-top: 10%;
-  color: rgb(20, 91, 30)
+  color: rgb(20, 91, 30);
+  margin-bottom: 2%;
+  text-align: center;
 
 }
 
@@ -68,6 +74,7 @@ margin-right: 4%;
  .licensed {
   font-size: 110%;
   font-weight: 800;
+  text-align: center;
 }
 
 .exceed,
@@ -95,13 +102,28 @@ margin-right: 4%;
 .decription,
 .call {
   font-size: 120%;
+  text-align: center;
 }
 
 .exceed{
   font-size: 140%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  text-align: center;
 }
 .numb{
   color: rgb(65, 65, 65);
+}
+
+.bbb {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bbb img {
+  width: 25%; 
+  height: auto; 
 }
 
 @media screen and (max-width: 800px) {
@@ -130,9 +152,21 @@ margin-right: 4%;
 .licensed {
   font-size: 110%;
   font-weight: 800;
-  margin-bottom: 10%;
+  margin-bottom: 2%;
+  margin-top: 10%;
 }
 
+.bbb {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bbb img {
+  width: 50%; 
+  height: auto; 
+  margin-bottom: 10%;
+}
 
 
 }
