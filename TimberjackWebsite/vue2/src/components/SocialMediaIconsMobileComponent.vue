@@ -17,7 +17,7 @@
                     </span>
 
                     <span class="icon4">
-                        <a class="google-link" href="" target="_blank">
+                        <a class="google-link" href="https://g.co/kgs/niEg1gx" target="_blank">
                             <i class="fa-brands fa-google fa-2x" aria-hidden="true"></i>
                         </a>
                     </span>
