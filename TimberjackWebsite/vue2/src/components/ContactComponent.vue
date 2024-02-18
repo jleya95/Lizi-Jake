@@ -73,8 +73,8 @@
           </div>
         </div>
       </div>
+      <p class="error-message-contact" v-if="formErrors">{{ formErrorMessage }}</p>
       <!-- <div role="alert" v-if="formErrors">{{ formErrorMessage }}</div> -->
-      <p class="error-message" v-if="formErrors">{{ formErrorMessage }}</p>
       <div class="field is-horizontal">
         <div class="field-label">
           <!-- Left empty for spacing -->
@@ -91,13 +91,19 @@
       </div>
     </form>
   </div>
+  <div v-if="showPopUp" class="popup">
+    <form-popup-component></form-popup-component>
+  </div>
 </template>
 
 <script>
 import ContactService from '@/services/ContactService.js'
+import FormPopupComponent from '@/components/FormPopupComponent.vue'
 
 export default {
-
+  components: {
+    FormPopupComponent
+  },
   data() {
     return {
       Info: {
@@ -108,13 +114,15 @@ export default {
         Message: "",
       },
       formErrors: false,
-      formErrorMessage: ""
+      formErrorMessage: "",
+      showPopUp: false
     }
   },
   methods: {
     checkForm: function (e) {
       if (this.Info.Name && this.Info.Email && this.Info.Phone && this.Info.Subject && this.Info.Message) {
-        return this.submitForm();
+        this.replaceEntersInMessage(e);
+        return this.submitForm(e);
       }
 
       if (!this.Info.Name || !this.Info.Email || !this.Info.Phone || !this.Info.Subject || !this.Info.Message) {
@@ -124,11 +132,12 @@ export default {
 
       e.preventDefault();
     },
-    submitForm() {
+    submitForm(e) {
+      e.preventDefault();
       ContactService.contactUsFormSubmit(this.Info)
         .then((response) => {
-          if (response.status == 200) {
-            this.displayPopUp()
+          if (response.status === 200) {
+            return this.displayPopUp(e)
           }
         })
         .catch((error) => {
@@ -137,12 +146,23 @@ export default {
             this.formErrorMessage = "Please fill out required forms"
           }
         })
+    },
+    displayPopUp(e) {
+      this.showPopUp = true;
+    },
+    replaceEntersInMessage(e) {
+      this.Info.Message = this.Info.Message.replaceAll(/\n/g, "   ")
     }
   }
 };
 </script>
 
 <style>
+.error-message-contact {
+  text-align: left;
+  margin-left: 19%;
+}
+
 .button {
   background-color: rgb(138, 189, 157);
 }
@@ -157,15 +177,35 @@ export default {
 
 }
 
-.required, .error-message {
+.required,
+.error-message-contact {
   color: red;
 }
 
-@media screen and (max-width: 800) {
+.popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 99;
+  background-color: rgba(0, 0, 0, 0.2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+@media screen and (max-width: 800px) {
+  .error-message-contact {
+    margin-left: 0%;
+  }
+
   .center_form {
     margin-right: 10%;
     margin-left: 10%;
 
   }
+
 }
 </style>
