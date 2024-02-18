@@ -1,9 +1,9 @@
 <template>
   <div class="center_form">
-    <form class="Form" id="EmailForm" method="POST" action="https://formsubmit.co/57a97cd2daec8f5142e6d74ebebe82c0">
+    <form class="Form" id="EmailForm">
       <div class="field is-horizontal">
         <div class="field-label is-normal">
-          <label class="label">From</label>
+          <label class="label">From<span class="required">*</span></label>
         </div>
         <div class="field-body">
           <div class="field">
@@ -48,12 +48,13 @@
 
       <div class="field is-horizontal">
         <div class="field-label is-normal">
-          <label class="label">Subject</label>
+          <label class="label">Subject<span class="required">*</span></label>
         </div>
         <div class="field-body">
           <div class="field">
             <div class="control">
-              <input class="input" type="text" name="Subject" placeholder="e.g. Partnership opportunity" v-model="Info.Subject">
+              <input class="input" type="text" name="Subject" placeholder="e.g. Partnership opportunity"
+                v-model="Info.Subject">
             </div>
           </div>
         </div>
@@ -61,17 +62,19 @@
 
       <div class="field is-horizontal">
         <div class="field-label is-normal">
-          <label class="label">Question</label>
+          <label class="label">Message<span class="required">*</span></label>
         </div>
         <div class="field-body">
           <div class="field">
             <div class="control">
-              <textarea class="textarea" name="Message" placeholder="Explain how we can help you" v-model="Info.Question"></textarea>
+              <textarea class="textarea" name="Message" placeholder="Explain how we can help you"
+                v-model="Info.Message"></textarea>
             </div>
           </div>
         </div>
       </div>
-
+      <!-- <div role="alert" v-if="formErrors">{{ formErrorMessage }}</div> -->
+      <p class="error-message" v-if="formErrors">{{ formErrorMessage }}</p>
       <div class="field is-horizontal">
         <div class="field-label">
           <!-- Left empty for spacing -->
@@ -79,8 +82,8 @@
         <div class="field-body">
           <div class="field">
             <div class="control">
-              <button class="button" type="submit" @click="submitForm">
-                Send message
+              <button class="button" type="submit" @click="checkForm">
+                Send
               </button>
             </div>
           </div>
@@ -102,15 +105,38 @@ export default {
         Email: "",
         Phone: "",
         Subject: "",
-        Question: "",
-      }
+        Message: "",
+      },
+      formErrors: false,
+      formErrorMessage: ""
     }
   },
   methods: {
+    checkForm: function (e) {
+      if (this.Info.Name && this.Info.Email && this.Info.Phone && this.Info.Subject && this.Info.Message) {
+        return this.submitForm();
+      }
+
+      if (!this.Info.Name || !this.Info.Email || !this.Info.Phone || !this.Info.Subject || !this.Info.Message) {
+        this.formErrors = true;
+        this.formErrorMessage = "Please fill out all required(*) elements";
+      }
+
+      e.preventDefault();
+    },
     submitForm() {
-      ContactService.formSubmitService(this.Info)
-
-
+      ContactService.contactUsFormSubmit(this.Info)
+        .then((response) => {
+          if (response.status == 200) {
+            this.displayPopUp()
+          }
+        })
+        .catch((error) => {
+          this.formErrors = true;
+          if (error.response === 400) {
+            this.formErrorMessage = "Please fill out required forms"
+          }
+        })
     }
   }
 };
@@ -126,16 +152,20 @@ export default {
 }
 
 .center_form {
-margin-right: 10%;
+  margin-right: 10%;
 
 
+}
+
+.required, .error-message {
+  color: red;
 }
 
 @media screen and (max-width: 800) {
   .center_form {
-margin-right: 10%;
-margin-left: 10%;
+    margin-right: 10%;
+    margin-left: 10%;
 
-}
+  }
 }
 </style>

@@ -4,7 +4,7 @@
         <form class="Form" id="ContactForm">
             <h1 class="form-h1">WANT US TO CONTACT YOU?</h1>
             <div class="field">
-                <label class="label">Name</label>
+                <label class="label">Name<span class="required">*</span></label>
                 <div class="field-body">
                     <div class="field is-narrow">
                         <p class="control is-expanded has-icons-left">
@@ -71,7 +71,7 @@
             </div>
 
             <div class="field">
-                <label class="label">Email</label>
+                <label class="label">Email<span class="required">*</span></label>
                 <div class="field is-expanded">
                     <p class="control is-expanded has-icons-left">
                         <input class="input is-success" name="email" type="email" placeholder="address@email.com"
@@ -84,7 +84,7 @@
             </div>
 
             <div class="field is-expanded">
-                <label class="label">Phone Number</label>
+                <label class="label">Phone Number<span class="required">*</span></label>
                 <div class="field">
                     <div class="field">
                         <div class="field has-addons">
@@ -128,31 +128,31 @@
             </div>
 
             <div class="field">
-                <label class="label">Service(s) Needed</label>
+                <label class="label">Service Needed<span class="required">*</span></label>
                 <div class="field-body">
                     <div class="field is-narrow">
                         <div class="control">
-                            <input type="radio" name="Service(s) Needed" id="risk" value="Tree Risk Assessment"
+                            <input type="radio" name="Service Needed" id="risk" value="Tree Risk Assessment"
                                 v-model="Info.Services">
-                            <label for="pruning">Tree Risk Assessment</label><br>
-                            <input type="radio" name="Service(s) Needed" id="pruning" value="Tree Pruning & Removal"
+                            <label for="risk">Tree Risk Assessment</label><br>
+                            <input type="radio" name="Service Needed" id="pruning" value="Tree Pruning & Removal"
                                 v-model="Info.Services">
                             <label for="pruning">Tree Pruning & Removal</label><br>
-                            <input type="radio" name="Service(s) Needed" id="land" value="Land & Lot Clearing"
+                            <input type="radio" name="Service Needed" id="land" value="Land & Lot Clearing"
                                 v-model="Info.Services">
-                            <label for="storm">Land & Lot Clearing</label><br>
-                            <input type="radio" name="Service(s) Needed" id="stump" value="Stump Grinding"
+                            <label for="land">Land & Lot Clearing</label><br>
+                            <input type="radio" name="Service Needed" id="stump" value="Stump Grinding"
                                 v-model="Info.Services">
                             <label for="stump">Stump Grinding</label><br>
-                            <input type="radio" name="Service(s) Needed" id="firewood" value="Firewood"
+                            <input type="radio" name="Service Needed" id="firewood" value="Firewood"
                                 v-model="Info.Services">
                             <label for="firewood">Firewood</label><br>
-                            <input type="radio" name="Service(s) Needed" id="leaf" value="Leaf Cleanups"
+                            <input type="radio" name="Service Needed" id="leaf" value="Leaf Cleanups"
                                 v-model="Info.Services">
                             <label for="leaf">Leaf Cleanups</label><br>
-                            <input type="radio" name="Service(s) Needed" id="truck" value="Bucket Truck & Crane Service"
+                            <input type="radio" name="Service Needed" id="truck" value="Bucket Truck & Crane Service"
                                 v-model="Info.Services">
-                            <label for="leaf">Bucket Truck & Crane Service</label>
+                            <label for="truck">Bucket Truck & Crane Service</label>
                         </div>
                     </div>
                 </div>
@@ -179,12 +179,13 @@
                     </div>
                 </div>
             </div>
-            <p v-if="Error">{{ Error }}</p>
+            <p class="error-message" v-if="FormError">{{ ErrorMessage }}</p>
             <div class="field">
                 <div class="field-label">
                 </div>
                 <div class="control">
-                    <input type="submit" class="button" @click="submitForm()">
+                    <!-- <input type="submit" class="button" @click="submitForm()"> -->
+                    <input type="submit" class="button" @click="checkForm">
                 </div>
             </div>
         </form>
@@ -192,13 +193,19 @@
             <img src="img/formpic.jpg" alt="Image">
         </div>
     </div>
+    <div v-if="showPopUp" class="popup">
+        <form-popup-component></form-popup-component>
+    </div>
 </template>
 
 <script>
-import ContactService from '@/services/ContactService.js'
+import ContactService from '@/services/ContactService.js';
+import FormPopupComponent from '@/components/FormPopupComponent.vue'
 
 export default {
-
+    components: {
+        FormPopupComponent
+    },
     data() {
         return {
             Info: {
@@ -221,24 +228,51 @@ export default {
                 Services: "",
                 HeardAbout: ""
             },
-            Error: ""
+            FormError: false,
+            ErrorMessage: "",
+            showPopUp: false
         }
     },
     methods: {
         checkForm: function (e) {
-            if (this.Info.Name && this.Info.Address && this.Info.Phone && this.Info.Preference && this.Info.Services.length) {
-                return this.submitForm();
+            if (this.Info.Name.First && this.Info.Email && this.Info.Phone && this.Info.Services) {
+                return this.submitForm(e);
             }
 
-            if (!this.Info.Name || !this.Info.Address || !this.Info.Phone || !this.Info.Preference || !this.Info.Services.length) {
-                this.Error = "Please fill out all required elements"
+            if (!this.Info.Name.First || !this.Info.Email || !this.Info.Phone || !this.Info.Services) {
+                this.FormError = true
+                this.ErrorMessage = "Please fill out all required(*) elements"
             }
 
             e.preventDefault();
         },
-        submitForm() {
+        submitForm(e) {
+            e.preventDefault();
             ContactService.formSubmit(this.Info)
-        }
+                .then((response) => {
+                    if (response.status === 200) {
+                        return this.displayPopUp(e);
+                    }
+                })
+                .catch((error) => {
+                    this.handleErrorResponse(error, "Form Submit")
+                })
+        },
+        displayPopUp(e) {
+            this.showPopUp = true;
+        },
+        handleErrorResponse(error, verb) {
+            if (error.response) {
+                console.log(
+                    `Error ${verb} topic. Response received was "${error.response.statusText}".`
+                );
+            } else if (error.request) {
+                console.log(`Error ${verb} topic. Server could not be reached.`);
+            } else {
+                console.log(`Error ${verb} topic. Request could not be created.`);
+            }
+        },
+
     }
 };
 </script>
@@ -277,6 +311,25 @@ export default {
 img {
     border-radius: 5%;
 }
+
+.required,
+.error-message {
+    color: red;
+}
+
+.popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 99;
+  background-color: rgba(0, 0, 0, 0.2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 
 @media screen and (max-width: 800px) {
 
