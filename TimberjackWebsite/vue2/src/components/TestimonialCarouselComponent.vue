@@ -150,8 +150,12 @@ export default {
   color: rgb(20, 91, 30);
   font-size: 160%;
   font-weight: bold;
-  margin-left: 1%;
-
+  margin-left: 10%;
+}
+.Google{
+  font-size: 90%;
+  display: flex;
+  flex-wrap: wrap;
 }
 }
 </style>

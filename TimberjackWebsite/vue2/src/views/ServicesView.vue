@@ -3,6 +3,7 @@
         <h1 class="services-h1">OUR SERVICES</h1>
         <services-component v-if="!mobileView"></services-component>
         <services-mobile-component v-if="mobileView"></services-mobile-component>
+        <social-media-icons-mobile-component></social-media-icons-mobile-component>
     </div>
 
 </template>
@@ -10,12 +11,14 @@
 <script>
 import ServicesComponent from '@/components/ServicesComponent.vue'
 import ServicesMobileComponent from '../components/ServicesMobileComponent.vue'
+import SocialMediaIconsMobileComponent from '../components/SocialMediaIconsMobileComponent.vue';
 
 
 export default {
     components: {
         ServicesComponent,
-        ServicesMobileComponent
+        ServicesMobileComponent,
+        SocialMediaIconsMobileComponent
         
   
     },
@@ -68,5 +71,6 @@ created() {
   padding-bottom: 2%;
   padding-top: 2%;
 }
+
 }
 </style>

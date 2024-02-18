@@ -36,9 +36,16 @@
             Contact
           </a>
 
+        
+
+      </div>
+
       </div>
 
       <div class="navbar-end">
+
+        <div class="navbar-start">
+            <a class="numb is-size-3" href="tel:412-770-7617">412-770-7617</a>
         <div class="navbar-icons">
 
           <span class="icon1">
@@ -87,6 +94,13 @@ export default {
 </script>
 
 <style>
+
+.numb {
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
+}
+
 .navbar {
   background-color: rgba(138, 189, 157, 0.755);
 }
