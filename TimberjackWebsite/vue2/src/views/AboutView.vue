@@ -2,15 +2,21 @@
     <div class="about">
         <h1 class="about-h1">ABOUT US</h1>
         <about-pic-carousel-component></about-pic-carousel-component>
+        <social-media-icons-mobile-component></social-media-icons-mobile-component>
+        
+        
     </div>
 </template>
 
 <script>
 import AboutPicCarouselComponent from '../components/AboutPicCarouselComponent.vue';
+import SocialMediaIconsMobileComponent from '../components/SocialMediaIconsMobileComponent.vue';
 
 export default {
     components: {
         AboutPicCarouselComponent,
+        SocialMediaIconsMobileComponent
+    
     }
 }
 </script>
@@ -46,5 +52,6 @@ export default {
   padding-bottom: 2%;
   padding-top: 2%;
 }
+
 }
 </style>

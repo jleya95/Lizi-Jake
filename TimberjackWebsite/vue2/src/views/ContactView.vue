@@ -3,16 +3,19 @@
         <h1 class="contactH1">CONTACT US</h1>
          <h1 class="phoneNumb">412-770-7617</h1>
         <contact-component></contact-component>
+        <social-media-icons-mobile-component></social-media-icons-mobile-component>
     </div>
 </template>
 
 <script>
 
 import ContactComponent from '../components/ContactComponent.vue';
+import SocialMediaIconsMobileComponent from '../components/SocialMediaIconsMobileComponent.vue';
 
 export default {
     components: {
-        ContactComponent
+        ContactComponent,
+        SocialMediaIconsMobileComponent
     }
 }
 </script>
@@ -45,7 +48,7 @@ export default {
     font-size: 140%;
     color: rgb(217, 102, 42);
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 900px) {
   .contact{
   margin-top: 5%;
   background-color: rgba(255, 255, 255, 0.777);
@@ -56,5 +59,6 @@ export default {
   padding-top: 2%;
   padding-left: 8%;
 }
+
 }
 </style>

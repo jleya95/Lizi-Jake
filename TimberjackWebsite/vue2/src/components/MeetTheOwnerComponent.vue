@@ -1,15 +1,11 @@
 <template>
-    <form-popup-component></form-popup-component>
+ <h1>blablabla</h1>
 </template>
 
 <script>
 
-import FormPopupComponent from '@/components/FormPopupComponent.vue'
 
 export default {
-    components: {
-        FormPopupComponent
-    }
 }
 
 </script>

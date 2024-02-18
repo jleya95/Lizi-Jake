@@ -9,7 +9,8 @@
       the best service possible at a competitive but/yet affordable price. From the initial inquiry to the completion of
       your tree care needs, we will prove to you that customer satisfaction is our number one priority.</p>
   </div>
-  <vueper-slides class="small-carousel no-shadow" fixed-height="550px" :autoplay="true" :interval="2000">
+  <vueper-slides class="small-carousel no-shadow" fixed-height="550px" :autoplay="true" :interval="2000" :bullets="false">
+    
     <vueper-slide v-for="(slide, i) in slides" :key="i" :image="slide.image" class="image">
       <!-- <img :src="slide.image" alt="Slide Image" class="image"> -->
     </vueper-slide>
@@ -39,12 +40,12 @@ export default {
         {
           image: 'img/20.png',
         },
-        {
-          image: '/img/1.1.jpg',
-        },
-        {
-          image: '/img/2.3.jpg',
-        },
+        // {
+        //   image: '/img/1.1.jpg',
+        // },
+        // {
+        //   image: '/img/2.3.jpg',
+        // },
         {
           image: '/img/4.jpg',
         },
@@ -142,9 +143,10 @@ export default {
  */
   .small-carousel {
     width: 80%;
-    height: 50%;
+    /* height: 100%; */
     /* height: auto;
     margin: auto; */
+    margin-bottom: -40%;
   }
 
   /* .image-slide {
@@ -153,8 +155,9 @@ export default {
   .image {
     /* max-width: auto;
     max-height: auto; */
-    height: 40%;
+    height: 70%;
   }
+
 
 }
 </style>

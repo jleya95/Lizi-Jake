@@ -3,6 +3,7 @@
     <home-picture-component></home-picture-component>
     <testimonial-carousel-component></testimonial-carousel-component>
     <contact-form></contact-form>
+    <social-media-icons-mobile-component></social-media-icons-mobile-component>
   </div>
 </template>
 
@@ -10,12 +11,14 @@
 import ContactForm from '@/components/ContactForm.vue'
 import TestimonialCarouselComponent from '../components/TestimonialCarouselComponent.vue';
 import HomePictureComponent from '@/components/HomePictureComponent.vue';
+import SocialMediaIconsMobileComponent from '../components/SocialMediaIconsMobileComponent.vue';
 
 export default {
   components: {
     ContactForm,
     TestimonialCarouselComponent,
-    HomePictureComponent
+    HomePictureComponent,
+    SocialMediaIconsMobileComponent
   }
 };
 </script>
@@ -41,5 +44,6 @@ export default {
   padding-bottom: 2%;
   padding-top: 2%;
 }
+
 }
 </style>
