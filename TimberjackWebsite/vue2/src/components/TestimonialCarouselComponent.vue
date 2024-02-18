@@ -1,7 +1,8 @@
 <template>
-  <h1 class="review">TESTIMONIALS<a class="Google"
+  <h1 class="review">TESTIMONIALS</h1>
+  <a class="Google"
       href="https://www.google.com/localservices/prolist?g2lbs=AIQllVx5qbEF2m25QqE9VCoMTxdwch2e_ntyfBrIPkglJjZvzv_h8v7m7pbu2tw8DdemzM2tmWHRasGQbbNZCh61CMCAuWxj6-dEYo1ssdeOI2TLFxeUN1tUYQqmjo8P74YZuBuxXi6B&hl=en-US&gl=us&cs=1&ssta=1&q=timberjack%20tree%20service%20pa%20reviews&oq=timberjack%20tree%20service%20pa%20reviews&slp=MgA6HENoTUl1dXlGbjlqZGd3TVYyMDFIQVIzSVd3UFpSAggCYAB6pwJDaUowYVcxaVpYSnFZV05ySUhSeVpXVWdjMlZ5ZG1salpTQndZU0J5WlhacFpYZHpJZ0k0QVVpYXFiWEo4cmVBZ0FoYUtoQUFFQUVRQWhnQUdBRVlBaGdESWhwMGFXMWlaWEpxWVdOcklIUnlaV1VnYzJWeWRtbGpaU0J3WVpJQkRIUnlaV1ZmYzJWeWRtbGpaYW9CYWdvSUwyMHZNRFYwWW00UUFTb2JJaGQwYVcxaVpYSnFZV05ySUhSeVpXVWdjMlZ5ZG1salpTZ0FNaDhRQVNJYk5nX0VlRUdjY2dLTjRzWDQ1dm5ETmNybWdjUWsxMTJTQ3l5ak1oNFFBaUlhZEdsdFltVnlhbUZqYXlCMGNtVmxJSE5sY25acFkyVWdjR0hnQVFBkgEqCg0vZy8xMXJ4bmx2cDR2Cg0vZy8xMWxyZjJqbGQzEgQSAggBEgQKAggB&src=2&spp=Cg0vZy8xMXJ4bmx2cDR2OuQBV2lvUUFCQUJFQUlZQUJnQkdBSVlBeUlhZEdsdFltVnlhbUZqYXlCMGNtVmxJSE5sY25acFkyVWdjR0dTQVF4MGNtVmxYM05sY25acFkyV2FBUUNxQVdvS0NDOXRMekExZEdKdUVBRXFHeUlYZEdsdFltVnlhbUZqYXlCMGNtVmxJSE5sY25acFkyVW9BRElmRUFFaUd6WVB4SGhCbkhJQ2plTEYtT2I1d3pYSzVvSEVKTmRka2dzc296SWVFQUlpR25ScGJXSmxjbXBoWTJzZ2RISmxaU0J6WlhKMmFXTmxJSEJo&serdesk=1&lrlstt=1705263148684&ved=2ahUKEwjcmf6e2N2DAxUQkYkEHRHaD5YQvS56BAgdEAE&scp=ChFnY2lkOnRyZWVfc2VydmljZRI6EhIJieUyHiaALYgRPbQiUEchRsIiDFBlbm5zeWx2YW5pYSoUDabCrBcVa6UB0B2aJVcZJQdHe9MwABoXdGltYmVyamFjayB0cmVlIHNlcnZpY2UiInRpbWJlcmphY2sgdHJlZSBzZXJ2aWNlIHBhIHJldmlld3MqDFRyZWUgc2VydmljZQ%3D%3D#ts=3">
-      (More on Google):</a></h1>
+      (More on Google):</a>
   <vueper-slides class="small-carousel no-shadow" fixed-height="250px" :autoplay="true" :interval="5000" arrows-outside
     bullets-outside>
     <vueper-slide v-for="(slide, i) in slides" :key="i" :title="slide.title" :content="slide.content">
@@ -136,10 +137,11 @@ export default {
 .small-carousel {
   width: 80%;
   margin: auto;
-  font-size: 93%;
+  font-size: 90%;
   /* font-size: 80%; */
   font-style: italic;
   /* padding: 10%; */
+  margin-top: 2%;
 }
 
 .review {
@@ -150,12 +152,14 @@ export default {
   color: rgb(20, 91, 30);
   font-size: 160%;
   font-weight: bold;
-  margin-left: 10%;
+  margin-left: 2%;
 }
 .Google{
-  font-size: 90%;
+  font-size: 120%;
   display: flex;
   flex-wrap: wrap;
+  text-align: center;
+  justify-content: center;
 }
 }
 </style>
