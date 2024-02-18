@@ -68,7 +68,7 @@
           <div class="field">
             <div class="control">
               <textarea class="textarea" name="Message" placeholder="Explain how we can help you"
-                v-model="Info.Message"></textarea>
+                v-model="Info.Message" @keyup.enter="addEnter()"></textarea>
             </div>
           </div>
         </div>
@@ -91,13 +91,19 @@
       </div>
     </form>
   </div>
+  <div v-if="showPopUp" class="popup">
+    <form-popup-component></form-popup-component>
+  </div>
 </template>
 
 <script>
 import ContactService from '@/services/ContactService.js'
+import FormPopupComponent from '@/components/FormPopupComponent.vue'
 
 export default {
-
+  components: {
+    FormPopupComponent
+  },
   data() {
     return {
       Info: {
@@ -108,13 +114,14 @@ export default {
         Message: "",
       },
       formErrors: false,
-      formErrorMessage: ""
+      formErrorMessage: "",
+      showPopUp: false
     }
   },
   methods: {
     checkForm: function (e) {
       if (this.Info.Name && this.Info.Email && this.Info.Phone && this.Info.Subject && this.Info.Message) {
-        return this.submitForm();
+        return this.submitForm(e);
       }
 
       if (!this.Info.Name || !this.Info.Email || !this.Info.Phone || !this.Info.Subject || !this.Info.Message) {
@@ -124,11 +131,12 @@ export default {
 
       e.preventDefault();
     },
-    submitForm() {
+    submitForm(e) {
+      e.preventDefault();
       ContactService.contactUsFormSubmit(this.Info)
         .then((response) => {
-          if (response.status == 200) {
-            this.displayPopUp()
+          if (response.status === 200) {
+            return this.displayPopUp(e)
           }
         })
         .catch((error) => {
@@ -137,6 +145,12 @@ export default {
             this.formErrorMessage = "Please fill out required forms"
           }
         })
+    },
+    displayPopUp(e) {
+      this.showPopUp = true;
+    },
+    addEnter() {
+      this.Message += '\r\n'
     }
   }
 };
@@ -157,9 +171,24 @@ export default {
 
 }
 
-.required, .error-message {
+.required,
+.error-message {
   color: red;
 }
+
+.popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 99;
+  background-color: rgba(0, 0, 0, 0.2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 
 @media screen and (max-width: 800) {
   .center_form {
