@@ -68,13 +68,13 @@
           <div class="field">
             <div class="control">
               <textarea class="textarea" name="Message" placeholder="Explain how we can help you"
-                v-model="Info.Message" @keyup.enter="addEnter()"></textarea>
+                v-model="Info.Message"></textarea>
             </div>
           </div>
         </div>
       </div>
+      <p class="error-message-contact" v-if="formErrors">{{ formErrorMessage }}</p>
       <!-- <div role="alert" v-if="formErrors">{{ formErrorMessage }}</div> -->
-      <p class="error-message" v-if="formErrors">{{ formErrorMessage }}</p>
       <div class="field is-horizontal">
         <div class="field-label">
           <!-- Left empty for spacing -->
@@ -121,6 +121,7 @@ export default {
   methods: {
     checkForm: function (e) {
       if (this.Info.Name && this.Info.Email && this.Info.Phone && this.Info.Subject && this.Info.Message) {
+        this.replaceEntersInMessage(e);
         return this.submitForm(e);
       }
 
@@ -149,14 +150,19 @@ export default {
     displayPopUp(e) {
       this.showPopUp = true;
     },
-    addEnter() {
-      this.Message += '\r\n'
+    replaceEntersInMessage(e) {
+      this.Info.Message = this.Info.Message.replaceAll(/\n/g, "   ")
     }
   }
 };
 </script>
 
 <style>
+.error-message-contact {
+  text-align: left;
+  margin-left: 19%;
+}
+
 .button {
   background-color: rgb(138, 189, 157);
 }
@@ -172,7 +178,7 @@ export default {
 }
 
 .required,
-.error-message {
+.error-message-contact {
   color: red;
 }
 
@@ -190,11 +196,16 @@ export default {
 }
 
 
-@media screen and (max-width: 800) {
+@media screen and (max-width: 800px) {
+  .error-message-contact {
+    margin-left: 0%;
+  }
+
   .center_form {
     margin-right: 10%;
     margin-left: 10%;
 
   }
+
 }
 </style>

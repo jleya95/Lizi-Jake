@@ -122,6 +122,10 @@
                                 <input type="radio" name="ContactPreference" value="Text" v-model="Info.Preference">
                                 Text
                             </label>
+                            <label class="radio">
+                                <input type="radio" name="ContactPreference" value="Email" v-model="Info.Preference">
+                                Email
+                            </label>
                         </div>
                     </div>
                 </div>
@@ -135,10 +139,10 @@
                             <input type="radio" name="Service Needed" id="risk" value="Tree Risk Assessment"
                                 v-model="Info.Services">
                             <label for="risk">Tree Risk Assessment</label><br>
-                            <input type="radio" name="Service Needed" id="pruning" value="Tree Pruning & Removal"
+                            <input type="radio" name="Service Needed" id="pruning" value="Tree Pruning and Removal"
                                 v-model="Info.Services">
                             <label for="pruning">Tree Pruning & Removal</label><br>
-                            <input type="radio" name="Service Needed" id="land" value="Land & Lot Clearing"
+                            <input type="radio" name="Service Needed" id="land" value="Land and Lot Clearing"
                                 v-model="Info.Services">
                             <label for="land">Land & Lot Clearing</label><br>
                             <input type="radio" name="Service Needed" id="stump" value="Stump Grinding"
@@ -150,7 +154,7 @@
                             <input type="radio" name="Service Needed" id="leaf" value="Leaf Cleanups"
                                 v-model="Info.Services">
                             <label for="leaf">Leaf Cleanups</label><br>
-                            <input type="radio" name="Service Needed" id="truck" value="Bucket Truck & Crane Service"
+                            <input type="radio" name="Service Needed" id="truck" value="Bucket Truck and Crane Service"
                                 v-model="Info.Services">
                             <label for="truck">Bucket Truck & Crane Service</label>
                         </div>
@@ -166,12 +170,15 @@
                             <input type="radio" name="How did you hear about us?" id="internet" value="Internet Search"
                                 v-model="Info.HeardAbout">
                             <label for="internet">Internet Search</label><br>
-                            <input type="radio" name="How did you hear about us?" id="facebook" value="Facebook"
+                            <input type="radio" name="How did you hear about us?" id="social" value="Social Media"
                                 v-model="Info.HeardAbout">
-                            <label for="facebook">Facebook</label><br>
-                            <input type="radio" name="How did you hear about us?" id="friend" value="Friend"
+                            <label for="social">Social Media</label><br>
+                            <input type="radio" name="How did you hear about us?" id="billboard" value="Billboard"
                                 v-model="Info.HeardAbout">
-                            <label for="friend">Friend</label><br>
+                            <label for="billboard">Billboard</label><br>
+                            <input type="radio" name="How did you hear about us?" id="referral" value="Referral"
+                                v-model="Info.HeardAbout">
+                            <label for="referral">Referral</label><br>
                             <input type="radio" name="How did you hear about us?" id="other" value="Other"
                                 v-model="Info.HeardAbout">
                             <label for="other">Other</label>
@@ -179,7 +186,7 @@
                     </div>
                 </div>
             </div>
-            <p class="error-message" v-if="FormError">{{ ErrorMessage }}</p>
+            <p class="error-message-home" v-if="FormError">{{ ErrorMessage }}</p>
             <div class="field">
                 <div class="field-label">
                 </div>
@@ -236,6 +243,7 @@ export default {
     methods: {
         checkForm: function (e) {
             if (this.Info.Name.First && this.Info.Email && this.Info.Phone && this.Info.Services) {
+                this.replaceEntersInComments(e);
                 return this.submitForm(e);
             }
 
@@ -272,7 +280,9 @@ export default {
                 console.log(`Error ${verb} topic. Request could not be created.`);
             }
         },
-
+        replaceEntersInComments(e) {
+            this.Info.Comments = this.Info.Comments.replaceAll(/\n/g, "   ");
+        }
     }
 };
 </script>
@@ -313,21 +323,21 @@ img {
 }
 
 .required,
-.error-message {
+.error-message-home {
     color: red;
 }
 
 .popup {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  z-index: 99;
-  background-color: rgba(0, 0, 0, 0.2);
-  display: flex;
-  align-items: center;
-  justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 99;
+    background-color: rgba(0, 0, 0, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 
