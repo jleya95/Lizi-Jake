@@ -6,6 +6,9 @@ namespace Wyrmspan_Backend.DAO
     public interface IDragonDao
     {
         List<Dragon> GetDragon();
+        Dragon GetDragonById(int dragonId);
+        List<Dragon> GetSearchResults(string searchQuery);
+
 
     }
 }

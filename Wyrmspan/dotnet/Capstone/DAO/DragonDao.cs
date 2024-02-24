@@ -1,5 +1,4 @@
 ﻿using Capstone.Exceptions;
-using Capstone.Models;
 using System;
 using System.Collections.Generic;
 using System.Data.SqlClient;
@@ -42,7 +41,112 @@ namespace Wyrmspan_Backend.DAO
                 throw new DaoException("SQL exception occurred", ex);
             }
 
-            return dragons; 
+            return dragons;
+        }
+
+        public Dragon GetDragonById(int dragonId)
+        {
+            Dragon dragon = new Dragon();
+            string sql = "SELECT * FROM dragons WHERE dragon_id = @dragonId;";
+
+            try
+            {
+                using (SqlConnection conn = new SqlConnection(connectionString))
+                {
+                    conn.Open();
+
+                    SqlCommand cmd = new SqlCommand(sql, conn);
+                    cmd.Parameters.AddWithValue("@dragonId", dragonId);
+                    SqlDataReader reader = cmd.ExecuteReader();
+
+                    if (reader.Read())
+                    {
+                        dragon = MapRowToDragon(reader);
+                    }
+                }
+            }
+            catch (Exception)
+            {
+
+                throw;
+            }
+
+            return dragon;
+        }
+
+        public Dragon GetDragonByNumber(int number)
+        {
+            Dragon dragon = new Dragon();
+            string sql = "SELECT * FROM dragons WHERE dragon_number = @dragon_number";
+
+            try
+            {
+                using (SqlConnection conn = new SqlConnection(connectionString))
+                {
+                    conn.Open();
+
+                    SqlCommand cmd = new SqlCommand(sql, conn);
+                    cmd.Parameters.AddWithValue("@dragon_number", number);
+                    SqlDataReader reader = cmd.ExecuteReader();
+
+                    if(reader.Read())
+                    {
+                        dragon = MapRowToDragon(reader);
+                    }
+                }
+            }
+            catch (Exception)
+            {
+
+                throw;
+            }
+
+            return dragon;
+        }
+
+        public List<Dragon> GetSearchResults(string searchQuery)
+        {
+            List<Dragon> dragons = new List<Dragon>();
+            List<string> searchWords = SearchWords(searchQuery);
+
+            string sql = null;
+            string singleParamQuery = null;
+
+            for (int i = 0; i < searchWords.Count; i++)
+            {
+                singleParamQuery = $"@querySearch{i}";
+                sql = $"SELECT * FROM dragons WHERE name LIKE {singleParamQuery} OR dragon_number LIKE {singleParamQuery}";
+
+                try
+                {
+                    using (SqlConnection conn = new SqlConnection(connectionString))
+                    {
+                        conn.Open();
+
+                        SqlCommand cmd = new SqlCommand(sql, conn);
+                        cmd.Parameters.AddWithValue($"@querySearch{i}", SearchStringWildcardAdder(searchWords[i]));
+                        SqlDataReader reader = cmd.ExecuteReader();
+
+                        while (reader.Read())
+                        {
+                            Dragon result = MapRowToDragon(reader);
+                            if (!dragons.Contains(GetDragonByNumber(result.dragon_number)))
+                            {
+                                dragons.Add(result);
+                            }
+                        }
+
+                    }
+
+                }
+                catch (Exception)
+                {
+
+                    throw;
+                }
+            }
+
+            return dragons;
         }
 
         private Dragon MapRowToDragon(SqlDataReader reader)
@@ -58,6 +162,25 @@ namespace Wyrmspan_Backend.DAO
             dragon.description = Convert.ToString(reader["description"]);
 
             return dragon;
+        }
+
+        protected string SearchStringWildcardAdder(string query)
+        {
+            return string.IsNullOrEmpty(query) ? "" : "%" + query + "%";
+        }
+
+        protected List<string> SearchWords(string searchString)
+        {
+            List<string> searchStringWords = new List<string>();
+            if (searchString != null)
+            {
+                string[] searchStringSplit = searchString.Split(' ');
+                foreach (string word in searchStringSplit)
+                {
+                    searchStringWords.Add(word);
+                }
+            }
+            return searchStringWords;
         }
 
     }
