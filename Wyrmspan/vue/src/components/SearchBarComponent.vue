@@ -1,32 +1,33 @@
 <template>
-    <nav class="level ">
-        <!-- Left side -->
-        <div class="level-left">
-            <div class="level-item">
-            </div>
-            <div class="level-item">
-                <div class="field has-addons">
-                    <p class="control">
-                        <input class="input" type="text" placeholder="Find a dragon by its name or number"
-                            style="width: 500px;"  v-model="Search">
-                    </p>
-                    <p class="control">
-                        <button class="button" @click="sendSearch()">
-                            Search
-                        </button>
-                    </p>
-                </div>
-            </div>
+  <nav class="level ">
+    <!-- Left side -->
+    <div class="level-left">
+      <div class="level-item">
+      </div>
+      <div class="level-item">
+        <div class="field has-addons">
+          <p class="control">
+            <input class="input" type="text" placeholder="Find a dragon by its name or number" style="width: 500px;"
+              v-model="Search" @input="sendSearch()">
+          </p>
+          <p class="control">
+            <button class="button" @click="sendSearch">
+              Search
+            </button>
+          </p>
         </div>
-    </nav>
-    <ul v-if="showDragons">
-            <li v-for="(dragon, index) in filteredDragons" :key="index" @click="selectDragon(index)"
-                :class="{ active: index === activeIndex }">
-                {{ dragon }}
-            </li>
-        </ul>
-    <!-- <div>
-        <input v-model="Search" @input="sendSearch" @keydown.down="onArrowDown" @keydown.up="onArrowUp"
+      </div>
+      
+    </div>
+  </nav>
+  <ul v-if="showDragons">
+    <li v-for="(dragon, index) in Dragons" :key="index" @click="selectDragon(index)"
+      :class="{ active: index === activeIndex }">
+      {{ dragon.name }}
+    </li>
+  </ul>
+  <!-- <div>
+        <input v-model="Search" @input="onInput" @keydown.down="onArrowDown" @keydown.up="onArrowUp"
             @keydown.enter="onEnter" />
         <ul v-if="showDragons">
             <li v-for="(dragon, index) in filteredDragons" :key="index" @click="selectDragon(index)"
@@ -41,10 +42,10 @@
 import SearchService from '../services/SearchService';
 
 export default {
-    data() {
+  data() {
     return {
-      Search: "",       
-      Dragons: [],       
+      Search: "",
+      Dragons: [],
       showDragons: false,
       activeIndex: -1,
     };
@@ -75,8 +76,8 @@ export default {
       }
     },
     selectDragon(index) {
-      this.Search = this.filteredDragons[index];
-      this.showDragons = false;
+      this.Search = this.Dragons[index];
+      // this.showDragons = false;
     },
   },
   computed: {
@@ -93,13 +94,13 @@ export default {
 
 <style>
 .level {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding-top: 5%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 5%;
 }
 
-/* #app {
+#app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   text-align: center;
   color: #2c3e50;
@@ -108,5 +109,5 @@ export default {
 input {
   padding: 10px;
   font-size: 16px;
-} */
+}
 </style>
