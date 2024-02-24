@@ -25,6 +25,22 @@ namespace Wyrmspan_Backend.Controllers
             return dragons;
         }
 
+        [HttpGet("{id}")]
+        public ActionResult<Dragon> GetDragonById(int id)
+        {
+            Dragon dragonToReturn = dragonDao.GetDragonById(id);
+
+            return dragonToReturn;
+        }
+
+        [HttpGet("search")]
+        public ActionResult<List<Dragon>> SearchDragons(string q)
+        {
+            List<Dragon> dragonsFromSearch = dragonDao.GetSearchResults(q);
+
+            return dragonsFromSearch;
+        }
+
     }
 
 

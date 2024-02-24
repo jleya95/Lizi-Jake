@@ -42,8 +42,7 @@ trait varchar(30) NULL,
 description varchar (max) NULL,
 )
 
-INSERT INTO dragons (dragon_number, name, habitat, size, cost, nest, trait, description) VALUES ('#117','ANTEDILUVIAN
-BASILISK', 'Golden & Amethyst Caves', 'Large', 'Gold & Amethyst', '1 egg', 'Shy', 'It wasn''t until the early 2010s that all guilds finally agreed that the Antediluvian Basilisk was in fact, a dragon. The Guild of Highlands was the last holdout, claiming that it was a snake.
-');
-INSERT INTO dragons (dragon_number, name, habitat, size, cost, nest, trait, description) VALUES ('#121',' ARCHAIC WHISKERED
-LUNG DRAGON', 'Golden Cave', 'Large', 'Gold && Amethyst && Amethyst', '3 eggs', 'Playful', 'Everything about this species is baffling to dracologists, including its combination of fur, seales, and feathers; its frigid body temperature of 42 degrees Celsius (107 degrees Fahrenheit); and its apparent ability to absorb nutrients from the air.');
+INSERT INTO dragons (dragon_number, name, habitat, size, cost, nest, trait, description) VALUES ('117','ANTEDILUVIAN BASILISK', 
+'Golden & Amethyst Caves', 'Large', 'Gold & Amethyst', '1 egg', 'Shy', 'It wasn''t until the early 2010s that all guilds finally agreed that the Antediluvian Basilisk was in fact, a dragon. The Guild of Highlands was the last holdout, claiming that it was a snake.');
+INSERT INTO dragons (dragon_number, name, habitat, size, cost, nest, trait, description) VALUES ('121','ARCHAIC WHISKERED LUNG DRAGON', 
+'Golden Cave', 'Large', 'Gold && Amethyst && Amethyst', '3 eggs', 'Playful', 'Everything about this species is baffling to dracologists, including its combination of fur, seales, and feathers; its frigid body temperature of 42 degrees Celsius (107 degrees Fahrenheit); and its apparent ability to absorb nutrients from the air.');
