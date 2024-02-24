@@ -8,10 +8,10 @@
                 <div class="field has-addons">
                     <p class="control">
                         <input class="input" type="text" placeholder="Find a dragon by its name or number"
-                            style="width: 500px;"  v-model="Search" @input="onInput">
+                            style="width: 500px;"  v-model="Search">
                     </p>
                     <p class="control">
-                        <button class="button" @click="sendSearch">
+                        <button class="button" @click="sendSearch()">
                             Search
                         </button>
                     </p>
@@ -19,8 +19,14 @@
             </div>
         </div>
     </nav>
+    <ul v-if="showDragons">
+            <li v-for="(dragon, index) in filteredDragons" :key="index" @click="selectDragon(index)"
+                :class="{ active: index === activeIndex }">
+                {{ dragon }}
+            </li>
+        </ul>
     <!-- <div>
-        <input v-model="Search" @input="onInput" @keydown.down="onArrowDown" @keydown.up="onArrowUp"
+        <input v-model="Search" @input="sendSearch" @keydown.down="onArrowDown" @keydown.up="onArrowUp"
             @keydown.enter="onEnter" />
         <ul v-if="showDragons">
             <li v-for="(dragon, index) in filteredDragons" :key="index" @click="selectDragon(index)"
