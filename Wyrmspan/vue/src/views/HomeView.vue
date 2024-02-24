@@ -1,11 +1,19 @@
 <template>
-  <div class="home">
-    <h1>Home</h1>
-    <p>You must be authenticated to see this</p>
-  </div>
+  <div class ="home">
+<search-bar-component></search-bar-component>
+</div>
 </template>
 
 <script>
+
+import SearchBarComponent from '../components/SearchBarComponent.vue';
+
 export default {
+  components: {
+    SearchBarComponent
+  }
+
 };
 </script>
+
+
