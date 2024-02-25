@@ -40,8 +40,8 @@
         </ul>
   
     </div> -->
-    <BoxBackgroundComponent :dragonName="DisplayDragon.name" />
-    <textComponent :dragonDescription="DisplayDragon.description" />
+    <BoxBackgroundComponent :dragonProp="DisplayDragon"/>
+    <!-- <textComponent :dragonDescription="DisplayDragon.description" /> -->
 
     
     
@@ -51,7 +51,7 @@
 import SearchService from '../services/SearchService';
 import DragonService from '../services/DragonService.js';
 import BoxBackgroundComponent from './BoxBackgroundComponent.vue';
-import textComponent from './textComponent.vue';
+// import textComponent from './textComponent.vue';
 
 
 
@@ -59,7 +59,7 @@ export default {
 
   components: {
     BoxBackgroundComponent,
-    textComponent
+    // textComponent
   },
   data() {
     return {
