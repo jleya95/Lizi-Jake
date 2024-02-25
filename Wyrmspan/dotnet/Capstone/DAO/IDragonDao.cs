@@ -8,7 +8,8 @@ namespace Wyrmspan_Backend.DAO
         List<Dragon> GetDragon();
         Dragon GetDragonById(int dragonId);
         List<Dragon> GetSearchResults(string searchQuery);
-
+        Dragon GetDragonByNumber(int number);
+        Dragon GetDragonByName(string dragonName);
 
     }
 }
