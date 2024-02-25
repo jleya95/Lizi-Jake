@@ -39,13 +39,19 @@
             </li>
         </ul>
     </div> -->
+    <!-- <BoxBackgroundComponent :dragonName="DisplayDragon.name" /> -->
 </template>
 
 <script>
 import SearchService from '../services/SearchService';
 import DragonService from '../services/DragonService.js';
+// import BoxBackgroundComponent from './BoxBackgroundComponent.vue';
 
 export default {
+
+  // components: {
+  //   BoxBackgroundComponent
+  // },
   data() {
     return {
       Search: "",
@@ -115,8 +121,11 @@ export default {
   align-items: center;
   justify-content: center;
   padding-top: 5%;
+  
 }
-
+.level-item{
+  box-shadow: 10px 10px 10px rgb(180, 180, 180);
+}
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   text-align: center;

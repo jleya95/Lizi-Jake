@@ -1,19 +1,28 @@
 <template>
+  <search-bar-component></search-bar-component>
+  <box-background-component></box-background-component>
   <div class ="home">
-<search-bar-component></search-bar-component>
-</div>
+  </div>
 </template>
 
 <script>
 
 import SearchBarComponent from '../components/SearchBarComponent.vue';
+import BoxBackgroundComponent from '../components/BoxBackgroundComponent.vue';
+
 
 export default {
   components: {
-    SearchBarComponent
+    SearchBarComponent,
+    BoxBackgroundComponent
+
   }
 
 };
 </script>
+
+<style>
+
+</style>
 
 
