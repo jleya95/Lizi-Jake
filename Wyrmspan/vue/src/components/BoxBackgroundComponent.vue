@@ -1,23 +1,29 @@
 <template>
     <div class="container">
-    <div class="box">
-        <div class="content">
-            <text-component></text-component>
+        <div class="box">
+            <div class="content">
+                <!-- <text-component :dragonDescription="dragonDescription"></text-component> -->
+                <h1>{{ dragonName }}</h1>
          </div>
 </div>
 </div>
 </template>
 
 <script>
-import textComponent from './textComponent.vue';
+// import textComponent from './textComponent.vue';
 
 export default {
-    components: {
-        textComponent,
+    // components: {
+    //     textComponent,
+    // },
+    props: {
+    dragonName: {
+        type: String,
     },
-//     props: {
-//     dragonName: String, 
-//   },
+    dragonDescription: {
+     type: String
+    }
+  },
 }
 </script>
 
