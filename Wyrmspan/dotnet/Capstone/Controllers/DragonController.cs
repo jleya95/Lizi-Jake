@@ -33,6 +33,22 @@ namespace Wyrmspan_Backend.Controllers
             return dragonToReturn;
         }
 
+        [HttpGet("Number/{number}")]
+        public ActionResult<Dragon> GetDragonByNumber(int number)
+        {
+            Dragon dragonToReturn = dragonDao.GetDragonByNumber(number);
+
+            return Ok(dragonToReturn);
+        }
+
+        [HttpGet("Name/{name}")]
+        public ActionResult<Dragon> GetDragonByName(string name)
+        {
+            Dragon dragonToReturn = dragonDao.GetDragonByName(name);
+
+            return Ok(dragonToReturn);
+        }
+
         [HttpGet("search")]
         public ActionResult<List<Dragon>> SearchDragons(string q)
         {

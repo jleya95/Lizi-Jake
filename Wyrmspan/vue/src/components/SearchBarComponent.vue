@@ -17,15 +17,18 @@
           </p>
         </div>
       </div>
-      
+
     </div>
   </nav>
   <ul v-if="showDragons">
-    <li v-for="(dragon, index) in Dragons" :key="index" @click="selectDragon(index)"
+    <li v-for="(dragon, index) in Dragons" :key="index"
       :class="{ active: index === activeIndex }">
-      {{ dragon.name }}
+      <a @click="showDragonInfo(dragon.name)">{{ dragon.name }}</a>
     </li>
   </ul>
+  <div class="info" v-if="showInfo">
+    {{ DisplayDragon.name }}
+  </div>
   <!-- <div>
         <input v-model="Search" @input="onInput" @keydown.down="onArrowDown" @keydown.up="onArrowUp"
             @keydown.enter="onEnter" />
@@ -40,6 +43,7 @@
 
 <script>
 import SearchService from '../services/SearchService';
+import DragonService from '../services/DragonService.js';
 
 export default {
   data() {
@@ -48,6 +52,8 @@ export default {
       Dragons: [],
       showDragons: false,
       activeIndex: -1,
+      showInfo: false,
+      DisplayDragon: [],
     };
   },
   methods: {
@@ -79,6 +85,17 @@ export default {
       this.Search = this.Dragons[index];
       // this.showDragons = false;
     },
+    showDragonInfo(dragonName) {
+      DragonService.getDragonByName(dragonName)
+        .then(response => {
+          if (response.status === 200) {
+            this.DisplayDragon = response.data;
+            this.showInfo = true;
+            this.Search = "";
+            this.showDragons = false;
+          }
+        })
+    }
   },
   computed: {
     filteredDragons() {
