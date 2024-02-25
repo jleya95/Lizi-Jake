@@ -1,0 +1,1924 @@
+AERIAL RECLUSE
+#150
+HABITAT: Crimson, Golden, &
+Amethyst Caves
+SIZE: Large
+COST:
+NEST:
+TRAIT: HELPFUL
+The Aerial Recluse spends most of its time at an altitude of 9,000 to 12,000 meters (approximately 30,000 to 40,000 feet). Although it typically stays well away from humans, its mating season frequently disrupts air travel.
+AGED SEA SERPENT
+HABITAT: Golden Cave
+SIZE: Small
+COST:
+#40
+NEST:
+TRAIT: HELPFUL
+Fossils that look virtually identical in morphology to the Aged Sea Serpent have been found dating back over 200 million years.
+ALGAL LINDWORM
+#3
+HABITAT: Golden & Amethyst Caves
+SIZE: Hatchling
+COST:
+000
+TRAIT: HELPFUL
+The sa Tinor lies in labesand subsists
+carnivorous during its brief mating season, eating fish, aquatic birds, and even the odd manatee.
+ALOOF GRYPHDRAGON
+HABITAT: Crimson, Golden, &
+Amethyst Caves
+SIZE: Small
+COST:
+#51
+NEST:
+TRAIT:
+The A Grydagon can be practiced vith
+extremely offensive.
+ANCIENT ONE
+HABITAT: Golden Cave
+SIZE: Medium
+COST:
+#67
+NEST:
+TRAIT: SHY
+6
+Cince the beginning of reliable recordkeeping, circa 1850, there have been no known instances of an Ancient One dying of natural causes or even showing signs of degenerative aging.
+
+ANTEDILUVIAN
+#117
+BASILISK
+HABITAT: Golden & Amethyst Caves
+SIZE: Lange
+COST:
+NEST:
+TRAIT: IS
+t wasn't until the early 2010s that all guilds finally agreed that the Antediluvian Basilisk was, in fact, a dragon. The Guild of Highlands was the last holdout, claiming that it was a snake.
+ARCHAIC WHISKERED
+LUNG DRAGON
+#121
+HABITAT: Golden Cave
+SIZE: Large
+COST:
+NEST: 800080
+TRAIT: PLAYFUL
+verything about this species is baffling to I dracologists, including its combination of fur, scales, and feathers; its frigid body temperature of 42 degrees Celsius (107 degrees Fahrenheit); and its apparent ability to absorb nutrients from the air.
+AUGURAL FAE
+HABITAT: Crimson, Golden, &
+Amethyst Caves
+SIZE: Small
+COST:
+NEST:
+TRAIT:
+EL REUT
+#172
+Now considered an invasive species throughout much of the world, the Augural Fae was intentionally distributed by humans in a misguided attempt to control dragonmice populations.
+AUSTRALOPITHECUS
+#105
+DRAKUS
+HABITAT: Amethyst Cave
+SIZE: Large
+COST:
+NEST:
+TRAIT:
+This shy mountain species is the most recent I dragon to be identified, with final classification completed in late 2023. This species does not yet have a Guild-approved common name, nor is it likely to have one any time soon. In an attempt at humor, the Forest Guild named this dragon after Australopithecus, a genus of human ancestors.
+The Plains Guild and the Guild of Highlands took offense, and refuse to approve a common name until the Forest Guild fixes this "affront to humanity.
+An official spokesperson for the Forest Guild called the other two guilds "humorless dingbats" though in retrospect, this statement was perhaps intended to be off the record.
+AVARICIOUS AMPHIPTERE
+HABITAT: Amethyst Cave
+SIZE: Small
+COST:
+NEST:
+TRAIT: AGGRESSIVE
+#114
+€3
+The smitereon follows in the any cover
+crystal shards that the larger dragon leaves behind.
+
+BECKONING
+CRICKETCATCHER
+HABITAT: Golden Cave
+SIZE: Small
+COST:
+#180
+NEST:
+TRAIT: AGGRESSIVE
+This dragon lures crickets by mimicking
+I their chirps, turning them one by one into cricketcatcher snacks.
+BELLICOSE FIREVERN
+#109
+HABITAT: Crimson & Golden Caves
+SIZE: Small
+COST:
+NEST:
+TRAIT: AGGRESSIVE
+A inter dragone atchers spey ok hite alicose
+Firevern. Dragonwatching guides strongly recommend that interested parties seek out the Spirited Firevern instead, as this species offers a similarly impressive display at significantly lower risk.
+BLUE FOREST SPIRIT
+#43
+HABITAT: Amethyst Cave
+SIZE: Medium
+COST:
+NEST:
+TRAIT:
+HELP:
+On several occasions, hikes havete poead being
+guided to safety by a "blue ghost." In each report, the ghost silently appears, identifies a path to safety, then disappears. Dracologists hypothesize that these "ghosts" were Blue Forest Spirits.
+BLUE KEEPER
+HABITAT: Crimson & Amethyst
+Caves
+SIZE: Small
+COST:
+#153
+NEST:
+TRAIT: HELPFUL
+The Blue Keepers fanorite coloris ange, This
+species has been known to follow around hunters wearing orange vests, much to the chagrin of the hunters and to the delight of their prey.
+
+ion
+BARGAINING GRAZER
+#26
+HABITAT: Amethyst Cave
+SIZE: Hatchling
+COST:
+TRAIT: HELPFUL
+n the Bargaining Grazer's mating ritual, two young adults present piles of stones, shells, and other natural baubles to each other, then engage in a lengthy trading process. If they come to an agreement, they mate for life.
+
+BRINDLED
+FROGMOUTH
+HABITAT: Crimson Cave
+SIZE: Small
+COST:
+#156
+NEST:
+TRAIT: HELPFUL
+Ithough not related to the Tawny Frogmouth, _the two species do share a similar diet: moths, insects, and just about anything else they can get their mouths around.
+BRUSHTAIL FAE
+HABITAT: Golden Cave
+SIZE: Small
+COST:
+#160
+NEST:
+TRAIT: PLAYFUL
+Put the Dragon Protection Atog 191, thich
+was used to adorn hats. To this day, these hats occasionally appear on the secondary market, though at an astronomical cost.
+BRUSHWOOD DRAGONETTE
+#158
+HABITAT: Crimson Cave
+SIZE: Small
+COST:
+NEST:
+TRAIT: SHY
+The they Brushwoe Dragonete makes is homey
+hiding in thick brambles. Rarely flying, it uses its tall wings to carry bundles of twigs on its back, taking its nest wherever it goes.
+CACKLING
+DRAGONETTE
+HABITAT: Crimson Cave
+SIZE: Hatchling
+COST:
+TRAIT: PLAYFUL
+#30
+capable of bellowing a raucous cackle that can flatten a small tree.
+CALM LOCH SERPENT
+#55
+HABITAT: Golden & Amethyst Caves
+SIZE: Large
+COST:
+NEST:
+TRAIT: SHY
+Named after the Greater Calm Loch, this serpent. primarily lives in deep underwater crevasses.
+only coming out to feed at night.
+
+CAPRICIOUS
+VENOMOUS WYRM
+8127
+HABITAT: Golden Cave
+SIZE: Large
+COST:
+NEST: C
+TRAIT: ACH4547
+espite its large size, the Capricious Venomous Dwyrm mostly eats small creatures, including mice (both dragonmice and standard mice), voles, small birds, and the young of its enemies.
+CARBONIFEROUS ROCKBREAKER
+#75
+HABITAT: Amethyst Cave
+SIZE: Small
+COST:
+NEST:
+TRAIT: 5H
+This rockbreaker lives up to its name by using its I powerful jaws to crush and clear out solid rock for nests typically built into high limestone cliffs.
+CAUSTIC WYRM
+#58
+HABITAT: Golden Cave
+SIZE: Medium
+COST:
+NEST: 8080
+TRAIT: AGGRESSIVE
+A ninet ahi areas tends to sep to ise when
+provoked, often with deadly consequences.
+CHAMELEON COATL
+¥119
+HABITAT: Crimson, Golden, &
+Amethyst Caves
+SIZE: Medium
+COST:
+NEST:
+TRAIT: LCGEESSIE
+The Chaneon attacan control the anile fis
+it to reproduce any color.
+CHAMELEON DRAGONETTE
+#32
+HABITAT: Amethyst Cave
+SIZE: Hatchling
+COST:
+TRAIT: SHYI
+The Chameleon Dragonette thrives in old-growth
+I boreal forests in polar climates. It is one of the few dragons that hibernates, and does so all winter. In the summer it subsists primarily off of mosquitoes, catching them with its 1-meter (3.3-foot) tongue.
+CHESHIRE DRAGON
+HABITAT: Amethyst Cave
+SIZE: Hatchling
+#22
+COST:
+TRAIT: PLAYFUL
+Gerage ithin autory and era Cheshire
+encounter this dragon report feeling confused for several days afterward—that is, if they make it back at all.
+
+CHITTERING DRAGONETTE
+HABITAT: Crimson & Amethyst
+Caves
+SIZE: Hatchling
+COST:
+TRAIT: PLAYEUN
+#19
+follows, "Oh aren't you just the cutest? Let me put you in my purse."
+Lady Pepper notes, "Genetics is fascinating."
+CHROMATIC BLUE
+LUNG DRAGON
+HABITAT: Amethyst Caves
+SIZE: Small
+COST:
+NEST:
+TRAIT: SHY
+#52
+I contrasolis nearest elative the ply Horned
+Dragon prefers to stay out of sight and remain undisturbed.
+CHURLISH FIREVERN
+#135
+HABITAT: Golden & Amethyst
+Caves
+SIZE: Small
+COST:
+NEST:
+TRAIT: AGGRESSIVE
+The initial name proposed for this dragon was L the Napoleonic Firevern, due to a combination of its small stature and aggressive personality. The Guild of Highlands found the name in poor taste and vetoed it. Ultimately, the guilds agreed to
+"churlish."
+CLAIRVOYANT
+FEYDRAGON
+#165
+HABITAT: Golden Cave
+SIZE: Medium
+COST:
+NEST:
+TRAIT: HELPFUL
+t is widely believed that the Clairvoyant Feydragon can read minds.
+COLORFUL
+GRYPHDRAGON
+HABITAT: Crimson, Golden, &
+Amethyst Cave
+SIZE: Small
+COST:
+NEST:
+TRAIT: SHY
+#54
+n the early 1200s, Sir Conner tended to an injured
+- member of this species in his garden. To this day, its descendants keep a watchful eye over the garden (now a public park) and make sure that no humans there come to harm.
+
+COMMON BLUE GRYPHDRAGON
+#79
+HABITAT: Amethyst Cave
+SIZE: Medium
+COST:
+NEST: 88.80
+TRAIT: HELPEUN
+This gryphdragon gets its name from its ancestors' protection of the Commons during medieval times. In exchange for protecting animals grazing in the Commons, humans gave the gryphdragon food during harvest, establishing an enduring symbiotic relationship.
+COMMON GRASS
+LINDWORM
+#17
+HABITAT: Golden & Amethyst
+Caves
+SIZE: Hatchling
+COST:
+TRAIT: SHY
+Tor samn ages Bind peris arter mistaken
+gardeners, as they keep pesky insects and rodents at bay.
+CONTRARY LUNG
+DRAGON
+HABITAT: Crimson & Amethyst
+Caves
+SIZE: Large
+COST:
+NEST:
+TRAIT:
+#154
+Tie Cal, vany sou ragon receive its name for
+N0000000000"
+"Nononono
+COSMIC AMPHIPTERE #162
+HABITAT: Golden Cave
+SIZE: Small
+COST:
+NEST:
+TRAIT: SHYA
+I"Crword yame co, bes notone gimmering of
+the gems and scales on its back.
+CRAFTY MORAY
+HABITAT: Crimson Cave
+SIZE: Medium
+COST:
+#146
+NEST:
+TRAIT: SHA
+The Crafty Moray was a common figurehead carved into the bows of sailing vessels during the 17th and 18th centuries. Having such a figurehead was believed to ensure good weather and provide safe passage.
+CUSTODIAL KOIWYRM #115
+HABITAT: Crimson & Amethyst
+Caves
+SIZE: Medium
+COST:
+NEST:
+TRAIT: PLAYFUL
+The Custodial Koiwyrm builds elaborate nests
+with nary a feather or twig out of place. In fact, a koiwyrm will gift leftover food to nearby creatures, rather than sully the pristineness of its living space.
+
+CUSTOMARY GRAZER
+# 134
+HABITAT: Crimson, Golden, &
+Amethyst Cave
+SIZE: Large
+COST:
+NEST:
+TRAIT: 1272172014
+6
+The Customary Grazer has an exceptionally slow L metabolism, eating only once every 3-4 weeks.
+That said, its six stomachs have a huge capacity, so when it does eat, it eats a lot.
+DAPPLED GLADE SPIRIT #97
+HABITAT: Crimson & Golden Caves
+SIZE: Small
+COST:
+NEST:
+TRAIT: HELPEUL
+The Dappled Glade Spirit is a keystone species in many old-growth forests. Its high body-temperature is critical for wearing down the protective coating on many of the seeds and nuts that it consumes.
+DESCENDING FIREVERN
+#62
+HABITAT: Amethyst Cave
+SIZE: Small
+COST:
+NEST: 8808
+TRAIT: AGGRESSIVE
+Themes ending reven hes otal drage hottest
+DIVING MORAY
+#169
+HABITAT: Crimson Cave
+SIZE: Large
+COST:
+NEST:
+TRAIT: PLAYFUL
+3
+The Diving Moray has been known to I wreak havoc on military submarines for entertainment. It uses electromagnetic pulses to distort sonar, and often taps out a distracting
+"Ka-thunk-a-thunk" on the hull, sometimes for hours on end.
+DOWSING FAE
+HABITAT: Crimson Cave
+SIZE: Medium
+COST:
+NEST:
+TRAIT: SHY
+#177
+t is widely believed that the Dowsing Fae has an Linnate ability to locate water. It does not.
+EQUATORIAL CAVALIER
+WYVERN
+HABITAT: Crimson & Amethyst
+Caves
+SIZE: Medium
+COST:
+#87
+NEST:
+TRAIT: ISHY
+The Equatorial Cavaliers Wyvern has a migratory the Equator.
+pattern that circumnavigates the globe around
+
+ERUDITE LUNG DRAGON =89
+HABITAT: Crimson Cave
+SIZE: Small
+COST:
+NEST:
+TRAIT: HERPENN
+Ting ions where eded as the long ired Frondite
+and scholarship. As such, it is often seen on a variety of objects from ancient family crests to modern company logos.
+ETERNAL FEYDRAGON
+#57
+HABITAT: Golden Cave
+SIZE: Medium
+COST:
+NEST:
+TRAIT: HELPFUL
+Ithough this species is not especially long-lived, Aa special genetic memory grants its hatchlings the inherited knowledge and skills of their ancestors.
+FAE TAMARIN
+HABITAT: Amethyst Cave
+SIZE: Hatchling
+COST:
+TRAIT:
+#21
+D many draologsts belteve that the Pae Tamarin
+ue to its uniquely other-worldly appearance, evolved in an alternate dimension, inadvertently crossing over just a few thousand years ago.
+FANGED BROADWYRM
+#151
+HABITAT: Golden Cave
+SIZE: Large
+COST:
+NEST: |
+888
+TRAIT: PLAYEUR
+W
+Tith its incredibly strong jaws and sharp teeth, an infant of this species was once observed biting a diesel locomotive in half. The infant was thought to be teething.
+FANGED FEYDRAGON
+#5
+...
+HABITAT: Golden Cave
+SIZE: Hatchling
+COST:
+TRAIT: PLAYFUL
+This dragon is normally friendy and decite,
+feydragon will attack anything in sight, including kin.
+FASTIDIOUS HORNED
+DRAGON
+#96
+HABITAT: Golden & Amethyst Caves
+SIZE: Small
+COST:
+NEST:
+TRAIT:
+PLAYFUL
+Mdbsoraticouthp thuak: in vhith they fly
+in elaborate patterns, letting sunlight glisten off their bright blue scales. To keep their scales shiny, cales stent significast dime grooming rightly
+
+FLOCKING DRAGONETTE
+HABITAT Crimson Can
+SIZE: Hatchling
+COST:
+TRAIT:
+Fipaphon and ur fien asocdated with rapid
+changes in weather.
+"FRIENDLY" RUFFEU
+RED DRAGON
+HABITAT: Crimson Cave
+SIZE: Hatchling
+#33
+COST:
+TRAIT: LAGCHESSIV
+1
+The upward-curving tufts around this dragons jaws give it the appearance of a permanent smile. This should not, however, be confused with actual friendliness.
+諮診
+2ナ
+FRILLED COBRETTE
+#27
+HABITAT: Amethyst Cave
+SIZE: Hatchling
+COST:
+TRAIT: AGGRESSIVE
+The frils on this dragon wave back and forth, making it impossible for predators to identify a target. Once the predator is distracted, the cobrette
+strikes.
+FRUGIVOROUS GRAZER
+HABITAT: Amethyst Cave
+SIZE: Hatchling
+COST:
+TRAI:
+F fargely consists of dragonberries and starfri
+GAMBOLING
+LANDRAGOON
+#181
+HABITAT: Crimson Cave
+SIZE: Large
+COST:
+NEST:
+TRAIT: PLAYFUL
+Thisty lights known for is bright copies
+beauty it is notoriously clumsy, and has even been known to knock over its own nest.
+GENIAL MOTHDRAGON
+#2
+HABITAT: Crimson Cave
+SIZE: Hatchling
+COST:
+TRAIT: HEL
+The Genia Mothdragon has an unusually long
+- period of altriciality. Young remain helpless for nearly half their lives, forming very strong bonds with their caretakers as a result. This attachment does not depend on the species of caretaker.
+GLIDING TAIGA DRAKE #104
+HABITAT: Crimson Cave
+SIZE: Small
+COST:
+NEST:
+TRAIT: AGGRESSIVE
+This species migrates several thousand klometes
+every year, from subarctic climates in sum temperate forests and grasslands in the wir is similarly varied; it eats mostly hares and! in summer, and rabbits and dracosquim
+
+FLOCKING DRAGONETTE
+HABITAT Crimson Can
+SIZE: Hatchling
+COST:
+TRAIT:
+Fipaphon and ur fien asocdated with rapid
+changes in weather.
+"FRIENDLY" RUFFEU
+RED DRAGON
+HABITAT: Crimson Cave
+SIZE: Hatchling
+#33
+COST:
+TRAIT: LAGCHESSIV
+1
+The upward-curving tufts around this dragons jaws give it the appearance of a permanent smile. This should not, however, be confused with actual friendliness.
+諮診
+2ナ
+FRILLED COBRETTE
+#27
+HABITAT: Amethyst Cave
+SIZE: Hatchling
+COST:
+TRAIT: AGGRESSIVE
+The frils on this dragon wave back and forth, making it impossible for predators to identify a target. Once the predator is distracted, the cobrette
+strikes.
+FRUGIVOROUS GRAZER
+HABITAT: Amethyst Cave
+SIZE: Hatchling
+COST:
+TRAI:
+F fargely consists of dragonberries and starfri
+GAMBOLING
+LANDRAGOON
+#181
+HABITAT: Crimson Cave
+SIZE: Large
+COST:
+NEST:
+TRAIT: PLAYFUL
+Thisty lights known for is bright copies
+beauty it is notoriously clumsy, and has even been known to knock over its own nest.
+GENIAL MOTHDRAGON
+#2
+HABITAT: Crimson Cave
+SIZE: Hatchling
+COST:
+TRAIT: HEL
+The Genia Mothdragon has an unusually long
+- period of altriciality. Young remain helpless for nearly half their lives, forming very strong bonds with their caretakers as a result. This attachment does not depend on the species of caretaker.
+GLIDING TAIGA DRAKE #104
+HABITAT: Crimson Cave
+SIZE: Small
+COST:
+NEST:
+TRAIT: AGGRESSIVE
+This species migrates several thousand klometes
+every year, from subarctic climates in sum temperate forests and grasslands in the wir is similarly varied; it eats mostly hares and! in summer, and rabbits and dracosquim
+
+GNAWING SERAPH
+$176
+HABITAT: Golden Cave
+SIZE: Small
+COST:
+NEST:
+TRAIT: 1214078
+The Gnawing Seraph is named for its parasitic feeding method: It latches onto larger prey, drinking its fill before moving on. The seraph's saliva is numbing to most animals, so it is able to feast and disappear long before its host notices that anything is amiss.
+GOOD DRAKE
+#108
+HABITAT: Golden Cave
+SIZE: Medium
+COST:
+NEST:
+TRAIT: HELPFUL
+Throughout much of human history Good Drakes
+I formed symbiotic relationships with humans in hunter-gatherer camps, warning humans of incoming predators in exchange for leftover food.
+Although they are not "domesticated" to the extent that dogs are, there are some (largely within the Plains Guild) who still keep Good Drakes as pets.
+GREAT GOLDEN LUNG
+DRAGON
+#42
+HABITAT: Golden Cave
+SIZE: Large
+COST:
+NEST. 888
+TRAIT: HELPEUL
+There cole in pregro pical misesar.
+light is considered a sign of good fortune.
+GREAT HORNED
+WYVERN
+HABITAT: Crimson Cave
+SIZE: Large
+COST:
+#148
+NEST:
+TRAIT: PLAYFUL
+nlike other wyverns, the horns of the Great Horned Wyvern change color depending on when it last ate. A dark color indicates that the wyvern has just eaten, whereas a pale color means that it may be on the prowl.
+GREATER SCORPIO
+HABITAT: Golden Cave
+SIZE: Large
+COST:
+#161
+NEST:
+TRAIT: AGGRESSIVE
+ady Peppers Anthology of Dragons quotes the last /words of Hans the Hunter as follows, "Hey, you don't look so tough!"
+Lady Pepper notes, "Hans the Hunter was a moron."
+
+GREEN GHOST
+=66
+HABITAT: Golden Cave
+SIZE: Small
+COST:
+NEST: 88 8
+TRAIT: EWPRUM
+Wwile this dragon cannot fly, males use their wings to intimidate aggressors and attract mates, in females, wings are believed to be vestigial.
+GUARDING HORNED
+DRAKE
+#63
+HABITAT: Golden & Amethyst Caves
+SIZE: Medium
+COST:
+NEST: 888080
+TRAIT: HELPFUL
+The Guarding Horned Drake is very possessive
+I and does not tolerate theft of anything within its purview. For this reason, individuals of this species (primarily males) are excellent caretakers of hatchlings left in their care.
+GUIDING FEYDRAGON
+HABITAT: Amethyst Cave
+SIZE: Hatchling
+#31
+COST:
+TRAIT: HELPFUL
+The Guiding Feydragon is one of the world's best I trackers, and is often used by humans to assist in search and rescue activities. The feydragon can smell weeks-old trails and find buried nests months after they have been abandoned.
+HAUGHTY WYVERN
+#59
+HABITAT: Crimson & Golden Caves
+SIZE: Small
+COST:
+NEST:
+TRAIT:
+The Hug monker is easily spoked its
+moniker comes not from any
+arrogance, but because this dragon is often seen with its chin dradir; as it escapes from nearby predators (or dracologists).
+HAWKISH FIREVERN
+#80
+HABITAT: Crimson & Golden Caves
+SIZE: Medium
+COST:
+NEST:
+TRAIT: AGGRESSIVE
+The akis Firevern's name is somethings of
+a misnomer. The dragon shares a common ancestor with the modern-day falcon, which helps explain its ability to fly at near-supersonic speeds.
+HOARDING FLYER
+#56
+HABITAT: Crimson & Golden Caves
+SIZE: Medium
+COST:
+NEST:
+TRAIT: SHY
+2)
+The Hoarding Flyer is often disparagingly called the seagull of dragons. Members have been known to steal sandwiches and other food from unsuspecting picnickers.
+
+#167
+HOMELY FAE
+HABITAT: Crimson Cave
+SIZE: Medium
+COST:
+NEST:
+TRAIT: HELPEUN
+Ner the President of the Dragon Guilds called
+A the Homely Fae "one ugly beast." teenagers around the world turned the Homely Fae into their mascot, as a sign of (very low-key and poorly coordinated) rebellion.
+HORNED VENOMOUS
+WYRM
+#100
+.........
+HABITAT: Crimson Cave
+SIZE: Small
+COST:
+NEST:
+TRAIT: AGGRESSIVE
+I Intortunately, the first dracologist to study this
+species, Hans the Hunter the 2nd, learned that it was highly venomous (RIP). It wasn't until several decades later that a second dracologist, Hans the Hunter the 3rd, discovered that it was also highly poisonous (RIP).
+HOSTILE NORTHERN
+FIREDRAGON
+HABITAT: Crimson Cave
+SIZE: Large
+COST:
+#68
+NEST:
+TRAIT: AGGRESSIVE
+Lieuend gisie, these dragses arments.
+hey have been known to torch structures to create a diversion, then consume livestock in the ensuing
+HUSHED OAK-WING
+FEYDRAGON
+#82
+HABITAT: Crimson Cave
+SIZE: Small
+COST:
+NEST: 1
+TRAIT: SHY
+The most striking feature of this dragon is its . wings, which ironically look like leaves from maple trees. It is thought that mistake originated from a translation error, which was not identified until the moniker "Oak-Wing" was already widespread.
+HYENIC SERPENT
+HABITAT: Crimson Cave
+SIZE: Medium
+COST:
+#166
+NEST:
+TRAIT: AGGRESSIVE
+Though this dragon does have a bone-chilling
+I laugh, its name actually comes from its diet on
+100% hyena meat.
+IMPENETRABLE
+REDWYRM
+HABITAT: Crimson Cave
+SIZE: Large
+COST:
+#136
+NEST:
+TRAIT: AGGRESSIVE
+国
+The limp ottable Pedespren his a tough esterior,
+legends of several cultures.
+
+INTRACTABLE FIREVERN #77
+HABITAT: Crimson & Amethyst Caves
+SIZE: Large
+COST:
+NEST:
+TRAIT: AGGRESSIVE
+This dragon is a particular menace to farmers. Its 1 voracious appetite and extreme tenacity mean that one individual can gradually consume an entire heard of cattle over a period of weeks or months.
+JAUNTY DRAGONETTE #159
+HABITAT: Golden Cave
+SIZE: Medium
+COST:
+NEST:
+TRAIT: PLAYFUL
+The launty Dragonette was named for its unique sashaying walk. If dragons could be runway models, this species would be the star of the show.
+KEEN CRICKETCATCHER #76
+HABITAT: Crimson Cave
+SIZE: Small
+COST:
+NEST:
+TRAIT: HELPEUL
+The keen Cricketcatchers sharp claws are used solely for climbing trees in search of dragonworms, as well as grubs and other insects.
+KEENING AMPHIFTERE
+HABITAT: Crimson Cave
+SIZE: Hatchling
+#18
+COST:
+TRAIT: AGGRESSIVE
+Ween sateen runestential saviors come to investigate, it pounces.
+KIND MISTVERN
+#138
+HABITAT: Amethyst Cave
+SIZE: Large
+COST:
+NEST:
+TRAIT: HELPFUL
+The Kind Mistvern has been known to raise the
+orphaned young of other species of dragons.
+The foster dragons it raises largely take on the personality of the Kind Mistvern, typically making them kinder and gentler than others of their species.
+KINDLY SEA SERPENT
+HABITAT: Amethyst Cave
+SIZE: Hatchling
+COST:
+TRAIT: HELPEUL
+#34
+any pet stores sell Kindly Sea Serpents to unsuspecting parents in place of a gerbil or hamster. Taking on a Kindly Sea Serpent as a pet is strongly discouraged. This long-lived species always outlives the interest of the child, and often outlives the child as well.
+
+KNOWING GUARDIAN
+#120
+HABITAT: Crimson & Galden Cavos
+SIZE: Medium
+COST:
+NEST:
+TRAIT: 11412207
+Yenerations of selective breeding have decreased
+Gihe knowing Guardians size and created a docile and trainable species it is a favorite for personal empanianship but only for those with plenty of space!
+LAVENDER FEYDRAGON =143
+HABITAT: Amethyst Cave
+SIZE: Medium
+COST:
+NEST: PA
+TRAIT: (22AYEU
+Inender color during its two-week mating season.
+LAWNDRAKE
+#35
+HABITAT: Amethyst Cave
+SIZE: Hatchling
+COST:
+TRAIT: PLAYFUL
+I aundrakes are common in suburban habitats and Jhave an amazing capacity to find lost jewelry and other valuables. The Lawndrake will ultimately give these items back to their owners, but not until the owner has sufficiently earned the privilege.
+LEAFEATING
+CRICKETCATCHER
+#9
+HABITAT: Golden & Amethyst Caves
+SIZE: Hatchling
+COST:'
+TRAIT: HELPFUL
+2
+he Leateating Cricketcatcher is a popular pest
+• control option on organic arms.
+3인 약동상
+LILLIPUTIAN FAE
+#132
+HABITAT: Crimson, Golden, &
+Amethyst Caves
+SIZE: Small
+COST:
+NEST:
+TRAIT: AGGRESSIVE
+Stol but near, the illierian arkaders
+and prey.
+LITTLE AMPHIPTERE
+#98
+HABITAT: Crimson & Golden Caves
+SIZE: Small
+COST:
+NEST:!
+TRAIT: PLAYFUL
+Adaptability is one of the primary hallmarks of Lthe Little Amphiptere. Although the species tends to avoid locations with high human density, it tolerates a wide range of climates, from temperate to tropical.
+
+LOYAL FEYDRAGON
+HABITAT: Amethyst Cave
+SIZE: Hatchling
+#8
+COST:
+TRAIT:
+EUPEUL
+The wings of the Loyal Feydragon change colors I depending on its mood. Never approach one with solid red wings.
+MACABRE LINDWORM
+#171
+HABITAT: Golden Cave
+SIZE: Large
+COST:
+NEST:
+TRAIT: PLAYFUL
+The Macabre Lindworm is known for decorating
+I its vestigial wings with the entrails of prey to attract potential mates.
+MAGNIFICENT AMPHIPTERE
+HABITAT: Crimson, Golden, &
+Amethyst Caves
+SIZE: Large
+COST:
+NEST:
+TRAIT: I
+#101
+6
+The Magnificent Amphiptere is best known for its colorful wing and tail plumage among both males and females. This plumage is made of feathers instead of scales, which is uncommon in the dragon world.
+MALCONTENT
+VENOMOUS WYRM
+#84
+HABITAT: Golden Cave
+SIZE: Small
+COST:
+NEST:
+TRAIT: AGGRESSIVE
+This species is poly understo ed, as ter have encountered one and lived to tell the tale.
+MARSHY WEBBED
+DRAGON
+HABITAT: Amethyst Cave
+SIZE: Medium
+COST:
+NEST:
+TRAIT: SHY
+#73
+The webbed wings of this dragon make it both an excellent flyer and swimmer. This dragon can seamlessly transition from the air to the water, although it prefers to stay hidden in the shallow waters of marshes and fens.
+MELLIFERA FEYDRAGON
+HABITAT: Amethyst Cave
+SIZE: Hatchling
+COST:
+TRAIT: AGGRESSIVE
+#13
+to the humble honeybee, and was long thought to be a subspecies of Apis Mellifera. Only in 2023 did dracologists discover that it is actually a feydragon, with a complete internal skeleton (instead of an exoskeleton).
+ME
+또
+Sb
+C0
+V
+wa
+N
+TI
+du
+it
+
+LOYAL FEYDRAGON
+HABITAT: Amethyst Cave
+SIZE: Hatchling
+#8
+COST:
+TRAIT:
+EUPEUL
+The wings of the Loyal Feydragon change colors I depending on its mood. Never approach one with solid red wings.
+MACABRE LINDWORM
+#171
+HABITAT: Golden Cave
+SIZE: Large
+COST:
+NEST:
+TRAIT: PLAYFUL
+The Macabre Lindworm is known for decorating
+I its vestigial wings with the entrails of prey to attract potential mates.
+MAGNIFICENT AMPHIPTERE
+HABITAT: Crimson, Golden, &
+Amethyst Caves
+SIZE: Large
+COST:
+NEST:
+TRAIT: I
+#101
+6
+The Magnificent Amphiptere is best known for its colorful wing and tail plumage among both males and females. This plumage is made of feathers instead of scales, which is uncommon in the dragon world.
+MALCONTENT
+VENOMOUS WYRM
+#84
+HABITAT: Golden Cave
+SIZE: Small
+COST:
+NEST:
+TRAIT: AGGRESSIVE
+This species is poly understo ed, as ter have encountered one and lived to tell the tale.
+MARSHY WEBBED
+DRAGON
+HABITAT: Amethyst Cave
+SIZE: Medium
+COST:
+NEST:
+TRAIT: SHY
+#73
+The webbed wings of this dragon make it both an excellent flyer and swimmer. This dragon can seamlessly transition from the air to the water, although it prefers to stay hidden in the shallow waters of marshes and fens.
+MELLIFERA FEYDRAGON
+HABITAT: Amethyst Cave
+SIZE: Hatchling
+COST:
+TRAIT: AGGRESSIVE
+#13
+to the humble honeybee, and was long thought to be a subspecies of Apis Mellifera. Only in 2023 did dracologists discover that it is actually a feydragon, with a complete internal skeleton (instead of an exoskeleton).
+ME
+또
+Sb
+C0
+V
+wa
+N
+TI
+du
+it
+
+LOYAL FEYDRAGON
+HABITAT: Amethyst Cave
+SIZE: Hatchling
+#8
+COST:
+TRAIT:
+EUPEUL
+The wings of the Loyal Feydragon change colors I depending on its mood. Never approach one with solid red wings.
+MACABRE LINDWORM
+#171
+HABITAT: Golden Cave
+SIZE: Large
+COST:
+NEST:
+TRAIT: PLAYFUL
+The Macabre Lindworm is known for decorating
+I its vestigial wings with the entrails of prey to attract potential mates.
+MAGNIFICENT AMPHIPTERE
+HABITAT: Crimson, Golden, &
+Amethyst Caves
+SIZE: Large
+COST:
+NEST:
+TRAIT: I
+#101
+6
+The Magnificent Amphiptere is best known for its colorful wing and tail plumage among both males and females. This plumage is made of feathers instead of scales, which is uncommon in the dragon world.
+MALCONTENT
+VENOMOUS WYRM
+#84
+HABITAT: Golden Cave
+SIZE: Small
+COST:
+NEST:
+TRAIT: AGGRESSIVE
+This species is poly understo ed, as ter have encountered one and lived to tell the tale.
+MARSHY WEBBED
+DRAGON
+HABITAT: Amethyst Cave
+SIZE: Medium
+COST:
+NEST:
+TRAIT: SHY
+#73
+The webbed wings of this dragon make it both an excellent flyer and swimmer. This dragon can seamlessly transition from the air to the water, although it prefers to stay hidden in the shallow waters of marshes and fens.
+MELLIFERA FEYDRAGON
+HABITAT: Amethyst Cave
+SIZE: Hatchling
+COST:
+TRAIT: AGGRESSIVE
+#13
+to the humble honeybee, and was long thought to be a subspecies of Apis Mellifera. Only in 2023 did dracologists discover that it is actually a feydragon, with a complete internal skeleton (instead of an exoskeleton).
+ME
+또
+Sb
+C0
+V
+wa
+N
+TI
+du
+it
+
+
+MISERLY AMPHIPTERE #103
+The Misery miptere lives in relataly barely
+explains this species' aggressive tendencies in protecting its (meager) food supplies.
+MOSAIC GUARDIAN
+#124
+HABITAT: Crimson, Golden, &
+Amethyst Caves
+SIZE: Large
+COST:
+NEST:
+TRAIT: HELPFUL
+ften found in the company of the Variegated Amphipter, the Mosai Guardian is renomadic species that never stops moving. Legend has it that they tirelessly patrol the world, ready to defend it against threats new or old.
+MULTICOLOR FLYER
+#71
+HABITAT: Crimson & Golden Caves
+SIZE: Medium
+COST:
+NEST:
+TRAIT:
+PLAYFUL
+Stre an ient cultures hare rig ted the Mulicalor
+gifted all the colors of the rainbow by the Dragon God as a reward for services rendered in ancient times.
+NIMBLE TRILLING
+AMPHIPTERE
+#99
+HABITAT: Crimson & Amethyst Caves
+SIZE: Large
+COST:
+NEST:
+TRAIT: AGGRESSIVE
+Th on hear priy el, are prete
+"kekekeke" that is used to herd prey, can be heard up to 2.5 kilometers (1.5 miles) away.
+NORTHERN CAVALIER
+WYVERN
+#86
+HABITAT: Golden Cave
+SIZE: Large
+COST:
+NEST:
+TRAIT: ISHY
+The Northern Cavalier Wyvern is a master at
+gliding. Individuals spend virtually their whole lives in the air, only landing for a few months each decade to lay and hatch eggs.
+NORTHERN
+GRYPHDRAGON
+HABITAT: Crimson, Golden, &
+Amethyst Caves
+SIZE: Small
+COST:
+#94
+NEST:
+TRAIT: SHY
+chosen for the sigil of the Guild of Highlands,
+
+NURTURING FEYDRAGON
+#179
+HABITAT: Crimson, Golden, &
+Amethyst Caves
+SIZE: Small
+COST:
+NEST:
+TRAIT: HELPEL
+Thought on likes children and last ay o calm
+both. That said, one cry (or one bark) and the Nurturing Feydragon disappears.
+OPHIDIAN RECLUSE
+#149
+HABITAT: Crimson, Golden, &
+Amethyst Caves
+SIZE: Medium
+COST:
+NEST:
+TRAIT: AGGRESSIVE
+The Ophidian Recluse has only been sighted I twice in recorded history (both times by members of the Rainforest Guild). Dracologists are divided on whether it exists at all.
+ORDINARY
+RESPLENDENT COATI
+HABITAT: Crimson, Golden, &
+891
+Amethyst Caves
+SIZE: Medium
+COST:
+NEST:
+TRAIT: PLAYFUM
+3)
+Ithough this dragon cannot understand speech (to the best of dracologists' knowledge), it does have an uncanny ability to sense human tone and intent. A surefire way to upset this dragon is to call it "ordinary" to its face!
+OWLATIC AMPHIPTERE #47
+HABITAT: Golden Cave
+SIZE: Medium
+COST:
+NEST:
+TRAIT: SHY
+specially well-adapted for hunting at night,
+1 the Owlatic Amphiptere is a terror to small nocturnal animals. One adult is capable of eating over 1000 dragonmice each year, in addition to the occasional olivaceous possum snack.
+ORACULAR DRAGON
+#139
+HABITAT: Crimson & Amethyst Caves
+SIZE: Small
+COST:
+NEST:
+TRAIT:
+When the Oracular Dragon is asleep, it breathes with a heavy wheeze that sounds
+much like a human whispering.
+Travelers who have managed to approach one without waking it report bearing mysterious prophecies, most of which ultimately come to pass.
+PACIFISTIC WEB-TOED
+SERPENT
+HABITAT: Amethyst Cave
+SIZE: Small
+COST:
+#95
+NEST:
+TRAIT: PLAYFUL
+Ironica ly the fanaties afpe of this dragon is the
+
+PARTICULARLY HAUGHTY
+WYVERN
+#78
+HABITAT: Amethyst Cave
+SIZE: Small
+COST:
+NEST: 0
+TRAIT: PLAYEI
+Although mary wverns are haughty, this species
+PATIENT REDWYRM
+#70
+HABITAT: Crimson & Amethyst Caves
+SIZE: Small
+COST:
+NEST: 80 80
+TRAIT:
+A been yade hunter the Patient Prey rormhas
+or even days.
+20
+PENURIOUS RED WYRM #111
+HABITAT: Crimson Cave
+SIZE: Medium
+COST:
+NEST:
+TRAIT: AGGRESSIVE
+storage deep in climate-controlled caves. The food may remain there for months or even years.
+PERCEPTIVE
+ANTELDRAGON
+HABITAT: Amethyst Cave
+SIZE: Large
+COST:
+NEST:
+TRAIT: HELPFUL
+#65
+Indowed with extraordinarily keen senses, this dragon has been known to forecast storms and provide warnings of imminent seismic activity:
+PEREGRINE
+FIREDRAGON
+#16
+HABITAT: Golden & Amethyst Caves
+SIZE: Hatchling
+COST:
+TRAIT:
+PLAYFUL
+When in flight, the Peregrine Firedragon looks much like its namesake, the peregrine falcon.
+The main difference is that the Peregrine Firedragon also shoots fire as it flies, cooking its prey in midair.
+
+PLAYFUL HORNWYRM
+#144
+HABITAT: Crimson, Golden, &
+Amethyst Caves
+SIZE: Medium
+COST:
+"
+NEST:
+TRAIT: PLAYEUL
+09
+The Playful Hornwyrms fondness for cow's milk L and sugarcane can make ice cream hard to find in certain equatorial regions, particularly during its nursing season.
+POCKET AMPHIPTERE
+#102
+HABITAT: Crimson, Golden, &
+Amethyst Caves
+SIZE: Small
+COST:
+NEST:
+TRAIT: PLAYFUL
+The Pocket Amphiptere is one of the smallest . species of amphiptere. Adults weigh just over 3 grams (0.11 ounces).
+PRESCIENT
+GRYPHDRAGON
+HABITAT: Golden Cave
+SIZE: Large
+COST:
+#69
+NEST:
+TRAIT: SHY
+Haremely elusive, these dragons live up to their name with an almost supernatural ability to anticipate intruders, typically fleeing long before the intruder arrives.
+PRIMEVAL WYRM
+#61
+HABITAT: Crimson & Golden Caves
+SIZE: Large
+COST:
+NEST:
+TRAIT:
+AGGRESSIVE
+5
+racologists believe they are able to trace the evolutionary history of the Primeval Wyrm back to the Permian period, almost 300 million years ago.
+PRIMORDIASAUR
+#72
+HABITAT: Golden Cave
+SIZE: Medium
+COST:
+NEST:
+TRAIT:
+SHY
+D
+racologists disagree on the Primordiasaur's relationship to other modern dragons. The prevailing theory links it to the sea serpents, but vocal dissidents argue that it is more closely related to the wyrms.
+PROTECTIVE AMPHIPTERE
+#90
+HABITAT: Crimson & Amethyst Caves
+SIZE: Large
+COST:
+NEST:
+TRAIT: PLAYFUL
+The Protective Amphiptere is a creature of routine. Each day is made up of six strictly scheduled segments, three of which are "playtim
+
+PUCK'S HORNED DRAKE #107
+HABITAT: Crimson Cave
+SIZE: Small
+COST:
+NEST:
+TRAIT: PLAYEL
+This drake has been known to "help" hikers, by carefully guiding them into gullies and trenches, then turning them around and refusing to show them the exit. It is believed that the drake finds human struggles to be entertaining.
+QUARTZY
+ROCKBREAKER
+HABITAT: Golden Cave
+SIZE: Large
+COST:
+NEST:
+TRAIT:
+SHY
+#126
+espite its large size, the Quartzy Rockbreaker D is surprisingly nimble. It can squeeze through impossibly small holes, presumably due to its ability to dislocate most of its joints.
+RAINBOW GUARDIAN
+HABITAT: Crimson, Golden, &
+Amethyst Caves
+SIZE: Large
+COST:
+NEST:
+#46
+TRAIT: AGGRESSIVE
+Laymon largener two year, the rarofits
+eggs. On several instances, unwary hikers have been to a Guardian's nest.
+forced to flee after accidentally wandering too close
+RAVENOUS GRANITE
+DRAGON
+#23
+HABITAT: Amethyst Cave
+SIZE: Hatchling
+COST:
+TRAIT:
+AGGRESSIVE
+The appetite of the Ravenous Granite Dragon
+I is so great that it needs a territory of approximately eight square kilometers (2000 acres) to support each individual. As a result, these
+nickname "The Lonely Hunters."
+nickons methe ely tely mate, earning them the RED GUARDIAN HABITAT: Crimson Cave
+SIZE: Large
+COST:
+NEST:
+TRAIT: HELPFUL
+#125
+believes to be inferior, including humans.
+RED-CRESTED GRYPHDRAGON
+#129
+HABITAT: Golden & Amethyst Caves
+SIZE: Medium
+COST:
+NEST:
+TRAIT: PLAYFUL
+The Red-Crested Gryphdragon often forms packs with misfit members of other dragon species.
+
+REDWOOD
+LUNG DRAGON
+#15
+HABITAT: Amethyst Cave
+SIZE: Hatchling
+COST:
+The Redwood Lung Dragon was named for its habitat. It burrows under the roots of redwood trees, making itself a nest that lasts for centuries.
+RETICENT MANTA
+#163
+HABITAT: Crimson Cave
+SIZE: Small
+COST:
+NEST:
+TRAIT: PLAYFUL
+The Reticent Manta glows vividly under ultraviolet light thanks to pigments in its scales.
+This discovery was made entirely by accident.
+RINGTAIL SERPENT
+HABITAT: Crimson Cave
+SIZE: Medium
+COST:
+#168
+NEST:
+TRAIT: HELPEUL
+A rectionately referred to as a "Trash Panda" by urbanites, this species enjoys digging through garbage even more than its (ringtail) raccoon namesake.
+ROCKY ROCKBREAKER #140
+HABITAT: Amethyst Cave
+SIZE: Medium
+COST:
+NEST:
+TRAIT
+Misstis of ereder whereful
+The Rocky Rockbreaker, on the other hand, does the majority of its digging with its curiously strong toes.
+ROYAL WYVERN
+#142
+HABITAT: Golden & Amethyst Caves
+SIZE: Medium
+COST:
+NEST:
+TRAIT: AGGRESSIVE
+Shable we the Rest ye this onested suetsa
+how this trend began. Although the statues are a symbol of serenity, the temperament of the wyvern itself is very much the opposite.
+SAVANNA
+DRAGONETTE
+#12
+HABITAT: Golden Cave
+SIZE: Hatchling
+COST:
+00
+TRAIT: PLAYEUL
+€5
+A sa hatchling, the Savannah Dragonette has the
+Lability to camouflage itself to match virtually any surrounding. This ability is lost as an adult, a phenomenon that continues to baffle dracologists.
+
+SCALY ROCK DRAGON
+#64
+HABITAT: Golden Cave
+SIZE: Large
+COST:
+NEST:
+TRAIT: HELPEL
+T
+Thanks to its stone-like coloring and the intricate pattern of its scales, the Scaly Rock Dragon is a master of camouflage and is well-suited to mountainous regions.
+SCAVENGING
+CRICKETCATCHER
+#14
+HABITAT: Golden Cave
+SIZE: Hatchling
+COST:
+TRAIT:
+AGGRESSIVE
+The scaven is cricketcatcheris endangered.
+exclusively eats insects that are already dead before it arrives.
+SEA VIPER
+#141
+HABITAT: Golden & Amethyst Caves
+SIZE: Small
+COST:
+NEST:
+TRAIT: AGGRESSIVE
+The Sea Viper can bist be described in the
+words of Captain Tucker, who narrated an encounter with one as follows, "Well, something was struggling, and lord help me when it came out of the water I was sure we were goners. It tore right through the net and burned a hole clean through my boat. I got insurance after that."
+SEEDEATING DRAKE
+#11
+HABITAT: Golden Cave
+SIZE: Hatchling
+COST:
+TRAIT:
+SHY
+A hots with its mother's milk, Seedeating Drake hatchlings must ingest a diet of several specific plants and fruits. This special diet is believed to prepare its digestive system to handle the notoriously spicy firebird, upon which adults exclusively subsist.
+SELFISH LUNG DRAGON #123
+HABITAT: Crimson & Amethyst Caves
+SIZE: Medium
+COST:
+NEST:
+TRAIT: AGGRESSIVE
+nown to attack other creatures for food, shelter,
+Lor water (or for no discernible reason at all), the Selfish Lung Dragon lives a solitary life, occasionally partnering with a mate for a short time but otherwise living alone.
+SENTINEL FLYER
+HABITAT: Golden Cave
+SIZE: Large
+COST:
+#36
+NEST:
+TRAIT: PLAYFUL
+This species can most often be spotted
+I "patrolling" seaside cliffs Its tumbling tien
+pattern-which comes from riding ocean breezes-is the species' most distinctive characteristic.
+
+SHALY ROCKBREAKER
+#113
+HABITAT: Amethyst Cave
+SIZE: Large
+COST:
+NEST:
+TRAIT: ISH
+This rockbreaker ise trunching sou rarely seen. It I makes a distinctive crunching sound as it chews rock to build an ever-growing network of caverns in search of rare purple crystals.
+SHARP-TONGUED
+SPITTER
+#128
+HABITAT: Crimson Cave
+SIZE: Small
+COST:
+NEST:
+TRAIT: AGGRESSIVE
+The harvesting of dragon venom was outlawed by I the Dragon Protection Act of 1972. However, the Sharp-Tongued Spitter faces significant poaching from humans as its venom remains a prized ingredient in several traditional cuisines. (The flavor of the venom can only be described by enthusiasts as tasting of "yellow.")
+SHRIEKING
+AMPHIPTERE
+#152
+HABITAT: Crimson Cave
+SIZE: Large
+COST:
+NEST:
+TRAIT: PLAYFUL
+When startled, males make the characteristic
+"shriek" that gave the species its name. hus, it is not surprising that females do the majority of a pack's hunting.
+SILENT COBRETTE.
+HABITAT: Amethyst Cave
+SIZE: Hatchling
+COST: C
+That ant Cobrette to the only apectes of cabants . that does not produce venom. Dracologet believe that the species became so adept at hunting
+as did its ability to produce it.
+through stealth that its need for venom disappeated
+SINGEING REMORA
+HABITAT: Amethyst Cave
+$29
+SIZE: Hatchling
+COST:
+TRAIT:
+AGGRESSIVE
+In 1991, dracologists discovered that the Singeing
+Remora is not an independent species after all, but actually the juvenile of the Flaming Remora.
+Juveniles live separately from adults, so their relationship was not properly understood until trail cameras became widely available.
+XXX
+SMIRKING RIDGEBACK
+HABITAT: Crimson Cave
+SIZE: Small
+COST:
+#130
+NEST:
+TRAIT: PLAYFUL
+The mikag fideens pronounced underbie
+granite, its favorite food.
+
+SOLITARY BROWN
+DRAKE
+#74
+HABITAT: Crimson Cave
+SIZE: Medium
+COST:
+NEST:
+TRAIT:
+This pecies ison the edge ofer his dr even with
+intensely anti-social tendencies, which even extend to the majority of potential mates.
+SOLITARY REMORA
+HABITAT: Crimson, Golden, &
+Amethyst Caves
+SIZE: Medium
+COST:
+NEST:
+TRAIT:
+SHY
+#173
+A
+Iso known as Diver's Bane, the Solitary Remora kicks up dust clouds from the sea floor whenever a human is spotted. By the time the dust clears, the remora is gone.
+SOSSUSVLEI WYVERN
+HABITAT: Crimson Cave
+SIZE: Large
+COST:
+#133
+NEST:
+TRAIT: HELPFUL
+his wyvern was named posthumously for
+the nineteenth-century dracologist Nangula
+Sossusvlei, who still holds the record for cataloging he most dragon species in history.
+SOUTHERN MAMMOTH
+RIDGEDRAGON
+#145
+HABITAT: Amethyst Cave
+SIZE: Large
+COST:
+NEST:
+TRAIT: PLAYEUN
+Each gist on a Southern Mammoth RidgeDragon's
+hatchling that it has successfully launched into the world.
+SPEEDY LUNG DRAGON
+HABITAT: Golden Cave
+SIZE: Large
+COST:
+#88
+NEST:
+TRAIT: HELPFUL
+The Speedy Lung Dragon changes directions extremely quickly. It is thought that this adaptation co-evolved with its primary food source: the marlin.
+SPIRITED FIREVERN
+HABITAT: Amethyst Cave
+SIZE: Medium
+COST:
+#83
+NEST:
+TRAIT: PLAYEUL
+Named for their singularly playful temperament, the Spirited Firevern is a highly energetic species.
+As many as 12 individuals have been seen flying in incredibly intricate, perfectly synchronized displays, The purpose of these displays remains unknown.
+
+SOLITARY BROWN
+DRAKE
+#74
+HABITAT: Crimson Cave
+SIZE: Medium
+COST:
+NEST:
+TRAIT:
+This pecies ison the edge ofer his dr even with
+intensely anti-social tendencies, which even extend to the majority of potential mates.
+SOLITARY REMORA
+HABITAT: Crimson, Golden, &
+Amethyst Caves
+SIZE: Medium
+COST:
+NEST:
+TRAIT:
+SHY
+#173
+A
+Iso known as Diver's Bane, the Solitary Remora kicks up dust clouds from the sea floor whenever a human is spotted. By the time the dust clears, the remora is gone.
+SOSSUSVLEI WYVERN
+HABITAT: Crimson Cave
+SIZE: Large
+COST:
+#133
+NEST:
+TRAIT: HELPFUL
+his wyvern was named posthumously for
+the nineteenth-century dracologist Nangula
+Sossusvlei, who still holds the record for cataloging he most dragon species in history.
+SOUTHERN MAMMOTH
+RIDGEDRAGON
+#145
+HABITAT: Amethyst Cave
+SIZE: Large
+COST:
+NEST:
+TRAIT: PLAYEUN
+Each gist on a Southern Mammoth RidgeDragon's
+hatchling that it has successfully launched into the world.
+SPEEDY LUNG DRAGON
+HABITAT: Golden Cave
+SIZE: Large
+COST:
+#88
+NEST:
+TRAIT: HELPFUL
+The Speedy Lung Dragon changes directions extremely quickly. It is thought that this adaptation co-evolved with its primary food source: the marlin.
+SPIRITED FIREVERN
+HABITAT: Amethyst Cave
+SIZE: Medium
+COST:
+#83
+NEST:
+TRAIT: PLAYEUL
+Named for their singularly playful temperament, the Spirited Firevern is a highly energetic species.
+As many as 12 individuals have been seen flying in incredibly intricate, perfectly synchronized displays, The purpose of these displays remains unknown.
+
+SPIRITED HYDRATERE 118
+HABITAT: Golden & Amethyst Caves
+SIZE: Small
+COST:
+NEST:
+TRAIT: HEUPFUN
+Wipeden, lie outing the pher cano
+first piece to grow, follow Splitting Col den hthr thorax. In contrast to the Splitting Golden Hydra, the two heads belong to two individuals— who don't necessarily see eye to eye.
+SPLITTING GOLDEN
+HYDRA
+#116
+HABITAT: Golden Cave
+SIZE: Large
+COST:
+NEST:
+TRAIT: AGGRESSIVE
+The splitting Golden Hydra is the only known
+- species with a bifurcated cerebrum, which evenly splits the hydra's cognitive processes across two nearly identical heads.
+SPOTTED LICHENEATER
+HABITAT: Amethyst Cave
+SIZE: Hatchling
+COST:
+TRAIT: PLAYFUL
+#25
+A n inhabitant of dank, dark woodlands, this dragon feeds almost exclusively on lichens (specially those in the genera Usnea and Cladonia).
+SPRY HORNED
+LUNG DRAGON
+HABITAT: Crimson Cave
+84g
+SIZE: Medium
+COST:
+NEST:
+TRAIT: PLAYFUL
+SHored tys ass for known the Seing
+humans by flying in close, then whisking away at the last moment. Its playful and mischievous nature delights most humans, though it would be a mistake to consider this dragon "tame" or "gentle"
+STALKING DRAKE
+HABITAT: Golden Cave
+SIZE: Medium
+COST:
+#110
+NEST:
+TRAIT: AGGRESSIVE
+live prey (including rats and dragonmice).
+STANDARD HORNED
+LUNG DRAGON
+HABITAT: Crimson, Golden, &
+Amethyst Caves
+SIZE: Medium
+COST:
+#49
+NEST:
+TRAIT: HELPFUL
+verage in every way, this lung dragon often fills L the early chapters of Dracology 101 textbooks.
+
+STARLIT SHEPHERD
+HABITAT: Amethyst Cave
+SIZE: Medium
+COST:
+#137
+.......
+NEST:
+TRAIT: PLAYFUI
+The Starlit Shepherd is one of the friendliest species of dragons. To these wonderful and innocent creatures, each stranger is a new best friend unless proven otherwise.
+STEADFAST SOUTHERN
+DRAKE
+HABITAT: Crimson Cave
+SIZE: Medium
+COST:
+NEST:
+TRAIT: HELPFUL
+#174
+........
+he spread of the invasive kudzu has greatly
+. reduced numbers of the Steadfast Southern Drake. Kudzu is highly toxic to the species, but tastes delicious to them.
+STEALTHY RUFFTAIL
+HABITAT: Crimson Cave
+SIZE: Large
+COST:
+#60
+NEST:
+TRAIT:
+ften mistaken for a jaguar, the Stealthy Rufftail can be identified by its slightly darker
+coloration and bright red tail.
+STEELY FAE
+HABITAT: Golden Cave
+SIZE: Medium
+COST:
+#147
+NEST:
+TRAIT: PLAYFUL
+T'i was is became widdy domesticated ent
+runs through the fae, providing enough energy to replace a medium-sized generator. The Dragon Protection Act of 1972 sets strict standards for humane working conditions for the Steely Fae.
+STOIC GRYPHDRAGON
+HABITAT: Crimson Cave
+SIZE: Large
+COST:
+#81
+NEST:
+TRAIT: SHY
+Thospecie cavendin vitally ngtions fer
+humans in urban environments. On more than one occasion, a Stoic Gryphdragon has been mistaken for a gargoyle, much to the surprise of passersby.
+STRIPED DRAGONETTE
+#41
+HABITAT: Crimson & Golden Caves
+SIZE: Small
+COST:
+NEST:
+TRAIT: PLAYFUL
+The tiny Striped Dragonette weighs a mere O3 kg
+ゆく”
+公
+SUB BẠS
+HAB
+sIZE
+COS NES
+TRA
+TP
+mear
+SWI
+HABI
+SIZE:
+COS1
+NEST
+TRAI
+Sever Oasis intera
+TAW DRAI
+HABIT SIZE:
+COST:
+NEST:
+TRAIT
+The
+winter
+
+SUBTERRANEAN
+BASILISK
+#37
+HABITAT: Amethyst Cave
+SIZE: Large
+COST:
+NEST:
+TRAIT: SHI
+The Subterranean Basilisks effective camouflage, I preference for remote caves, and elusive nature means that it was not classified until 1988.
+SWIFT LUNG DRAGON
+#38
+HABITAT: Crimson & Amethyst Caves
+SIZE: Medium
+COST:
+NEST:
+TRAIT: HELPFUL
+The Swift Lung Dragon is widely considered to I be one of the most helpful species of dragon.
+Several popular dragon fables including Finding Oasis in Desert and Escape from Lion) are based on interactions with this species.
+TAWNY NORTHERN
+DRAKE
+HABITAT: Golden Cave
+SIZE: Medium
+COST:
+NEST:
+TRAIT: SHY
+#44
+5
+he lawny Northern Drake's mottled coat
+- changes with the seasons, from white in the winter to a golden brown in the summer.
+TAWNY STEPPE WIVERN
+HABITAT: Crimson Cave
+SIZE: Medium
+953
+COST:
+NEST: 8
+TRAIT: HEI
+6
+The Tawny Steppe Wyvern enjoys human music. Outdoor concerts of all types attract an
+or soaring above the venue.
+audience of this species, listening from the rafters
+TEMPERATE BAMBOO
+DRAGON
+HABITAT: Golden Cave
+#7
+SIZE: Hatchling
+COST:
+TRAIT:
+SHY
+'emperate Bamboo Dragons of all sexes may give T birth to up to 500 hatchlings during theirlives.
+TENDERING
+MOTHDRAGON
+HABITAT: Golden Cave
+SIZE: Small
+COST:
+#175
+NEST:
+TRAIT: SHY
+Diet their atsaction to light anon arette
+spotted by airline passengers circling their planes at night. Pilots learn to ignore them, even though their aerial acrobatics initially appear threatening to flight safety.
+
+TERRITORIAL SPITTER
+HABITAT: Amethyst Cave
+SIZE: Large
+COST:
+NEST:
+TRAIT
+GRESSIVE
+#92
+Rite than beatini acidic salevatoat spiter
+as a projectile to deter rivals or protect its territory.
+TITANIC COATL
+HABITAT: Crimson, Golden, &
+Amethyst Caves
+SIZE: Large
+COST:
+NEST:
+TRAIT:
+SHY
+#131
+The Titanic Coatl has one of the highest internal
+I body temperatures ever recorded among dragons at 93° Celsius (200° Fahrenheit). As such, one of the primary threats to this species is cold temperatures.
+TRANQUIL WYRM
+HABITAT: Amethyst Cave
+SIZE: Large
+COST:
+#45
+NEST:
+TRAIT: HELPFUI
+Despite its fears apperane, the Trauness
+cornered, individuals will flee instead of engaging in conflict.
+30
+VAMPIRIC HORNED
+DRAGON
+HABITAT: Amethyst Cave
+SIZE: Hatchling
+COST:
+TRAIT:
+AGGRESSIVE
+#24
+留
+"Hannah looked the Vampiric Horned Dragon in the eyes, and in those eyes saw a question: 'May I pretty please have a little bit of your blood? Hannah answered the unspoken question out loud, 'Sure thing, little guy!"
+Lady Pepper notes, "Like father, like daughter."
+VANISHING CREEPER
+HABITAT: Crimson Cave
+SIZE: Large
+COST:
+#170
+NEST:
+TRAIT:
+A master of disguise, the Vanishing Creeper can alter the pattern on its wings to blend in with
+nearly any background.
+VARIEGATED AMPHIPTERE
+#112
+HABITAT: Crimson, Golden, &
+Amethyst Caves
+SIZE: Medium
+COST:
+NEST:
+TRAIT: PLAYFUL
+The Varied on hip Are is gical ma
+believed that the amphiptere helps rear the larger dragon's hatchlings in exchange for protection.
+
+WADDY'S RUFFTAIL
+#182
+HABITAT: Golden Cave
+SIZE: Medium
+COST:
+NEST:
+TRAIT: AGGRESSIVE
+Wite ma lay or to the he lains
+move that some regard as gauche, the duo named the species with a portmanteau of their own names.
+WARMING FIREVERN
+#183
+HABITAT: Crimson & Golden Caves
+SIZE: Large
+COST:
+NEST:
+TRAIT: HELPEU
+The Warming Firevern often comes to the aid of I frozen travelers. Unfortunately, accepting this aid is risky: There's a fine line between toasty and just toast.
+WATCHFUL WYVERN
+HABITAT: Crimson Cave
+SIZE: Large
+COST:
+#178
+NEST:
+TRAIT: HELPFUL
+The pens es we to ananes, their
+presence is thought to keep volcanoes dormant.
+They are nearly extinct.
+WEALTHY KOIWYRM
+HABITAT: Crimson Cave
+SIZE: Small
+885
+COST:
+NEST: 80
+TRAIT: AGGRESSIVE
+N
+amed after the colorful koi fish it imitates, this species is known for hoarding large caches of shiny objects from gold nuggets to tin foil.
+WEARY GRYPHDRAGON
+HABITAT: Crimson, Golden, &
+#39
+Amethyst Caves
+SIZE: Large
+COST:
+NEST:
+TRAIT:
+SHY
+6
+T'hmailwints matert anoor etr y massand
+- small wings make it a poor flyer. Although this species nests in large trees for protection at night, it spends most of its waking hours on the ground.
+WHITE-BELLIED GRAZER
+HABITAT: Golden Cave
+SIZE: Hatchling
+#1
+COST:
+TRAIT: SHY
+This grangs rosacious for milar has been
+known to deplete an entire lactating herd of milk, and will resort to eating whole animals after the milk runs dry.
+7รีขอ
+
+WILY LINDWORM
+HABITAT: Crimson Cave
+SIZE: Large
+COST:
+NEST:
+TRAIT:
+AGGRESSIVE
+#157
+YELLOW-BELLIED LUNG
+DRAGON
+#122
+HABITAT: Crimson, Golden, &
+Amethyst Caves
+SIZE: Medium
+COST:
+NEST:
+TRAIT: AGGRESSIVE
+This species is blustering but ultimately harmless.
+I It can most reliably be distinguished from its venomous lookalike cousin, the Selfish Lung Dragon, by the green markings on the underside of its claws-but we don't recommend getting close enough to check.
+Hans, run! It's the Wily Lindworm!"
+Lady Pepper notes, "A good man died that day, and for what purpose?"
+WISE ANTELDRAGON
+HABITAT: Golden Cave
+SIZE: Small
+COST:
+#50
+NEST:
+TRAIT: HELPFUL
+D
+espite its small stature, the Wise Anteldragon can often be seen presiding over a thunder of dragons of all types. What discussions (if any) take place during these sessions is unknown to humans.
+SM
