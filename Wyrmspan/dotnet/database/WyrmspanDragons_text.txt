@@ -80,7 +80,7 @@ SIZE: Large
 COST:
 NEST:
 TRAIT:
-This shy mountain species is the most recent I dragon to be identified, with final classification completed in late 2023. This species does not yet have a Guild-approved common name, nor is it likely to have one any time soon. In an attempt at humor, the Forest Guild named this dragon after Australopithecus, a genus of human ancestors.
+This shy mountain species is the most recent dragon to be identified, with final classification completed in late 2023. This species does not yet have a Guild-approved common name, nor is it likely to have one any time soon. In an attempt at humor, the Forest Guild named this dragon after Australopithecus, a genus of human ancestors.
 The Plains Guild and the Guild of Highlands took offense, and refuse to approve a common name until the Forest Guild fixes this "affront to humanity.
 An official spokesperson for the Forest Guild called the other two guilds "humorless dingbats" though in retrospect, this statement was perhaps intended to be off the record.
 AVARICIOUS AMPHIPTERE
@@ -102,8 +102,7 @@ COST:
 #180
 NEST:
 TRAIT: AGGRESSIVE
-This dragon lures crickets by mimicking
-I their chirps, turning them one by one into cricketcatcher snacks.
+This dragon lures crickets by mimicking their chirps, turning them one by one into cricketcatcher snacks.
 BELLICOSE FIREVERN
 #109
 HABITAT: Crimson & Golden Caves
@@ -131,7 +130,7 @@ COST:
 #153
 NEST:
 TRAIT: HELPFUL
-The Blue Keepers fanorite coloris ange, This
+The Blue Keepers favorite color is orange. This
 species has been known to follow around hunters wearing orange vests, much to the chagrin of the hunters and to the delight of their prey.
 
 ion
@@ -141,7 +140,7 @@ HABITAT: Amethyst Cave
 SIZE: Hatchling
 COST:
 TRAIT: HELPFUL
-n the Bargaining Grazer's mating ritual, two young adults present piles of stones, shells, and other natural baubles to each other, then engage in a lengthy trading process. If they come to an agreement, they mate for life.
+In the Bargaining Grazer's mating ritual, two young adults present piles of stones, shells, and other natural baubles to each other, then engage in a lengthy trading process. If they come to an agreement, they mate for life.
 
 BRINDLED
 FROGMOUTH
@@ -151,7 +150,7 @@ COST:
 #156
 NEST:
 TRAIT: HELPFUL
-Ithough not related to the Tawny Frogmouth, _the two species do share a similar diet: moths, insects, and just about anything else they can get their mouths around.
+Although not related to the Tawny Frogmouth, the two species do share a similar diet: moths, insects, and just about anything else they can get their mouths around.
 BRUSHTAIL FAE
 HABITAT: Golden Cave
 SIZE: Small
@@ -159,8 +158,7 @@ COST:
 #160
 NEST:
 TRAIT: PLAYFUL
-Put the Dragon Protection Atog 191, thich
-was used to adorn hats. To this day, these hats occasionally appear on the secondary market, though at an astronomical cost.
+Prior to the Dragon Protection Act of 1972, the Brushtail Fey was hunted for its long tail, which was used to adorn hats. To this day, these hats occasionally appear on the secondary market, though at an astronomical cost.
 BRUSHWOOD DRAGONETTE
 #158
 HABITAT: Crimson Cave
