@@ -58,5 +58,4 @@ null, 'Helpful', 'The Algal Lindworm lives in lakes and subsists off algae for m
 ('67', 'ANCIENT ONE', 'Golden Cave', 'Medium', 'Coin & Meat & Gold', '2 eggs', 'Shy',
 'Since the beginning of reliable recordkeeping, circa 1850, there have been no known instances of an Ancient One dying of natural causes or even showing signs of degenerative aging.'),
 ('172', 'AUGURAL FAE', 'Crimson, Golden, & Amethyst Caves', 'Small', 'Meat & Gold & Amethyst', '2 eggs',
-'Helpful', 'Now considered an invasive species throughout much of the world, the Augural Fae was intentionally distribduted by humans in a misguided attempt to control dragonmice populations.'),
-('105', 'AUSTRALOPITHECUS DRAKUS', 'Amethyst Cave',
+'Helpful', 'Now considered an invasive species throughout much of the world, the Augural Fae was intentionally distribduted by humans in a misguided attempt to control dragonmice populations.')
