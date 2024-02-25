@@ -104,6 +104,37 @@ namespace Wyrmspan_Backend.DAO
             return dragon;
         }
 
+        public Dragon GetDragonByName(string dragonName)
+        {
+            Dragon dragon = new Dragon();
+            string sql = "SELECT * FROM dragons WHERE name = @name";
+
+            try
+            {
+                using (SqlConnection conn = new SqlConnection(connectionString))
+                {
+                    conn.Open();
+
+                    SqlCommand cmd = new SqlCommand(sql, conn);
+                    cmd.Parameters.AddWithValue("@name", dragonName);
+                    SqlDataReader reader = cmd.ExecuteReader();
+
+                    if (reader.Read())
+                    {
+                        dragon = MapRowToDragon(reader);
+                    }
+                }
+            }
+            catch (Exception)
+            {
+
+                throw;
+            }
+
+
+            return dragon;
+        }
+
         public List<Dragon> GetSearchResults(string searchQuery)
         {
             List<Dragon> dragons = new List<Dragon>();
