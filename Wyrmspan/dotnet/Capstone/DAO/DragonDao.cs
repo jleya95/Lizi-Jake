@@ -146,7 +146,8 @@ namespace Wyrmspan_Backend.DAO
             for (int i = 0; i < searchWords.Count; i++)
             {
                 singleParamQuery = $"@querySearch{i}";
-                sql = $"SELECT * FROM dragons WHERE name LIKE {singleParamQuery} OR dragon_number LIKE {singleParamQuery}";
+                sql = $"SELECT * FROM dragons WHERE name LIKE {singleParamQuery} OR dragon_number LIKE {singleParamQuery} " +
+                    $"ORDER BY name";
 
                 try
                 {
