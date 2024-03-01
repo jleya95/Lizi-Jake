@@ -123,6 +123,7 @@ species has been known to follow around hunters wearing orange vests, much to th
 ('106', 'MINOR SHARPCLAW', 'Crimson, Golden, & Amethyst Caves', 'Small', 'Coin', '3 eggs', 'Aggressive', 'The Minor Sharpclaw has major attitude. Although it is too small to do much damage, it makes itself such a nuisance that other species steer clear.'),
 ('89', 'ERUDITE LUNG DRAGON', 'Crimson Cave', 'Small', 'Coin & Meat & Amethyst', '3 eggs', 'Helpful' , 'In regions where it is native, the long-lived Erudite Lung Dragon is regarded as a herald of wisdom and scholarship. As such it is often seen on a variety of objects from ancientfamily crests to modern company logos.'),
 ('57', 'ETERNAL FEYDRAGON', 'Golden Cave', 'Medium', 'Gold & Gold & Amethyst', '1 egg', 'Helpful', 'Although this species not especially long-lived, a special genetic memory grants its hatchlings the inherited knowledge and skills of their ancestors.')
+
 /*(‘21’, ‘FAE TAMARIN’,’Amethyst Cave’, ‘Hatchling’, ‘ 1 egg &amp; Milk &amp; Milk’, ‘Shy’, ‘Due to its
 uniquely other-worldly appearance many dracologists believe that the Fae Tamarin evolved in
 an alternate dimension, inadvertently crossing over just a few thousand years ago.’),
