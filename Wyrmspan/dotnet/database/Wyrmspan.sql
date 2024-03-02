@@ -96,5 +96,4 @@ Prior to the Dragon Protection Act of 1972, the Brushtail Fey was hunted for its
 ('62','DESCENDING FIREVERN','Amethyst Cave','Small','Amethyst & Amethyst & Amethyst','3 eggs', 'Aggressive','The Descending Firevern has among the hottest flames and longest reaches of all dragons.'),
 ('177', 'DOWSING FAE','Crimson Cave','Medium','Meat','1 egg','Shy','The widely believed that the Dowsing Fae has an innate ability to locate water. It does not.' ),
 ('169','DIVING MORAY','Crimson Cave','Large','Meat & Meat','2 eggs', 'Playful','The Diving Moray has been known to wreak havoc on military submarines for entertainment. It uses electromagnetic pulses to distort sonar, and often taps out a distracting "ka-thunk-a-thunk" on the hull, sometimes for hours on end.'), 
-('87', 'EQUATORIAL CAVALIER WYVERN','Crimson & Amethyst Caves', 'Medium', 'Meat & Amethyst','2 egg','Shy','The Equatorial Cavalier Wvvern has a migratory pattern that circumnavigates the globe around the Equator.'),
-(),
+('87', 'EQUATORIAL CAVALIER WYVERN','Crimson & Amethyst Caves', 'Medium', 'Meat & Amethyst','2 egg','Shy','The Equatorial Cavalier Wvvern has a migratory pattern that circumnavigates the globe around the Equator.')
