@@ -1,6 +1,9 @@
 <template>
     <div class="container">
         <div class="box">
+            <div class="image-section">
+                <img class="dragon-image" src="/img/DragonPics/150.jpg">
+            </div>
             <div class="content">
                 <div class="name">
                     <h1>{{ dragonProp.name }}</h1>
@@ -34,21 +37,21 @@ export default {
 </script>
 
 <style>
-
 .container {
     display: flex;
     justify-content: center;
 }
 
-/* .box {
-    width: 80%;
-    display: flex;
-    align-items: left;
-    justify-content: right;
-    background-color: rgba(255, 255, 255, 0.873);
-    border-radius: 2%;
+.dragon-image {
+    height: 500px;
+    width: 800px;
+    box-shadow: 20px 20px 50px rgba(137, 137, 137, 0.684);
+}
 
-} */
+.image-section {
+    height: fit-content;
+    margin-left: 10%;
+}
 
 .box {
     width: 80%;
@@ -67,9 +70,4 @@ export default {
     flex-direction: column;
     height: 500px;
 }
-/* .content {
-    display: flex;
-    align-items: top;
-    height: 500px;
-} */
 </style>

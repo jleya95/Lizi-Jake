@@ -122,106 +122,125 @@ species has been known to follow around hunters wearing orange vests, much to th
 ('164', 'METAMORPHIC FEYDRAGON', 'Golden Cave', 'Small', 'Coin & Gold & Gold', '4 eggs', 'Helpful', 'The Metamorphic Feydragon can take on the appearance of any dragon, but cannot change its size. Any small dragon could potentially be a Metamorphic Feydragon in disguise.'),
 ('106', 'MINOR SHARPCLAW', 'Crimson, Golden, & Amethyst Caves', 'Small', 'Coin', '3 eggs', 'Aggressive', 'The Minor Sharpclaw has major attitude. Although it is too small to do much damage, it makes itself such a nuisance that other species steer clear.'),
 ('89', 'ERUDITE LUNG DRAGON', 'Crimson Cave', 'Small', 'Coin & Meat & Amethyst', '3 eggs', 'Helpful' , 'In regions where it is native, the long-lived Erudite Lung Dragon is regarded as a herald of wisdom and scholarship. As such it is often seen on a variety of objects from ancientfamily crests to modern company logos.'),
-('57', 'ETERNAL FEYDRAGON', 'Golden Cave', 'Medium', 'Gold & Gold & Amethyst', '1 egg', 'Helpful', 'Although this species not especially long-lived, a special genetic memory grants its hatchlings the inherited knowledge and skills of their ancestors.')
-
-/*(‘21’, ‘FAE TAMARIN’,’Amethyst Cave’, ‘Hatchling’, ‘ 1 egg &amp; Milk &amp; Milk’, ‘Shy’, ‘Due to its
-uniquely other-worldly appearance many dracologists believe that the Fae Tamarin evolved in
-an alternate dimension, inadvertently crossing over just a few thousand years ago.’),
-(‘151’.’ FANGED BROADWYRM’,’ Golden Cave’,Large,’Meat &amp; Gold &amp; Gold’,’3 eggs’,
-‘Playful’,’With its incredibly strong jaws and sharp teeth, an infant of this species was once
-observed biting a diesel locomotive in half. The infant was thought to be teething.’),
-( ‘5’, ‘FANGED FEYDRAGON’,’ Golden Cave’,’Hatchling’,’ 1 egg &amp; Milk &amp; Milk &amp;
-Milk’,’Playful’,’This dragon is normally friendly and docile, but slumbers deeply. If startled awake,
-the feydragon will attack anything in sight, including kin.’),
-(‘96’,’ FASTIDIOUS HORNED DRAGON’,’ Golden &amp; Amethyst Caves’,Small’,’Gold &amp;
-Amethyst’,’2 eggs’,’Playful’,’Males of this species attract females through elaborate courtship
-rituals, in which they fly in elaborate patterns, letting sunlight glisten off their bright blue scales.
-To keep their scales shiny, males spent significant time grooming, rightly earning the name
-&quot;fastidious.”’),
-(‘176’,’ GNAWING SERAPH’,’ Golden Cave’,’Small’,’Gold’,’1 egg’,’Playful’,’The Gnawing
-Seraph is named for is parasitic feeding method: It latches onto large prey, drinking its fill before
-moving on. The seraph&#39;s saliva is numbing to most animals, so it is able to feast and disappear
-long before its host notices that anything is amiss.’),
-(‘108’, ‘GOOD DRAKE’,’ Golden Cave’, ‘Medium’,’Gold &amp; Gold &amp; Amethyst’, ‘1 egg’,
-‘Helpful’,’ Throughout much of human history Good Drakes formed symbiotic relationships
-with humans in hunter-gatherer camps, warning humans of incoming predators in exchange for
-leftover food. Although they are not &quot;domesticated&quot; to the extent that dogs are, there are some
-(largely within the Plains Guild) who still keep Good Drakes as pets.’),
-(‘42’,’ GREAT GOLDEN LUNG’,’Golden Cave’,’Large’,’Gold &amp; Gold &amp; Amethyst’,’3 eggs’,
-‘Helpful’,’The Great Golden Lung Dragon typically rises at dawn. Catching a glimpse of one in
-the morning light is considered a sign of good furtune.’),
-(‘148’,’ GREAT HORNED WYVERN’,’ Crimson Cave’,’Large’,’Meat &amp; Gold &amp; Gold’, ‘ 3
-eggs’, ‘Playful’, ‘Unlike other wyverns, the horns of the Great Horned Wyvern change color
-depending on when it last ate. . A dark color indicates that the wyvern has just eaten, whereas a
-pale color means that it may be on the prowl.’),
-
-(‘161’,’ GREATER SCORPIO’, ‘Golden Cave’,’Large’,’Meat &amp; Gold’,’2 eggs’, ‘Aggressive’,
-‘Lady Pepper&#39;s Anthology of Dragons quotes the last words of Hans the Hunter as follows, &quot;Hey,
-you don&#39;t look so tough!&quot; Lady Pepper notes, &quot;Hans the Hunter was a moron.”’),
-(‘167’,’ HOMELY FAE’,’ Crimson Cave’, ‘Medium’, ‘Meat’, ‘1 egg’, ‘Helpful’,’After the
-President of the Dragon Guilds called the Homely Fae “one ugly beast”, teenagers around the
-world turned the Homely Fae into their mascot, as a sign of (very low-key and poorly
-coordinated) rebellion.’),
-(‘100’, ‘HORNED VENOMOUS WYRM’,’ Crimson Cave’, ‘Small’, ‘Meat &amp; Amethyst’, ‘2
-eggs’, ‘Aggressive’, ‘Unfortunately, the first dracologist to study this species, Hans the Hunter
-the 2nd, learned that it was highly venomous (RIP). It wasn&#39;t until several decades later that a
-second dracologist, Hans the Hunter the 3rd, discovered that it was also highly poisonous
-(RIP).’),
-(‘68’,’ HOSTILE NORTHERN FIREDRAGON’ ,’Crimson Cave’,’Large’,’Meat’, ‘1 egg’,
-‘Aggressive’,’Large and aggressive, these dragons are frequently disruptive to huma settlements.
-They have been known to torch structures to create a diversion, then consume livestock in the
-ensuing chaos.’),
-(‘82’,’ HUSHED OAK-WING FEYDRAGON’,’ Crimson Cave’, ‘Small’, ‘Meat’, ‘3 eggs’,
-‘Shy’, ‘The most striking feature of this dragon is its wings, which ironically look like leaves
-from maple trees. It is thought that mistake originated from a translation error, which was not
-identified until the moniker &quot;Oak-Wing&quot; was already widespread.’),
-(‘166’, ‘HYENIC SERPENT’, ‘Crimson Cave’, ‘Medium’, ‘Meat &amp; Meat’, ‘2 eggs’,
-‘Aggressive’, ‘Though this dragon does have bone-chilling laugh, its name actually comes from
-its diet of 100% hyena meat.’),
-(‘136’,’ IMPENETRABLE REDWYRM’,’ Crimson Cave’, ‘Large’, ‘Meat &amp; Amethyst &amp;
-Amethyst’,’3 eggs’, ‘Aggressive’, ‘The Impenetrable Redwyrm has a though exterior, but its
-loyalty is widespread in the myths and legends of several cultures.’),
-(‘120’, ‘KNOWING GUARDIAN’,’ Crimson &amp; Golden Caves’,’Medium’,’Meat &amp; Gold’, ‘1
-egg’, ‘Helpful’, ‘Generations of selective breeding have decreased the Knowing Guardian’s size
-and created a docile and trainable species. It is a favorite for personal companionship —but only
-for those with plenty of space!’),
-(‘143’,’LAVENDER FEYDRAGON’,’Medium’, ‘Gold &amp; Amethyst’, ‘2 eggs’, ‘Playful’,
-‘Although normally dull gray in appearance, the back scales of the Lavender Feydragon take on
-a brilliant lavender color during its two-week mating season.’),
-(‘35’,’ LAWNDRAKE’,’ Amethyst Cave’,’Hatchling’,’1 egg &amp; Milk &amp; Milk &amp; Milk’,’Playful’,’
-Lawndrakes are common in suburban habitats and have an amazing capacity to find lost jewelry
-and other valuables. The Lawndrake will ultimately give these items back to their owners, but
-not until the owner has sufficiently earned the privilege.’),
-
-(‘9’,’LEAFEATING CRICKETCATCHER’, ‘Golden &amp; Amethyst Caves’,’ Hatchling’,’1 egg &amp;
-Milk’,’Helpful’,’ The Leafeating Cricketcatcher is a popular pest control option on organic
-farms.’),
-(‘132’, ‘LILLIPUTIAN FAE’, ‘Crimson, Golden, &amp; Amethyst Caves’,’Small’,’Coin &amp; Meat &amp;
-Gold &amp; Amethyst’ ,’1 egg’, ‘Aggressive’ ,’ Small but sneaky, the Lilliputian Fae works in
-groups to distract and overpower both invaders and prey.’),
-(‘98’,’ LITTLE AMPHIPTERE’,’ Crimson &amp; Golden Caves’, ‘Small’, ‘None’, ‘1 egg’,
-‘Playful’, ‘Adaptability is one of the primary hallmarks of Little Amphiptere. Although the
-species tends to avoid locations with high human density, it tolerates a wide range of climates,
-from temperate to tropical.’),
-(‘8’, ‘LOYAL FEYDRAGON’, ‘Amethyst Cave’, ‘Hatchling’, ‘1 egg &amp; Milk &amp; Milk &amp; Milk’,
-‘Helpful’, ‘The wings of the Loyal Feydragon change colors depending on its mood. Never
-approach one with solid red wings.’),
-(‘171’, ‘MACABRE LINDWORM’, ‘Golden Cave’, ‘Large’, ‘Gold &amp; Amethyst’, ‘1 egg’,
-‘Playful’, ‘The Macabre Lindworm is known for decorating its vestigial wings with the entrails
-of prey to attract potential mates.’),
-(‘101’, ‘MAGNIFICENT AMPHIPTERE’, ‘Crimson, Golden, &amp; Amethyst Caves’, ‘Large’,
-‘Coin &amp; Meat &amp; Gold &amp; Amethyst’, ‘3 eggs’, ‘Helpful’, ‘The Magnificent Amphiptere is best
-known for its colorful wing and tail plumage among both males and females. This plumage is
-made of feathers instead of scales, which is uncommon in the dragon world.’),
-(‘84’, ‘MALCONTENT VENOMOUS WYRM’, ‘Golden Cave’, ‘Small’, ‘Meat &amp; Gold’, ‘1
-egg’, ‘Aggressive’, ‘This species is poorly understood, as few have encountered one and lived to
-tell the tale.’),
-(‘73’, ‘MARSHY WEBBED DRAGON’, ‘Amethyst Cave’, ‘Medium’, ‘Meat &amp; Meat &amp;
-Amethyst &amp; Amethyst’, ‘1 egg’, ‘Shy’, ‘The webbed wings of this dragon make it both an
-excellent flyer and swimmer. This dragon can seamlessly transition from the air to the water,
-although it prefers to stay hidden in the shallow waters of marshes and tens.’),
-(‘13’, ‘MELLIFERA FEYDRAGON’, ‘Amethyst Cave’ , ‘Hatchling’, ‘1 egg &amp; Milk’,
-‘Aggressive’, ‘In a remarkable example of convergent evolution, the Mellifera Feydragon looks
-almost identical to the humble honeybee, and was long thought to be a subspecies of Apis
-Mellifera. Only in 2023 did dracologists discover that it is actually a feydragon, with a complete
-internal skeleton (instead of an exoskeleton).’),*/
+('57', 'ETERNAL FEYDRAGON', 'Golden Cave', 'Medium', 'Gold & Gold & Amethyst', '1 egg', 'Helpful', 'Although this species not especially long-lived, a special genetic memory grants its hatchlings the inherited knowledge and skills of their ancestors.'),
+('21', 'FAE TAMARIN', 'Amethyst Cave', 'Hatchling', 'Egg & Milk & Milk', null, 'Shy', 'Due to its uniquely other-worldly appearance many dracologists believe that the Fae Tamarin evolved in an alternate dimension, inadvertently crossing over just a few thousand years ago.'),
+('151', 'FANGED BROADWYRM', 'Golden Cave', 'Large', 'Meat & Gold & Gold', '3 eggs', 'Playful', 'With its incredibly strong jaws and sharp teeth, an infant of this species was once observed biting a diesel locomotive in half. The infant was thought to be teething.'),
+('5', 'FANGED FEYDRAGON', 'Golden Cave', 'Hatchling', 'Egg & Milk & Milk & Milk', null, 'Playful', 'This dragon is normally friendly and docile, but slumbers deeply. If startled awake, the feydragon will attack anything in sight, including kin.'),
+('96', 'FASTIDIOUS HORNED DRAGON', 'Golden & Amethyst Caves', 'Small', 'Gold & Amethyst', '2 eggs', 'Playful', 'Males of this species attract females through elaborate courtship rituals, in which they fly in elaborate patterns, letting sunlight glisten off their bright blue scales. To keep their scales shiny, males spent significant time grooming, rightly earning the name "fastidious.'),
+('176', 'GNAWING SERAPH', 'Golden Cav', 'Small', 'Gold', '1 egg', 'Playful', 'The Gnawing Seraph is named for is parasitic feeding method: It latches onto large prey, drinking its fill before moving on. The seraph&#39;s saliva is numbing to most animals, so it is able to feast and disappear long before its host notices that anything is amiss.'),
+('10','MELODIOUS FIREDRAGON','Crimson & Amethyst Caves', 'Hatchling', 'egg & milk',null, 'Helpful', 'When submerged, the heat radiated by a single Melodious Firedragon egg can boil 5 liters of water (1.3 gallons) in 10 minutes.'), 
+('155', 'MERCENARY WYVERN','Crimson Cave', 'Large', 'Meat & Amethyst & Amethyst', '3 eggs', 'Playful', 'Viewved from the tront, this dragon seems almost otherworldly, with its bright coloring and ethereal plumage. Viewed from the back, it is very dull and very plainly a Wyvern.'), 
+('164', 'METAMORPHIC FEYDRAGON', 'Golden Cave', 'Small', 'Coin & Gold & Gold', '4 eggs', 'Helpful', 'The Metamorphic Feydragon can take on the appearance of any dragon, but cannot change its size. Any small dragon could potentially be a Metamorphic Feydragon in disguise.'), 
+('93', 'MINIATURE CRESTED COATL', 'Golden Cave', 'Small', 'Gold', '1 egg', 'Playful', 'From  a distance, this coatl is often mistaken for I a bird. Only up close can it be observed that the dragon is scaled instead of feathered, from the tip of its nose to its distinctive tail scales.'), 
+('20','MINIATURE REX', 'Amethyst Cave', 'Hatchling', 'Gold', '1 egg', 'Playful', 'The Miniature Rex may look cute, but even as a I hatchling it has sharp claws, sharper teeth, and breathes fire. Wise humans keep their distance.'), 
+('106','MINOR SHARPCLAW','Crimson, Golden, & Amethyst Caves','Small', 'Coin', '3 eggs', 'Aggressive', 'The Minor Sharpclaw has major attitude. Although it is too small to do much damage, it makes itself such a nuisance that other species steer clear.'),
+('108', 'GOOD DRAKE', 'Golden Cave', 'Medium', 'Gold & Gold & Amethyst', '1 egg', 'Helpful', 'Throughout much of human history Good Drakes formed symbiotic relationships with humans in hunter-gatherer camps, warning humans of incoming predators in exchange for leftover food. Although they are not &quot;domesticated&quot; to the extent that dogs are, there are some (largely within the Plains Guild) who still keep Good Drakes as pets.'),
+('42', 'GREAT GOLDEN LUNG', 'Golden Cave', 'Large', 'Gold & Gold & Amethyst', '3 eggs', 'Helpful', 'The Great Golden Lung Dragon typically rises at dawn. Catching a glimpse of one in the morning light is considered a sign of good furtune.'),
+('148', 'GREAT HORNED WYVERN', 'Crimson Cave', 'Large', 'Meat & Gold & Gold', '3 eggs', 'Playful', 'Unlike other wyverns, the horns of the Great Horned Wyvern change color depending on when it last ate. . A dark color indicates that the wyvern has just eaten, whereas a pale color means that it may be on the prowl.'),
+('161', 'GREATER SCORPIO', 'Golden Cave', 'Large', 'Meat & Gold', '2 eggs', 'Aggressive', 'Lady Pepper''s Anthology of Dragons quotes the last words of Hans the Hunter as follows, "Hey, you don''t look so tough!"; Lady Pepper notes, "Hans the Hunter was a moron."'),
+('167', 'HOMELY FAE', 'Crimson Cave', 'Medium', 'Meat', '1 egg', 'Helpful', 'After the President of the Dragon Guilds called the Homely Fae “one ugly beast”, teenagers around the world turned the Homely Fae into their mascot, as a sign of (very low-key and poorly coordinated) rebellion.'),
+('100', 'HORNED VENOMOUS WYRM', 'Crimson Cave', 'Small','‘Meat & Amethyst', '2 eggs', 'Aggressive', 'Unfortunately, the first dracologist to study this species, Hans the Hunter the 2nd, learned that it was highly venomous (RIP). It wasn&#39;t until several decades later that a second dracologist, Hans the Hunter the 3rd, discovered that it was also highly poisonous (RIP).'),
+('68', 'HOSTILE NORTHERN FIREDRAGON' , 'Crimson Cave', 'Large', 'Meat', '1 egg', 'Aggressive' , 'Large and aggressive, these dragons are frequently disruptive to huma settlements. They have been known to torch structures to create a diversion, then consume livestock in the ensuing chaos.'),
+('82', 'HUSHED OAK-WING FEYDRAGON', 'Crimson Cave', 'Small', 'Meat', '3 eggs', 'Shy', 'The most striking feature of this dragon is its wings, which ironically look like leaves from maple trees. It is thought that mistake originated from a translation error, which was not identified until the moniker &quot;Oak-Wing&quot; was already widespread.'),
+('166', 'HYENIC SERPENT', 'Crimson Cave', 'Medium', 'Meat & Meat', '2 eggs', 'Aggressive', 'Though this dragon does have bone-chilling laugh, its name actually comes from its diet of 100% hyena meat.'),
+('136', 'IMPENETRABLE REDWYRM', 'Crimson Cave', 'Large', 'Meat & Amethyst & Amethyst', '3 eggs', 'Aggressive', 'The Impenetrable Redwyrm has a though exterior, but its loyalty is widespread in the myths and legends of several cultures.'),
+('120','‘KNOWING GUARDIAN', 'Crimson & Golden Caves', 'Medium', 'Meat & Gold', '1 egg', 'Helpful', 'Generations of selective breeding have decreased the Knowing Guardian’s size and created a docile and trainable species. It is a favorite for personal companionship — but only for those with plenty of space!'),
+('143', 'LAVENDER FEYDRAGON', 'Amethyst Cave', 'Medium', 'Gold & Amethyst', '2 eggs', 'Playful', 'Although normally dull gray in appearance, the back scales of the Lavender Feydragon take on a brilliant lavender color during its two-week mating season.'),
+('35', 'LAWNDRAKE', 'Amethyst Cave', 'Hatchling', 'Egg & Milk & Milk & Milk', null, 'Playful', 'Lawndrakes are common in suburban habitats and have an amazing capacity to find lost jewelry and other valuables. The Lawndrake will ultimately give these items back to their owners, but not until the owner has sufficiently earned the privilege.'),
+('9', 'LEAFEATING CRICKETCATCHER', 'Golden & Amethyst Caves', 'Hatchling', 'Egg & Milk', null, 'Helpful', 'The Leafeating Cricketcatcher is a popular pest control option on organic farms.'),
+('132', 'LILLIPUTIAN FAE', 'Crimson, Golden, & Amethyst Caves', 'Small', 'Coin & Meat & Gold & Amethyst', '1 egg', 'Aggressive' , 'Small but sneaky, the Lilliputian Fae works in groups to distract and overpower both invaders and prey.'),
+('98', 'LITTLE AMPHIPTERE', 'Crimson & Golden Caves', 'Small', 'None', '1 egg', 'Playful', 'Adaptability is one of the primary hallmarks of Little Amphiptere. Although the species tends to avoid locations with high human density, it tolerates a wide range of climates, from temperate to tropical.'),
+('8', 'LOYAL FEYDRAGON', 'Amethyst Cave', 'Hatchling', 'Egg & Milk & Milk & Milk', null, 'Helpful', 'The wings of the Loyal Feydragon change colors depending on its mood. Never approach one with solid red wings.'),
+('171', 'MACABRE LINDWORM', 'Golden Cave', 'Large', 'Gold & Amethyst', '1 egg', 'Playful', 'The Macabre Lindworm is known for decorating its vestigial wings with the entrails of prey to attract potential mates.'),
+('101', 'MAGNIFICENT AMPHIPTERE', 'Crimson, Golden, & Amethyst Caves', 'Large', 'Coin & Meat & Gold & Amethyst', '3 eggs', 'Helpful', 'The Magnificent Amphiptere is best known for its colorful wing and tail plumage among both males and females. This plumage is made of feathers instead of scales, which is uncommon in the dragon world.'),
+('84', 'MALCONTENT VENOMOUS WYRM', 'Golden Cave', 'Small', 'Meat & Gold', '1 egg', 'Aggressive', 'This species is poorly understood, as few have encountered one and lived to tell the tale.'),
+('73', 'MARSHY WEBBED DRAGON', 'Amethyst Cave', 'Medium', 'Meat & Meat & Amethyst & Amethyst', '1 egg', 'Shy', 'The webbed wings of this dragon make it both an excellent flyer and swimmer. This dragon can seamlessly transition from the air to the water, although it prefers to stay hidden in the shallow waters of marshes and tens.'),
+('13', 'MELLIFERA FEYDRAGON', 'Amethyst Cave' , 'Hatchling', 'Egg & Milk', null, 'Aggressive', 'In a remarkable example of convergent evolution, the Mellifera Feydragon looks almost identical to the humble honeybee, and was long thought to be a subspecies of Apis Mellifera. Only in 2023 did dracologists discover that it is actually a feydragon, with a complete internal skeleton (instead of an exoskeleton).'),
+('15', 'REDWOOD LUNG DRAGON', 'Amethyst Cave' , 'Hatchling', 'Egg & Milk', null, 'Shy', 'The Redwood Lung Dragon was named for its habitat. It burrows under the roots of redwood trees, making itself a nest that lasts for centuries.'),
+('163', 'RETICENT MANTA', 'Crimson Cave', 'Small', 'Meat & Gold', '2 eggs', 'Playful', 'The Reticent Manta glows vividly under ultraviolet light thanks to pigments in its scales. This discovery was made entirely by accident.'),
+('168', 'RINGTAIL SERPENT', 'Crimson Cave', 'Medium', 'Meat', '1 eggs', 'Helpful', 'Affectionately referred to as a "Trash Panda" by urbanites, this species enjoys digging through garbage even more than its (ringtail) raccoon namesake.'),
+('140', 'ROCKY ROCKBREAKER', 'Amethyst Cave', 'Medium', 'Meat & Amethyst & Amethysyt', '2 eggs', 'Shy', 'Most species of rockhreaker use their powerful jaws to dig the tunnels that they call home. The Rocky Rockbreaker, on the other hand, does the majority of its digging with its curiously strong toes.'),
+('142', 'ROYAL WYVERN', 'Golden & Amethyst Caves', 'Medium', 'Gold & Amethyst', '2 eggs', 'Aggressive', 'Statues of the Royal Wyvern have greeted guests at noble weddings throughout history. It is unknown how this trend began. Although the statues are a symbol of serenity, the temperament of the wyvern itself is very much the opposite.'),
+('12', 'SAVANNA DRAGONETTE', 'Golden Cave', 'Hatchling', 'Egg & Milk & Milk & Milk', null, 'Playful', 'As a hatchling, the Savannah Dragonette has the ability to camouflage itself to match virtually any surrounding. This ability is lost as an adult, a phenomenon that continues to baffle dracologists.'),
+('113', 'SHALY ROCKBREAKER', 'Amethyst Cave', 'Large', 'Coin & Amethyst & Amethyst', '1 egg', 'Shy', 'This rockbreaker is often heard but rarely seen. It makes a distinctive crunching sound as it chews rock to build an ever-growing network of caverns in search of rare purple crystals.'),
+('128', 'SHARP-TONGUED SPITTER', 'Crimson Cave', 'Small', 'Meat & Amethyst', '2 eggs', 'Aggressive', 'The harvesting of dragon venom was outlawed by the Dragon Protection Act of 1972. However, the Sharp-Tongued Spitter faces significant poaching from humans as its venom remains a prized ingredient in several traditional cuisines. (The flavor of the venom can only be described by enthusiasts as tasting of "yellow.")'),
+('152', 'SHRIEKING AMPHIPTERE', 'Crimson Cave', 'Large', 'Meat & Meat', '2 eggs', 'Playful', 'When startled, males make the characteristic "shriek" that gave the species its name. Thus, it is not surprising that females do the majority of a packs hunting.'),
+('28', 'SILENT COBRETTE', 'Amethyst Cave', 'Hatchling', 'Egg & Milk & Milk & Milk', null, 'Aggressive', 'The Silent Cobrette is the only species of cobrette that does not produce venom. Dracologists believe that the species became so adept at hunting through stealth that its need for venom disappeared, as did its ability to produce it.'),
+('29', 'SINGEING REMORA', 'Amethyst Cave', 'Hatchling', 'Egg & Milk & Milk', null, 'Aggressive', 'In 1991, dracologists discovered that the Singeing Remora is not an independent species after all, but actually the juvenile of the Flaming Remora. Juveniles live separately from adults, so their relationship was not properly understood until trail cameras became widely available.'),
+('130', 'SMIRKING RIDGEBACK', 'Crimson Cave', 'Small', 'Meat', '1 egg', 'Playful', 'The Smirking Ridgeback''s pronounced underbite lends its jaw the strength needed to crush granite, its favorite food.'),
+('137', 'STARLIT SHEPHERD', 'Amethyst Cave', 'Medium', 'Coin & Amethyst', '3 eggs', 'Playful', 'The Starlit Shepherd is one of the friendliest species of dragons. To these wonderful and innocent creatures, each stranger is a new best friend unless proven otherwise.'),
+('174', 'STEADFAST SOUTHERN DRAKE', 'Crimson Cave', 'Medium', 'Meat', '1 egg', 'Helpful', 'The spread of the invasive kudzu has greatly reduced numbers of the Steadfast Southern Drake. Kudzu is highly toxic to the species, but tastes delicious to them.'),
+('60', 'STEALTHY RUFFTAIL', 'Crimson Cave', 'Large', 'Meat & Gold', '2 eggs', 'Shy', 'Often mistaken for a jaguar, the Stealthy Rufftail can be identified by its slightly darker coloration and bright red tail.'),
+('147', 'STEELY FAE', 'Golden Cave', 'Medium', 'Gold & Gold & Amethyst', '1 egg', 'Playful', 'This species became widely domesticated after it was discovered that a strong electric current runs through the fae, providing enough energy to replace a medium-sized generator. The Dragon Protection Act of 1972 sets strict standards for humane working conditions for the Steely Fae.'),
+('81', 'STOIC GRYPHDRAGON', 'Crimson Cave', 'Large', 'Coin & Meat' , '3 eggs', 'Shy', 'This species can remain virtually motionless for hours, and is well adapted to living alonside humans in urban environments. On more than one occasion, a Stoic Gryphdragon has been mistaken for a gargoyle, much to the surprise of passersby.'),
+('41', 'STRIPED DRAGONETTE', 'Crimson & Golden Caves', 'Small', 'Meat & Gold', '2 eggs', 'Playful', 'The tiny Striped Dragonette weighs a mere 0.3 kg (11 ounces).'),
+('182', 'WADDY''S RUFFTAIL', 'Golden Cave', 'Medium', 'Meat & Gold & Gold', '3 eggs', 'Aggressive', 'Waddy''s Rufftail was discovered by Messieurs Walter and Biddy of the Plains Guild. In a move that some regard as gauche, the duo named the species with a portmanteau of their own names.'),
+('183', 'WARMING FIREVERN', 'Crimson & Golden Caves', 'Large', 'Meat & Meat & Gold & Gold', '2 eggs', 'Helpful', 'The Warming Firevern often comes to the aid of frozen travelers. Unfortunately, accepting this aid is risky: There''s a fine line between toasty and just toast.'),
+('178', 'WATCHFUL WYVERN', 'Crimson Cave', 'Large', 'Meat & Amethyst', '2 eggs', 'Helpful', 'These wyverns nest next to volcanoes, where they appear to be watching and waiting. Their presence is thought to keep volcanoes dormant. They are nearly extinct.'),
+('85', 'WEALTHY KOIWYRM', 'Crimson Cave', 'Small', 'Meat & Gold', '2 eggs', 'Aggressive', 'Named after the colorful koi fish it imitates, this species is known for hoarding large caches of shiny objects from gold nuggets to tin foil.'),
+('39', 'WEARY GRYPHDRAGON', 'Crimson, Golden, & Amethyst Caves', 'Large', 'Meat & Gold & Amethyst Caves', '2 eggs', 'Shy', 'The Weary Gryphdragon''s large body mass and small wings make it a poor flyer. Although this species nests in large trees for protection at night, it spends most of its waking hours on the ground.'),
+('1', 'WHITE-BELLIED GRAZER', 'Golden Cave', 'Hatchling', 'Egg & Milk', null, 'Shy', 'This grazer''s voraciousness for milk as a hatchling is legendary. A single grazer has been known to deplete an entire lactating herd of milk, and will resort to eating whole animals after the milk runs dry.'),
+('103','MISERLY AMPHIPTERE','Golden Cave','Medium','Gold','1 egg','Aggressive','The Miserly Amphiptere lives in relatively barren regions where food is scarce. This scarcity likely explains this species'' aggressive tendencies in protecting its (meager) food supplies.'),
+('124','MOSAIC GUARDIAN','Crimson, Golden, &Amethyst Caves', 'Large','Coin & Meat & Gold & Amethyst', '1 egg','Helpful','Often found in the company of the Variegated Amphiptere, the Mosaic Guardian is a nomadic species that never stops moving. Legend has it that they tirelessly patrol the world, ready to defend it against threats new or old.'),
+('71','MULTICOLOR FLYER','Crimson & Golden Caves','Medium', 'Meat & Gold & Gold','1 egg','Playful','Several ancient cultures have visted the Mulicolor
+gifted all the colors of the rainbow by the Dragon God as a reward for services rendered in ancient times.'),
+('99','NIMBLE TRILLING AMPHIPTERE','Crimson & Amethyst Caves','Large','Meat & Meat & Amethyst & Amethyst', '2 eggs', 'Aggressive','The Nimble Trailing Amphiptere is rarely seen
+but often heard. Its primary call, a high-pitched "kekekeke" that is used to herd prey, can be heard up to 2.5 kilometers (1.5 miles) away.'),
+('86','NORTHERN CAVALIER WYVERN', 'Golden Cave', 'Large','Meat & Gold & Gold','1 egg', 'Shy','The Northern Cavalier Wyvern is a master at gliding. Individuals spend virtually their whole lives in the air, only landing for a few months each decade to lay and hatch eggs.'),
+('94','NORTHERN GRYPHDRAGON','Crimson, Golden, & Amethyst Caves','Small','Coin','2 eggs','Shy','The Northern Gryphdragon is often seen at higher elevations, which may explain why it was chosen for the sigil of the Guild of Highlands.'),
+('179','NURTURING FEYDRAGON', 'Crimson, Golden, & Amethyst Caves', 'Small', 'Meat & Gold & Amethyst', '4 eggs', 'Helpful','This dragon likes children and dogs, and is thought to have a preternatural ability to calm both. That said, one cry (or one bark) and the Nurturing Feydragon disappears.'),
+('149','OPHIDIAN RECLUSE','Crimson, Golden, & Amethyst Caves', 'Medium','Meat & Gold & Gold & Amethyst', '1 egg','Aggressive','The Ophidial Recuse has only been sighted twice in the recorded history( both times by members of the Rainforest Guild). Dracologists are divided on whether it exists at all.'),
+('139', 'ORACULAR DRAGON', 'Crimson & Amethyst Caves','Small', 'Meat & Amethyst & Amethyst', '4 eggs', 'Shy','Then the Oracular Dragon is asleep, it breathes with a heavy wheeze that sounds much like a human whispering. Travelers who have managed to approach one without waking it report hearing mysterious prophecies, most of which ultimately come to pass.'),
+('91','ORDINARY RESPLENDENT COAT',' Crimson, Golden, & Amethyst Caves','Medium','Meat & Gold & Amethyst','3 eggs','Playful', 'Although this dragon cannot understand speech (to the best of dracologists'' knowledge), it does have an uncanny ability to sense human tone and intent. A surefire way to upset this dragon is to call it "ordinary" to its face!'),
+('47','OWLATIC AMPHIPTERE','Golden Cave','Medium', 'Gold & Gold', '2 eggs','Shy', 'Especially well-adapted for hunting at night,the Owlatic Amphiptere is a terror to small nocturnal animals. One adult is capable of eating over 1000 dragonmice each year, in addition to the occasional olivaceous possum snack.'),
+('95','PACIFISTIC WEB-TOED SERPENT', 'Amethyst Cave','Small', 'Coin & Gold & Amethyst', '4 eggs', 'Playful','Ironica y the favorite snack of this dragon is the dove, a traditional sign of peace.'),
+('78','PARTICULARLY HAUGHTY WYVERN', 'Amethyst Cave','Small','Amethyst & Amethyst', '3 eggs','Playful', 'Although most wyverns are haughty, this species is particularly so.'),
+('70', 'PATIENT REDWYRM','Crimson & Amethyst Caves', 'Small', 'Meat & Amethyst', '5 eggs', 'Shy','A highly adept hunter, the Patient Redwyrm has been known to lie in wait for its prey for hours or even days.'),
+('111','PENURIOUS RED WYRM','Crimson Cave','Medium','Meat & Amethyst', '2 eggs', 'Aggressive', 'Whenever the Penurious Red Wyrm catches more prey than it needs, it caches the food for storage deep in climate-controlled caves. The food may remain there for months or even years.'),
+('65','PERCEPTIVE ANTELDRAGON', 'Amethyst Cave', 'Large', 'Gold & Amethyst & Amethyst', '1 egg', 'Helpful','Endowed with extraordinarily keen senses, this dragon has been known to forecast storms and provide warnings of imminent seismic activity.'),
+('16','PEREGRINE FIREDRAGON', 'Golden & Amethyst Caves', 'Hatchling', 'Egg & Milk', null, 'Playful', 'When in flight, the Peregrine Firedragon looks much like its namesake, the peregrine falcon.The main difference is that the Peregrine Firedragon also shoots fire as it flies, cooking its prey in midair.'),
+('144', 'PLAYFUL HORNWYRM', 'Crimson, Golden, & Amethyst Caves', 'Medium', 'Coin & Meat & Gold & Amethyst','4 eggs', 'Playful','The Playful Hornwyrms fondness for cow''s milk and sugarcane can make ice cream hard to find in certain equatorial regions, particularly during its nursing season.'),
+('102', 'POCKET AMPHIPTERE','Crimson, Golden, & Amethyst Caves','Small', 'Coin', '3 eggs', 'Playful', 'The Pocket Amphitere is one of the smallest species of amphiptere. Adults weigh just over 3 grams (0.11 ounces).'), 
+('69','PRESCIENT GRYPHDRAGON','Golden Cave', 'Large', 'Gold & Gold', '2 eggs', 'Shy', 'Extremely elusive, these dragons live up to their name with an almost supernatural ability to anticipate intruders, typically fleeing long before the intruder arrives.'),
+('61','PRIMEVAL WYRM', 'Crimson & Golden Caves','Large','Coin & Meat & Gold', '2 eggs', 'Aggressive', 'Dracologists believe they are able to trace the evolutionary history of the Primeval Wyrm back to the Permian period, almost 300 million years ago.'),
+('72','PRIMORDIASAUR', 'Golden Cave', 'Medium', 'Coin & Gold & Gold', '3 eggs', 'Shy', 'Dracologist disagree on the Prinordiasaur''s relationship to other modern dragons. The prevailing theory links it to the sea serpents, but vocal dissidents argue that it is more closely related to the wyrms.'), 
+('90','PROTECTIVE AMPHIPTERE','Crimson & Amethyst Caves', 'Large', 'Meat & Amethyst & Amethyst','2 eggs', 'Playful', 'The Protective Amphiptere is a creature of routine. Each day is made up of six strictly scheduled segments, three of which are "playtime.'),
+('107', 'PUCK''S HORNED DRAKE','Crimson Cave', 'Small', 'Meat & Meat', '3 eggs', 'Playful', 'This drake has been known to "help" hikers,by carefully guiding them into gullies and trenches, then turning them around and refusing to show them the exit. It is believed that the drake finds human struggles to be entertaining.'),
+('126','QUARTZY ROCKBREAKER', 'Golden Cave', 'Large', 'Gold & Amethyst', '1 egg', 'Shy', 'Despite its large size, the Quartzy Rockbreaker is surprisingly nimble. It can squeeze through impossibly small holes, presumably due to its ability to dislocate most of its joints.'),
+('46','RAINBOW GUARDIAN', 'Crimson, Golden, & Amethyst Caves','Large','Coin','1 egg', 'Aggressive','Laying only 1 egg every two years, the rare Rainbow Guardian is fiercely protective of its eggs. On several instances, unwary hikers have been forced to flee after accidentally wandering too close to a Guardian''s nest.'),
+('23','RAVENOUS GRANITE DRAGON','Amethyst Cave','Hatchling','Egg & Milk', null,'Aggressive','The appetite of the Ravenous Granite Dragon is so great that it needs a territory of approximately eight square kilometers (2000 acres) to support each individual. As a result, these dragons meet only to briefly mate, earning them the nickname "The Lonely Hunters."'),
+('125','RED GUARDIAN','Crimson Cave','Large', 'Meat & Meat', '2 eggs', 'Helpful','Colloquially known as "Red Zorro", the Red Guardian commonly gifts food to species it believes to be inferior,including humans.'),
+('129','RED-CRESTED GRYPHDRAGON','Golden & Amethyst Caves','Medium','Coin & Gold & Gold & Amethyst', '2 eggs','Playful','The Red-Crested Gryphdragon often forms packs with misfit members of other dragon species.'),
+('64','SCALY ROCK DRAGON','Golden Cave', 'Large','Gold & Gold & Gold', '2 eggs', 'Helpful','Thanks to its stone-like coloring and the intricate pattern of its scales, the Scaly Rock Dragon is a master of camouflage and is well-suited to mountainous regions.'), 
+('14','SCAVENGING CRICKETCATCHER','Golden Cave','Hatchling','Egg & Milk & Milk', null, 'Aggressive', 'The Scavenging Cricketcatcher is endangered.In addition to being an obligate insectivore, it exclusively eats insects that are already dead before it arrives.'),
+('141','SEA VIPER','Golden & Amethyst Caves', 'Small','Gold & Amethyst','2 eggs', 'Aggressive', 'The Sea Viper can best be described in the words of Captain Tucker, who narrated an encounter with one as follows, "Well, something was struggling, and lord help me when it came out of the water I was sure we were goners. It tore right through the net and burned a hole clean through my boat. I got insurance after that."'),
+('11','SEEDEATING DRAKE','Golden Cave','Hatchling','Egg & Milk', null,'Shy','Along with its mother''s milk, Seedeating Drake A hatchlings must ingest a diet of several specific plants and fruits. This special diet is believed to prepare its digestive system to handle the notoriously spicy firebird, upon which adults exclusively subsist.'),
+('123','SELFISH LUNG DRAGON','Crimson & Amethyst Caves', 'Medium','Meat & Amethyst','2 eggs','Aggressive','Known to attack other creatures for food, shelter,or water( or for no discernible reason at all), the Selfish Lung Dragon lives a solitary life, occasionally partnering with a mate for a short time but otherwise living alone.'),
+('36','SENTINEL FLYER', 'Golden Cave','Large', 'Gold & Gold', '1 egg', 'Playful', 'This species can most often be spotted "patrolling" seaside cliffs. Its tumbling flight pattern -which comes from riding ocean breezes-is the species'' most distinctive characteristic.'),
+('74','SOLITARY BROWN DRAKE','Crimson Cave','Medium','Meat & Amethyst','2 eggs','Shy', 'This species is on the edge of extinction even with extensive human intervention. This drake has intensely anti-social tendencies, which even extend to the majority of potential mates.'),
+('173','SOLITARY REMORA',' Crimson, Golden, & Amethyst Caves', 'Medium', 'Meat & Gold & Amethyst', '1 egg', 'Shy', 'Also known as Diver''s Bane,the Solitary Remora kicks up dust clouds from sea floor whenever a human is spotted. By the time the dust clears, the remora is gone.'),
+('133','SOSSUSVLEI WYVERN','Crimson Cave','Large', 'Coin & Meat & Gold','1 egg', 'Helpful','This wyvern was named posthumously for the nineteenth-century dracologist Nangula Sossusvlei, who still holds the record for cataloging the most dragon species in history.'),
+('145','SOUTHERN MAMMOTH RIDGEDRAGON','Amethyst Cave','Large','Amethyst','3 eggs','Playful','Each spot on a Southern Mammoth RidgeDragon''s wing is believed to represent one hatchling that it has successfully launched into the world.'),
+('88','SPEEDY LUNG DRAGON','Golden Cave','Large', 'Gold & Gold & Gold','1 egg', 'Helpful','The Speedy Lung Dragon changes directions extremely quickly. It is thought that this adaptation co-envolved with its primary food source the marlin.'),
+('83','SPIRITED FIREVERN','Amethyst Cave','Medium','Meat & Amethyst & Amethyst & Amethyst', '3 eggs', 'Playful','Named for their singularly playful temperament, the Spirited Firevern is a highly energetic species. As many as 12 individuals have been seen flying in incredibly intricate, perfectly synchronized displays.The purpose of these displays remains unknown.'),
+('118','SPIRITED HYDRAPTERE','Golden & Amethyst Caves','Small','Gold & Gold & Amethyst & Amethyst','1 egg','Helpful','When necessary, the Spirited Hydraptere can reproduce through budding. The head is the first piece to grow, followed by the tail, then the thorax. In contrast to the Splitting Golden Hydra, the two heads belong to two individuals-who don''t necessarily see eye to eye.'),
+('116','SPLITTING GOLDEN HYDRA','Golden Cave','Large','Gold & Amethyst','2 eggs','Aggressive','The Splitting Golden Hydra is the only known species with a bifurcated cerebrum, which evenly splits the hydras cognitive processes across two nearly identical heads.'),
+('25','SPOTTED LICHENEATER','Amethyst Cave','Hatchling','Egg & Milk & Milk & Milk',null,'Playful','An inhabitant of dank, dark woodlands, this dragon feeds almost exclusively on lichens (especially those in the genera Usnea and Cladonia).'),
+('48','SPRY HORNED LUNG DRAGON','Crimson Cave','Medium','Meat & Meat','2 eggs','Playful','Suprisingly light and fast for its size, the Spry Horned Lung Dragon is well known for teasing humans by flying in close, then whisking away at the last moment. Its playful and mischievous nature delights most humans, though it would be a mistake to consider this dragon "tame" or "gentle"'),
+('110','STALKING DRAKE','Golden Cave','Medium','Gold','1 egg','Aggressive','The Stalking Drake travels in pack and, much like hyena, eats a combination of carrion and live prey(including rats and dragonmice.'),
+('49','STANDARD HORNED LUNG DRAGON','Crimson, Golden, & Amethyst Caves','Medium','Coin & Meat & Gold & Amethyst','3 eggs','Helpful','Average in every way, this lung dragon often fills the early chapters of Dracology 101 textbooks.'),
+('37','SUBTERRANEAN BASILISK','Amethyst Cave','Large','Amethyst & Amethyst','3 eggs','Shy','The Subterranean Basilisk''s effective camouflage, preference for remote caves, and elusive nature means that it was not classified until 1988.'),
+('38','SWIFT LUNG DRAGON','Crimson & Amethyst Caves','Medium','Meat & Amethyst & Amethyst & Amethyst', '1 egg','Helpful','The Swift Lung Dragon is widely considered to be one of the most helpful species of dragon.Several popular dragon fables (including Finding Oasis in Desert and Escape from Lion) are based on interactions with this species.'),
+('44','TAWNY NORTHERN DRAKE','Golden Cave','Medium','Gold & Amethyst & Amethyst','1 egg', 'Shy','The Tawny Northern Drake''s mottled coat changes with the seasons, from white in the winter to a golden brown in the summer.'),
+('53','TAWNY STEPPE WYVERN','Crimson Cave','Medium','Meat & Amethyst','3 eggs','Helpful','The Tawny Steppe Wyvern enjoys human music. Outdoor concerts of all types attract an audience of this species, listening from the rafters or soaring above the venue.'),
+('7','TEMPERATE BAMBOO DRAGON','Golden Cave','Hatchling','Egg & Milk & Milk & Milk',null,'Shy','Temperate Bamboo Dragons of all sexes may give birth to up to 500 hatchlings during their lives.'),
+('175','TENDERING MOTHDRAGON','Golden Cave','Small','Coin','2 eggs','Shy','Due to their atraction to light and high-altitude flight patterns, these mothdragons are often spotted by airline passengers circling their planes at night. Pilots learn to ignore them, even though their aerial acrobatics initially appear threatening to flight safety.'),
+('92','TERRITORIAL SPITTER','Amethyst Cave','Large','Amethyst & Amethyst','2 eggs','Aggressive','Rather than breathing fire, the Territorial Spitter has developed highly acidic saliva that is used as a projectile to deter rivals or protect its territory.'),
+('131','TITANIC COATL','Crimson, Golden, & Amethyst Caves','Large','Coin & Meat & Gold & Amethyst','1 egg', 'Shy','The Titanic Coatl has one of the highest internal body temperatures ever recorded among dragons at 93° Celsius (200% Fahrenheit). As such, one of the primary threats to this species is cold temperatures.'),
+('45','TRANQUIL WYRM','Amethyst Cave','Large','Amethyst & Amethyst','5 eggs','Helpful','Despite to fearsome appearance,the Tranquil Wyrm presents little threat to humans. Unless concerned,individuals will flee instead of engaging in conflict.'),
+('24','VAMPIRIC HORNED DRAGON','Amethyst Cave','Hatchling','Egg & Milk & Milk', null, 'Aggressive','Lady Pepper''s Anthology of Dragons describes the last moments of Hannah the Huntress as follows,"Hannah looked the Vampiric Horned Dragon in the eyes, and in those eyes saw a question: May I pretty please have a little bit of your blood? Hannah answered the unspoken question out loud,"Sure thing, little guy!" Lady Pepper notes, "Like father, like daughter"'),
+('170','VANISHING CREEPER','Crimson Cave','Large','Meat & Meat','2 eggs','Shy','A master of disguise, the Vanishing Creeper can alter the pattern on its wings to blend in with nearly any background.'),
+('112','VARIEGATED AMPHIPTERE','Crimson, Golden, & Amethyst Caves','Medium','Meat & Gold & Amethyst','2 eggs','Playful','The Variegated Amphiptere is typically found in the company of the Mosaic Guardian. It is believed that the amphiptere helps rear the larger dragon''s hatchlings in exchange for protection.'),
+('157','WILY LINDWORM','Crimson Cave','Large','Meat & Gold','2 eggs','Aggressive','Lady Pepper''s Antology of Dragons quotes the last words of Tybalt the Tracker as follows: "Arch!Hans,run!It''s the Willy Lindworm!" Lady Pepper notes,"A good man died that day, and for what purpose?"'),
+('122','YELLOW-BELLIED LUNG DRAGON','Crimson, Golden, & Amethyst Caves','Medium',null,'1 egg','Aggressive','This species is blustering but ultimately harmless.It can most reliably be distinguished from its venomous lookalike cousin, the Selfish Lung Dragon, by the green markings on the underside of its claws - but we don''t recommend getting close enough to check.'),
+('50','WISE ANTELDRAGON','Golden Cave','Small','Gold','1 egg','Helpful','Despite its small stature, the Wise Anteldragon can often be seen presiding over a thunder of dragons of all types. What discussions (if any) take place during these sessions is unknown to humans.')
