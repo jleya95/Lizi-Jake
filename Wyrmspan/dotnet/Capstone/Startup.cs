@@ -72,8 +72,8 @@ namespace Capstone
                 s.SwaggerDoc("v1", new OpenApiInfo
                 {
                     Version = Configuration["APIVersion"],
-                    Title = "Final Capstone API",
-                    Description = "For the final capstone"
+                    Title = "Wyrmspan Dragon Facts API",
+                    Description = "Get all the dragon facts for Wyrmspan!"
                 });
             });
 

@@ -57,6 +57,14 @@ namespace Wyrmspan_Backend.Controllers
             return dragonsFromSearch;
         }
 
+        [HttpGet("Number/{number}/img")]
+        public ActionResult<string> GetDragonImage(int number)
+        {
+            string dragonImgPath = dragonDao.GetDragonImgPath(number);
+
+            return Ok(dragonImgPath);
+        }
+
     }
 
 

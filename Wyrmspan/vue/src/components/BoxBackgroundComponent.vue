@@ -2,7 +2,7 @@
     <div class="container">
         <div class="box">
             <div class="image-section">
-                <img class="dragon-image" src="/img/DragonPics/150.jpg">
+                <img class="dragon-image" :src="this.imgPath" v-if="imgPath != ''">
             </div>
             <div class="content">
                 <div class="name">
@@ -21,7 +21,8 @@
 
 <script>
 import textComponent from '@/components/textComponent.vue';
-import DragonStatsComponent from '@/components/DragonStatsComponent.vue'
+import DragonStatsComponent from '@/components/DragonStatsComponent.vue';
+import DragonService from '../services/DragonService';
 
 export default {
     components: {
@@ -31,8 +32,11 @@ export default {
     props: {
         dragonProp: {
             type: []
+        },
+        imgPath: {
+            type: String
         }
-    },
+    }
 }
 </script>
 
