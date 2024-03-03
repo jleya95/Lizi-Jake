@@ -2,6 +2,7 @@
 using System;
 using System.Collections.Generic;
 using System.Data.SqlClient;
+using System.Diagnostics.CodeAnalysis;
 using Wyrmspan_Backend.Models;
 
 namespace Wyrmspan_Backend.DAO
@@ -179,6 +180,36 @@ namespace Wyrmspan_Backend.DAO
             }
 
             return dragons;
+        }
+
+        public string GetDragonImgPath(int dragonNumber)
+        {
+            string imgPath = "";
+            string sql = "select image_path from dragons where dragon_number = @dragonNumber";
+
+            try
+            {
+                using (SqlConnection conn = new SqlConnection(connectionString))
+                {
+                    conn.Open();
+
+                    SqlCommand cmd = new SqlCommand (sql, conn);
+                    cmd.Parameters.AddWithValue("@dragonNumber", dragonNumber);
+                    object result = cmd.ExecuteScalar();
+
+                    if (result != null)
+                    {
+                        imgPath = result.ToString();
+                    }
+                }
+            }
+            catch (Exception)
+            {
+
+                throw;
+            }
+
+            return imgPath;
         }
 
         private Dragon MapRowToDragon(SqlDataReader reader)

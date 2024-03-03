@@ -23,7 +23,7 @@
   <ul class="listDragons" v-if="showDragons">
     <li v-for="(dragon, index) in Dragons" :key="index"
       :class="{ active: index === activeIndex }">
-      <a @click="showDragonInfo(dragon.name)">{{ dragon.name }}</a>
+      <a @click="showDragonInfo(dragon)">{{ dragon.name }}</a>
     </li>
   </ul>
   <!-- <div class="info" v-if="showInfo">
@@ -40,7 +40,7 @@
         </ul>
   
     </div> -->
-    <BoxBackgroundComponent :dragonProp="DisplayDragon"/>
+    <BoxBackgroundComponent :dragonProp="DisplayDragon" :imgPath="imgPath"/>
     <!-- <textComponent :dragonDescription="DisplayDragon.description" /> -->
 
     
@@ -69,6 +69,7 @@ export default {
       activeIndex: -1,
       showInfo: false,
       DisplayDragon: [],
+      imgPath: ""
     };
   },
   methods: {
@@ -100,16 +101,25 @@ export default {
       this.Search = this.Dragons[index];
       // this.showDragons = false;
     },
-    showDragonInfo(dragonName) {
-      DragonService.getDragonByName(dragonName)
+    showDragonInfo(dragon) {
+      DragonService.getDragonByName(dragon.name)
         .then(response => {
           if (response.status === 200) {
             this.DisplayDragon = response.data;
+            this.getDragonImgPath(dragon.dragon_number);
             this.showInfo = true;
             this.Search = "";
             this.showDragons = false;
           }
         })
+    },
+    getDragonImgPath(dragon_number) {
+      DragonService.getDragonImgPath(dragon_number)
+      .then(response => {
+        if (response.status === 200) {
+          this.imgPath = response.data;
+        }
+      })
     }
   },
   computed: {

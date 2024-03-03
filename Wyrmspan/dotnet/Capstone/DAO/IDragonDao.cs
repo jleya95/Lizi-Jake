@@ -10,6 +10,7 @@ namespace Wyrmspan_Backend.DAO
         List<Dragon> GetSearchResults(string searchQuery);
         Dragon GetDragonByNumber(int number);
         Dragon GetDragonByName(string dragonName);
+        string GetDragonImgPath(int dragonNumber);
 
     }
 }

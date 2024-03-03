@@ -11,7 +11,6 @@
 <script>
 export default {
   props: {
-
     dragonName: {
       type: String,
     },
