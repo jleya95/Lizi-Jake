@@ -1,0 +1,8 @@
+number, name, habitat, size, cost, nest, trait, description
+
+('10','MELODIOUS FIREDRAGON','Crimson & Amethyst Caves', 'Hatchling', 'egg & milk',null, 'Helpful', 'When submerged, the heat radiated by a single Melodious Firedragon egg can boil 5 liters of water (1.3 gallons) in 10 minutes.'), 
+('155', 'MERCENARY WYVERN','Crimson Cave', 'Large', 'Meat & Amethyst & Amethyst', '3 eggs', 'Playful', 'Viewved from the tront, this dragon seems almost otherworldly, with its bright coloring and ethereal plumage. Viewed from the back, it is very dull and very plainly a Wyvern.'), 
+('164', 'METAMORPHIC FEYDRAGON', 'Golden Cave', 'Small', 'Coin & Gold & Gold', '4 eggs', 'Helpful', 'The Metamorphic Feydragon can take on the appearance of any dragon, but cannot change its size. Any small dragon could potentially be a Metamorphic Feydragon in disguise.'), 
+('93', 'MINIATURE CRESTED COATL', 'Golden Cave', 'Small', 'Gold', '1 egg', 'Playful', 'From  a distance, this coatl is often mistaken for I a bird. Only up close can it be observed that the dragon is scaled instead of feathered, from the tip of its nose to its distinctive tail scales.'), 
+('20','MINIATURE REX', 'Amethyst Cave', 'Hatchling', 'Gold', '1 egg', 'Playful', 'The Miniature Rex may look cute, but even as a I hatchling it has sharp claws, sharper teeth, and breathes fire. Wise humans keep their distance.'), 
+('106','MINOR SHARPCLAW','Crimson, Golden, &Amethyst Caves','Small', 'Coin', '3 egg', 'The Minor Sharpclaw has major attitude. Although it is too small to do much damage, it makes itself such a nuisance that other species steer clear.'),
