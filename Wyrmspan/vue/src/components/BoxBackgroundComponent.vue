@@ -51,8 +51,8 @@ export default {
 }
 
 .dragon-image {
-    height: 500px;
-    width: 800px;
+    height: 600px;
+    width: 500px;
     box-shadow: 20px 20px 50px rgba(137, 137, 137, 0.684);
 }
 
