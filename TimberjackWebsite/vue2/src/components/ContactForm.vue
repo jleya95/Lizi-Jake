@@ -2,13 +2,14 @@
     <div class="center-form">
         <!-- <form class="Form" id="ContactForm" method="POST" action="https://formsubmit.co/57a97cd2daec8f5142e6d74ebebe82c0"> -->
         <form class="Form" id="ContactForm">
-            <h1 class="form-h1">WANT US TO CONTACT YOU?</h1>
+            <h1 class="form-h1">WOULD YOU LIKE US TO CONTACT YOU ABOUT SCHEDULING AN ESTIMATE?</h1>
             <div class="field">
                 <label class="label">Name<span class="required">*</span></label>
                 <div class="field-body">
                     <div class="field is-narrow">
                         <p class="control is-expanded has-icons-left">
-                            <input class="input" name="FirstName" type="text" placeholder="First" v-model="Info.Name.First">
+                            <input class="input" name="FirstName" type="text" placeholder="First"
+                                v-model="Info.Name.First">
                             <span class="icon is-small is-left">
                                 <i class="fas fa-user"></i>
                             </span>
@@ -16,7 +17,8 @@
                     </div>
                     <div class="field is-narrow">
                         <p class="control is-expanded has-icons-left">
-                            <input class="input" name="LastName" type="text" placeholder="Last" v-model="Info.Name.Last">
+                            <input class="input" name="LastName" type="text" placeholder="Last"
+                                v-model="Info.Name.Last">
                             <span class="icon is-small is-left">
                                 <i class="fas fa-user"></i>
                             </span>
@@ -43,7 +45,8 @@
                     <div class="field-body is-grouped">
                         <div class="field is-expanded">
                             <p class="control is-expanded">
-                                <input class="input" name="City" type="text" placeholder="City" v-model="Info.Address.City">
+                                <input class="input" name="City" type="text" placeholder="City"
+                                    v-model="Info.Address.City">
                             </p>
                         </div>
                         <div class="field is-grounded">
@@ -139,9 +142,12 @@
                             <input type="radio" name="Service Needed" id="risk" value="Tree Risk Assessment"
                                 v-model="Info.Services">
                             <label for="risk">Tree Risk Assessment</label><br>
-                            <input type="radio" name="Service Needed" id="pruning" value="Tree Pruning and Removal"
+                            <input type="radio" name="Service Needed" id="pruning" value="Tree Pruning"
                                 v-model="Info.Services">
-                            <label for="pruning">Tree Pruning & Removal</label><br>
+                            <label for="pruning">Tree Pruning</label><br>
+                            <input type="radio" name="Service Needed" id="removal" value="Tree Removal"
+                                v-model="Info.Services">
+                            <label for="removal">Tree Removal</label><br>
                             <input type="radio" name="Service Needed" id="land" value="Land and Lot Clearing"
                                 v-model="Info.Services">
                             <label for="land">Land & Lot Clearing</label><br>
