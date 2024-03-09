@@ -96,6 +96,9 @@ export default {
 .Google {
   color: rgb(217, 102, 42);
   display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 8%;
 }
 
 .carousel-container {
