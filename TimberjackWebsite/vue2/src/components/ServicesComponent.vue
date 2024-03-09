@@ -47,7 +47,7 @@
     </div>
     <div class="tree-pruning">
         <div class="flex-container-services">
-            <img src="/img/RoundCornerServiceImgs/RoundedEdits/pruning-edit-modified.png" class="service-img">
+            <img src="/img/RoundCornerServiceImgs/RoundedEdits/pruining2-modified.png" class="service-img">
             <div class="service-text">
                 <h2 class="service-header">TREE PRUNING</h2>
                 <p>Proper pruning enhances the health, safety and appearance of your trees and property…</p>
@@ -69,7 +69,7 @@
             <img class="service-img" src="/img/RoundCornerServiceImgs/timberjack_firewood-modified.png">
         </div>
     </div>
-    <div class="leaf-cleanup">
+    <!-- <div class="leaf-cleanup">
         <div class="flex-container-services">
             <img src="/img/RoundCornerServiceImgs/RoundedEdits/leaf_cleanup-edit-modified.png" class="service-img">
             <div class="service-text">
@@ -80,7 +80,7 @@
                     “No Leaf Left Behind!”</p>
             </div>
         </div>
-    </div>
+    </div> -->
     <div class="truck-crane">
         <div class="flex-container-services">
             <div class="service-text">

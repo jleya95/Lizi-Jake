@@ -11,6 +11,9 @@
         <a class="navbar-item" href="/">
           Home
         </a>
+             <a class="navbar-item" href="/services">
+            Services
+          </a>
 
         <div class="navbar-item has-dropdown is-left about-dropdown" :class="{ 'is-active': dropdownVisible }"
           @click="toggleDropdown">
