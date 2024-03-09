@@ -61,12 +61,12 @@ export default {
         {
           image: '/img/8.jpg',
         },
-        {
-          image: '/img/10.jpeg',
-        },
-        {
-          image: '/img/11.jpeg',
-        },
+        // {
+        //   image: '/img/10.jpeg',
+        // },
+        // {
+        //   image: '/img/11.jpeg',
+        // },
         {
           image: '/img/12.jpg',
         },

@@ -1,6 +1,7 @@
 <template>
     <div class="container">
         <div class="box">
+            <picture-component></picture-component>
             <div class="image-section">
                 <img class="dragon-image" :src="this.imgPath" v-if="imgPath != ''">
             </div>
@@ -15,6 +16,7 @@
                     <text-component :dragonDescription="dragonProp.description"></text-component>
                 </div>
             </div>
+            
         </div>
     </div>
 </template>
@@ -23,11 +25,13 @@
 import textComponent from '@/components/textComponent.vue';
 import DragonStatsComponent from '@/components/DragonStatsComponent.vue';
 import DragonService from '../services/DragonService';
+import PictureComponent from '@/components/PictureComponent.vue'
 
 export default {
     components: {
         textComponent,
-        DragonStatsComponent
+        DragonStatsComponent,
+        PictureComponent
     },
     props: {
         dragonProp: {

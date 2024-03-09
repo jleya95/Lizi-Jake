@@ -1,8 +1,8 @@
 <template>
     <div class="meetOwner">
         <h1 class="meet">MEET THE OWNER</h1>
-    <meet-the-owner-component></meet-the-owner-component>
-    <social-media-icons-mobile-component></social-media-icons-mobile-component>
+        <meet-the-owner-component></meet-the-owner-component>
+        <social-media-icons-mobile-component></social-media-icons-mobile-component>
     </div>
 </template>
 
@@ -20,15 +20,25 @@ export default {
 </script>
 
 <style>
-    .meet{
-        display: flex;
+.meet {
+    display: flex;
     justify-content: center;
     align-items: center;
     margin-bottom: 1%;
     font-size: 200%;
     font-weight: bold;
     color: rgb(20, 91, 30);
-    }
+}
+
+.meetOwner {
+    margin-top: 5%;
+    background-color: rgba(255, 255, 255, 0.777);
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 2%;
+    padding-bottom: 2%;
+    padding-top: 2%;
+}
 
 @media screen and (max-width: 900px) {
 
@@ -42,14 +52,14 @@ export default {
         padding-top: 2%;
     }
 
-    .meet{
+    .meet {
         display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 1%;
-    font-size: 200%;
-    font-weight: bold;
-    color: rgb(20, 91, 30);
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 1%;
+        font-size: 200%;
+        font-weight: bold;
+        color: rgb(20, 91, 30);
     }
 
 
