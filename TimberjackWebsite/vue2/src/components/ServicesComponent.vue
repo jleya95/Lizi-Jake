@@ -1,13 +1,15 @@
 <template>
     <div class="tree-risk-assessment">
         <div class="flex-container-services">
-            <img class="service-img" src="/img/RoundCornerServiceImgs/RoundedEdits/12-edit-modified.png">
+            <img class="service-img-risk" src="/img/RoundCornerServiceImgs/RoundedEdits/risk-modified.gif">
             <div class="service-text">
                 <h2 class="service-header">TREE RISK ASSESSMENT</h2>
-                <p>Let one of our professionals take a walk around your property with you and have a look at the health and
+                <p>Let one of our professionals take a walk around your property with you and have a look at the health
+                    and
                     well
                     being
-                    of your trees. Some times there are potential risks and hazards that go unnoticed to the untrained eye
+                    of your trees. Some times there are potential risks and hazards that go unnoticed to the untrained
+                    eye
                     that
                     can
                     be
@@ -20,10 +22,11 @@
         <div class="flex-container-services">
             <div class="service-text">
                 <h2 class="service-header">TREE REMOVAL</h2>
-                <p>TimberJack Tree Service will remove hazardous and unwanted trees from your property safely & efficiently…
+                <p>TimberJack Tree Service will remove hazardous and unwanted trees from your property safely &
+                    efficiently…
                 </p>
             </div>
-            <img src="/img/RoundCornerServiceImgs/RoundedEdits/tree-removal-cropped-modified.png" class="service-img">
+            <img src="/img/RoundCornerServiceImgs/RoundedEdits/removal-modified.png" class="service-img">
         </div>
     </div>
     <div class="land-lot-clearing">
@@ -42,7 +45,7 @@
                 <h2 class="service-header">STUMP GRINDING</h2>
                 <p>Say goodbye to unsightly stumps and reclaim your yard space...</p>
             </div>
-            <img src="/img/RoundCornerServiceImgs/RoundedEdits/stump_grinding-edit-modified.png" class="service-img">
+            <img src="/img/RoundCornerServiceImgs/RoundedEdits/grinding-modified.png" class="service-img">
         </div>
     </div>
     <div class="tree-pruning">
@@ -60,13 +63,26 @@
                 <h2 class="service-header">FIREWOOD</h2>
                 <p>Need to stock up on firewood at your home or business for the winter months or just looking to have a
                     relaxing
-                    campfire with family and friends this summer/fall. We have dry seasoned firewood that can be delivered
+                    campfire with family and friends this summer/fall. We have dry seasoned firewood that can be
+                    delivered
                     right
                     to
                     your
                     door.</p>
             </div>
             <img class="service-img" src="/img/RoundCornerServiceImgs/timberjack_firewood-modified.png">
+        </div>
+    </div>
+    <div class="truck-crane">
+        <div class="flex-container-services">
+            <div class="service-text">
+                <h2 class="service-header">BUCKET TRUCK & CRANE SERVICE</h2>
+                <p>Need a lift? Building a home? Or have a heavy object that needs to be set in a specific spot? We can
+                    help
+                    with
+                    that too.</p>
+            </div>
+            <img class="service-img" src="/img/RoundCornerServiceImgs/RoundedEdits/bucket-modified.png">
         </div>
     </div>
     <!-- <div class="leaf-cleanup">
@@ -81,17 +97,6 @@
             </div>
         </div>
     </div> -->
-    <div class="truck-crane">
-        <div class="flex-container-services">
-            <div class="service-text">
-                <h2 class="service-header">BUCKET TRUCK & CRANE SERVICE</h2>
-                <p>Need a lift? Building a home? Or have a heavy object that needs to be set in a specific spot? We can help
-                    with
-                    that too.</p>
-            </div>
-            <img class="service-img" src="/img/RoundCornerServiceImgs/RoundedEdits/15-edited-modified.png">
-        </div>
-    </div>
 </template>
 
 <script>
@@ -125,5 +130,7 @@ h2 {
     color: rgb(20, 91, 30);
 }
 
-
+.service-img-risk {
+    height: 400px;
+}
 </style>

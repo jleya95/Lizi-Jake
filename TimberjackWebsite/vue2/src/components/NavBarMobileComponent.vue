@@ -19,7 +19,7 @@
                     <a class="navbar-item" href="/about">About</a>
                     <a class="navbar-item" href="/services">Services</a>
                     <a class="navbar-item" href="/contact">Contact</a>
-                    <a class="navbar-item" href="/MeetTheOwner">Meet The Owner</a>
+                    <!-- <a class="navbar-item" href="/MeetTheOwner">Meet The Owner</a> -->
                 <!-- <div class="socialMedIcon">
                     <span class="icon1">
                             <a class="contact-link" href="/contact">

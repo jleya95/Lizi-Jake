@@ -11,11 +11,15 @@
         <a class="navbar-item" href="/">
           Home
         </a>
-             <a class="navbar-item" href="/services">
-            Services
-          </a>
+        <a class="navbar-item" href="/services">
+          Services
+        </a>
 
-        <div class="navbar-item has-dropdown is-left about-dropdown" :class="{ 'is-active': dropdownVisible }"
+        <a class="navbar-item" href="/about">
+          About
+        </a>
+
+        <!-- <div class="navbar-item has-dropdown is-left about-dropdown" :class="{ 'is-active': dropdownVisible }"
           @click="toggleDropdown">
           <span class="menuDrop2">
             About
@@ -23,32 +27,32 @@
           <div v-if="dropdownVisible" class="navbar-dropdown is-left dropElements">
             <a class="navbar-item itemAbout" href="/about">
               About
-            </a>
+            </a> -->
 
-            <a class="navbar-item itemMeet" href="/MeetTheOwner">
+            <!-- <a class="navbar-item itemMeet" href="/MeetTheOwner">
               Meet the owner
             </a>
           </div>
-          </div>
+        </div> -->
 
-          <a class="navbar-item" href="/services">
+        <!-- <a class="navbar-item" href="/services">
             Services
-          </a>
+          </a> -->
 
-          <a class="navbar-item menuContact" href="/contact">
-            Contact
-          </a>
+        <a class="navbar-item menuContact" href="/contact">
+          Contact
+        </a>
 
-        
 
-      </div>
 
       </div>
 
-      <div class="navbar-end">
+    </div>
 
-        <div class="navbar-start">
-            <a class="numb is-size-3" href="tel:412-770-7617">412-770-7617</a>
+    <div class="navbar-end">
+
+      <div class="navbar-start">
+        <a class="numb is-size-3" href="tel:412-770-7617">412-770-7617</a>
         <div class="navbar-icons">
 
           <span class="icon1">
@@ -83,21 +87,20 @@
 
 <script>
 export default {
-  data() {
-    return {
-      dropdownVisible: false,
-    };
-  },
-  methods: {
-    toggleDropdown() {
-      this.dropdownVisible = !this.dropdownVisible;
-    }
-  }
+  // data() {
+  //   return {
+  //     dropdownVisible: false,
+  //   };
+  // },
+  // methods: {
+  //   toggleDropdown() {
+  //     this.dropdownVisible = !this.dropdownVisible;
+  //   }
+  // }
 };
 </script>
 
 <style>
-
 .numb {
   display: flex;
   align-items: center;
@@ -137,12 +140,14 @@ export default {
   margin-left: 9%;
 }
 
-.navbar-start .navbar-item:first-child:hover, .itemMeet:hover {
+.navbar-start .navbar-item:first-child:hover,
+.itemMeet:hover {
   color: rgb(217, 102, 42);
   background-color: transparent;
 }
 
-.navbar-start .navbar-item:hover, .itemMeet:hover {
+.navbar-start .navbar-item:hover,
+.itemMeet:hover {
   color: rgb(217, 102, 42);
   background-color: transparent;
 }
@@ -207,18 +212,19 @@ export default {
 .logoImage {
   margin-left: 5%;
 }
- .menuDrop2{
-margin-top: 24%;
- }
 
- .menuDrop2:hover{
+.menuDrop2 {
+  margin-top: 24%;
+}
+
+.menuDrop2:hover {
   color: rgb(217, 102, 42);
- }
+}
 
- .dropElements{
+.dropElements {
   background-color: rgba(138, 189, 157, 0.755);
 
- }
+}
 
 
 .dropElements .itemMeet:hover {
@@ -232,10 +238,11 @@ margin-top: 24%;
   background-color: transparent !important;
 }
 
-.itemMeet{
-margin-left: 8%;
+.itemMeet {
+  margin-left: 8%;
 }
-.menuContact{
+
+/* .menuContact {
   margin-left: -3%;
-}
+} */
 </style>
