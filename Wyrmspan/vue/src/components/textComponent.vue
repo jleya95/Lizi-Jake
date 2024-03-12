@@ -54,14 +54,16 @@ export default {
 }
 
 .box2 {
-  width: 45%;
+  width: 450px;
+  height: 250px;
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
   background-color: rgb(255, 255, 255);
   border-radius: 2%;
   box-shadow: 20px 20px 50px rgba(215, 215, 215, 0.684);
   border-style: double;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  overflow-y: auto; 
 }
 
 .content2 {
