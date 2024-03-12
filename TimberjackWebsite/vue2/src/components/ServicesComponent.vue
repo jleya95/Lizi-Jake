@@ -75,6 +75,7 @@
     </div>
     <div class="truck-crane">
         <div class="flex-container-services">
+            <img class="service-img" src="/img/RoundCornerServiceImgs/RoundedEdits/bucket-modified.png">
             <div class="service-text">
                 <h2 class="service-header">BUCKET TRUCK & CRANE SERVICE</h2>
                 <p>Need a lift? Building a home? Or have a heavy object that needs to be set in a specific spot? We can
@@ -82,7 +83,6 @@
                     with
                     that too.</p>
             </div>
-            <img class="service-img" src="/img/RoundCornerServiceImgs/RoundedEdits/bucket-modified.png">
         </div>
     </div>
     <!-- <div class="leaf-cleanup">
