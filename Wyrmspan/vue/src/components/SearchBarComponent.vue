@@ -163,7 +163,7 @@ input {
   top: 17%; 
   margin-left: 31.5%; 
   z-index: 1;
-  border-radius: 2%;
+  /* border-radius: 2%; */
   box-shadow: 10px 10px 50px rgb(222, 222, 222);
 }
 
@@ -194,16 +194,17 @@ input {
   background-color: rgb(255, 255, 255);
   width: 60%;
   position: absolute; 
-  top: 5%; 
+  top: 9%; 
   margin-left: 10%; 
   z-index: 1;
-  border-radius: 2%;
+  /* border-radius: 2%; */
   box-shadow: 10px 10px 50px rgb(222, 222, 222);
 }
 .level-item .field .control input {
     width: 250px !important;
-    padding: 8px !important;
+    padding: 10px !important;
     font-size: 14px !important;
+    height: 40px !important;
   }
 }
 </style>

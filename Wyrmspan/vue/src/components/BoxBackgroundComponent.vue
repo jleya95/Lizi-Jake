@@ -74,7 +74,7 @@ export default {
     width: 80%;
     display: flex;
     flex-direction: row;
-    max-height: 550px;
+    /* max-height: 550px; */
 }
 
 .image-section {
@@ -107,6 +107,36 @@ export default {
 .name {
     display: flex;
     justify-content: flex-end;
+}
+
+@media screen and (max-width: 900px) {
+    .box {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .image-section {
+        width: 100%; 
+        height: 250px; 
+        justify-content: center;
+        margin-bottom: 8%;
+    }
+    .description {
+    margin-top: 5%; 
+    justify-content: center;
+}
+.content{
+    display: flex;
+    justify-content: center;
+}
+.stats{
+    display: flex;
+    justify-content: center;
+}
+.name{
+    display: flex;
+    justify-content: center;
+}
 }
 
 /* .container {
