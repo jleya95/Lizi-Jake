@@ -54,18 +54,43 @@ export default {
 }
 
 .box2 {
-  width: 45%;
+  width: 450px;
+  height: 250px;
+  display: flex;
+  justify-content: flex-end;
+  background-color: rgb(255, 255, 255);
+  border-radius: 2%;
+  box-shadow: 20px 20px 50px rgba(215, 215, 215, 0.684);
+  border-style: double;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  overflow-y: auto; 
+}
+
+.content2 {
+  padding: 3%;
+}
+
+@media screen and (max-width: 900px) {
+  .box2 {
+  width: 450px;
+  height: auto;
   display: flex;
   justify-content: center;
   background-color: rgb(255, 255, 255);
   border-radius: 2%;
   box-shadow: 20px 20px 50px rgba(215, 215, 215, 0.684);
   border-style: double;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  overflow-y: auto; 
 }
-
-.content2 {
-  padding: 3%;
+.container2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  bottom: 10%;
+  right: 20%;
+}
+  
 }
 
 /* .content2 {
@@ -74,7 +99,7 @@ export default {
   justify-content: center;
 } */
 
-@media screen and (max-width: 900px) {
+/* @media screen and (max-width: 900px) {
   .box2 {
     width: 100%;
     display: flex;
@@ -88,19 +113,21 @@ export default {
 
   .content2 {
     height: 250px;
-  }
+  } */
 
-  .container2 {
+  /* .container2 { */
     /* display: flex;
     align-items: right;
     justify-content: right; */
     /* position: fixed; */
-    top: 40%;
-    left: 20%;
+    /* top: 40%;
+    left: 20%; */
     /* right: 50%; */
-    display: flex;
+    /* display: flex;
     align-items: flex-start;
     justify-content: flex-start;
-  }
-}
+  } */
+/* } */
+
+
 </style>
