@@ -1,6 +1,6 @@
 <template>
   <div class="flex-containerHome">
-    <img class="mod-20" src="img/16copyCircle.png">
+    <img class="mod-20" src="/img/16copyCircle.png">
     <div class="text">
       <h1 class="welcome">Welcome to TimberJack Tree Service!</h1>
       <p class="decription">We are your Neighborhoods Tree Care & Tree Removal Professionals!
