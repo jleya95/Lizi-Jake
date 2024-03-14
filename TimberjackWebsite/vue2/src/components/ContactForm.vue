@@ -212,8 +212,8 @@
 </template>
 
 <script>
-import ContactService from '@/services/ContactService.js';
-import FormPopupComponent from '@/components/FormPopupComponent.vue'
+import ContactService from '../services/ContactService.js';
+import FormPopupComponent from '../components/FormPopupComponent.vue'
 
 export default {
     components: {

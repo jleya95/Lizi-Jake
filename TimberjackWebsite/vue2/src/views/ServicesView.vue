@@ -9,7 +9,7 @@
 </template>
 
 <script>
-import ServicesComponent from '@/components/ServicesComponent.vue'
+import ServicesComponent from '../components/ServicesComponent.vue'
 import ServicesMobileComponent from '../components/ServicesMobileComponent.vue'
 import SocialMediaIconsMobileComponent from '../components/SocialMediaIconsMobileComponent.vue';
 
