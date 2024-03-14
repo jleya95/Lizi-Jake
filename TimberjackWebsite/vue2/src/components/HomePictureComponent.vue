@@ -89,6 +89,7 @@ margin-right: 4%;
 
 .mod-20 { 
    height: 600px; 
+   /* height: 90%;  */
    /* height: auto; */
   max-width: 40%;
   /* margin: 5%; */
@@ -143,7 +144,7 @@ margin-right: 4%;
   .mod-20 {
     max-width: 95%;
     margin: 2; 
-    height: 50%;
+    max-height: 50%;
   }
   .exceed{
   font-size: 180%;
