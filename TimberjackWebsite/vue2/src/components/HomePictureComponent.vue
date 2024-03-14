@@ -13,7 +13,7 @@
       <p class="email">TIMBERJACKTREE@GMAIL.COM</p> -->
       <p class="licensed">FULLY LICENSED & INSURED</p>
       <div class="bbb">
-      <img src="img/bbb.png">
+      <img src="/img/bbb.png">
     </div>
       <div style="clear: both;"></div>
     </div>
