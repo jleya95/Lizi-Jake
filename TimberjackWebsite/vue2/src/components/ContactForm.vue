@@ -203,7 +203,7 @@
             </div>
         </form>
         <div class="form-image">
-            <img src="img/formpic.jpg" alt="Image">
+            <!-- <img src="img/formpic.jpg" alt="Image"> -->
         </div>
     </div>
     <div v-if="showPopUp" class="popup">
