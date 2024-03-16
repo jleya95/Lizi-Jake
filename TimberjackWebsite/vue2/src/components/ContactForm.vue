@@ -341,7 +341,7 @@ img {
 }
 
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1024px) {
 
     .center-form {
         display: flex;

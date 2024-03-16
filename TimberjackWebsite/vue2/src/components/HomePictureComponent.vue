@@ -126,7 +126,7 @@ margin-right: 4%;
   height: auto; 
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1024px) {
  
   .flex-containerHome {
     flex-direction: column;
@@ -143,7 +143,7 @@ margin-right: 4%;
   .mod-20 {
     max-width: 95%;
     margin: 2; 
-    height: 50%;
+    height: 30%;
   }
   .exceed{
   font-size: 180%;

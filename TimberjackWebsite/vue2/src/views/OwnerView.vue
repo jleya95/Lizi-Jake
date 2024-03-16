@@ -40,7 +40,7 @@ export default {
     padding-top: 2%;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1024px) {
 
     .meetOwner {
         margin-top: 5%;

@@ -48,7 +48,7 @@ export default {
     font-size: 140%;
     color: rgb(217, 102, 42);
 }
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1024px) {
   .contact{
   margin-top: 5%;
   background-color: rgba(255, 255, 255, 0.777);
