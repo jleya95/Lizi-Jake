@@ -47,7 +47,7 @@ export default {
         //   image: '../TimberjackWebsite/vue2/img/2.3.jpg',
         // },
         {
-          image: '../assets/img/4.jpg',
+          image: '/img/4.jpg',
         },
         // {
         //   image: '/img/5.jpg',
