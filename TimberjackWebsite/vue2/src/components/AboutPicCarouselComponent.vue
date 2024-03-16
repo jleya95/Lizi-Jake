@@ -38,7 +38,8 @@ export default {
     return {
       slides: [
         {
-          image: '/img/20.png',
+          // image: '/img/20.png',
+          image: '..........',
         },
         // {
         //   image: '/img/1.1.jpg',
