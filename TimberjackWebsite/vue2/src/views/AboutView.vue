@@ -42,7 +42,7 @@ export default {
     color: rgb(20, 91, 30);
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1024px) {
   .about{
   margin-top: 5%;
   background-color: rgba(255, 255, 255, 0.777);

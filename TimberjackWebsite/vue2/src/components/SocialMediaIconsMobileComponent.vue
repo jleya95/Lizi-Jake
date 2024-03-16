@@ -47,7 +47,7 @@ created() {
 </script>
 
 <style>
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1024px) {
 .socialMedIcon{
     display: flex;
     align-items: center;

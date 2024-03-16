@@ -125,7 +125,7 @@ h2 {
     color: rgb(20, 91, 30);
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1024px) {
 
     .flex-container-services {
     margin-left: 5%;
