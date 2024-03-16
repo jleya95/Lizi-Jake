@@ -1,6 +1,6 @@
 <template>
   <div class="flex-containerHome">
-    <img class="mod-20" src="img/16copyCircle.png">
+    <img class="mod-20" src="/img/16copyCircle.png">
     <div class="text">
       <h1 class="welcome">Welcome to TimberJack Tree Service!</h1>
       <p class="decription">We are your Neighborhoods Tree Care & Tree Removal Professionals!
@@ -13,7 +13,7 @@
       <p class="email">TIMBERJACKTREE@GMAIL.COM</p> -->
       <p class="licensed">FULLY LICENSED & INSURED</p>
       <div class="bbb">
-      <img src="img/bbb.png">
+      <img src="/img/bbb.png">
     </div>
       <div style="clear: both;"></div>
     </div>
@@ -89,6 +89,7 @@ margin-right: 4%;
 
 .mod-20 { 
    height: 600px; 
+   /* height: 90%;  */
    /* height: auto; */
   max-width: 40%;
   /* margin: 5%; */
@@ -144,7 +145,9 @@ margin-right: 4%;
     max-width: 95%;
     margin: 2; 
     height: 30%;
-  }
+    max-height: 50%;
+    
+    }
   .exceed{
   font-size: 180%;
   margin-bottom: 2%;

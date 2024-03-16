@@ -8,9 +8,9 @@
 </template>
 
 <script>
-import ContactForm from '@/components/ContactForm.vue'
+import ContactForm from '../components/ContactForm.vue'
 import TestimonialCarouselComponent from '../components/TestimonialCarouselComponent.vue';
-import HomePictureComponent from '@/components/HomePictureComponent.vue';
+import HomePictureComponent from '../components/HomePictureComponent.vue';
 import SocialMediaIconsMobileComponent from '../components/SocialMediaIconsMobileComponent.vue';
 
 export default {
