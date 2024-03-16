@@ -5,7 +5,7 @@
       (More on Google):</a>
   <vueper-slides class="small-carousel no-shadow" fixed-height="250px" :autoplay="true" :interval="5000" arrows-outside
     bullets-outside>
-    <vueper-slide v-for="(slide, i) in slides" :key="i" :title="slide.title" :content="slide.content">
+    <vueper-slide v-for="(slide, i) in slides" :key="i" :title="slide.title" :content="slide.content" :image="slide.image">
     </vueper-slide>
   </vueper-slides>
 </template>
@@ -25,6 +25,7 @@ export default {
                       I had a tree emergency. It was a difficult job, 
                       and they made me feel comfortable and taken care of during a stressful time. 
                       They know what they are doing! I would highly recommend. -CD`,
+          image: './img/13.jpg',
         },
         {
           title: '⭐⭐⭐⭐⭐',
