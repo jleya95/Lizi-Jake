@@ -4,7 +4,7 @@
             <a class="navbar-itemPic" href="/">
                 <img class="logoImage" src="../../img/logo6.6.png" width="130" height="100">
             </a>
-            <a class="numb is-size-3" href="tel:412-770-7617">412-770-7617</a>
+            <a class="numb" href="tel:412-770-7617">412-770-7617</a>
         </div>
         <div class="navbar-end">
             <!-- <div class="navbar-icons"> -->
@@ -133,6 +133,7 @@ export default {
         align-items: center;
         white-space: nowrap;
         margin-left: 6%;
+        font-size: 28px;
     }
 
     /* .socialMedIcon{

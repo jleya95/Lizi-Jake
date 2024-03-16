@@ -119,7 +119,7 @@ export default {
   
 }
 
-@media  screen and (max-width: 800px) {
+@media  screen and (max-width: 1024px) {
   .Google {
   color: rgb(217, 102, 42);
   display: flex;
