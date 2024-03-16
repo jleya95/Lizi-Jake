@@ -37,54 +37,54 @@ export default {
   data() {
     return {
       slides: [
+        // {
+        //   image: 'https://timberjack.netlify.app/TimberjackWebsite/vue2/img/20.png',
+        // },
+        // {
+        //   image: 'https://timberjack.netlify.app/img/1.1.jpg',
+        // },
+        // {
+        //   image: '../TimberjackWebsite/vue2/img/2.3.jpg',
+        // },
         {
-          image: 'https://timberjack.netlify.app/TimberjackWebsite/vue2/img/20.png',
+          image: '../assets/img/4.jpg',
         },
-        {
-          image: 'https://timberjack.netlify.app/img/1.1.jpg',
-        },
-        {
-          image: '../TimberjackWebsite/vue2/img/2.3.jpg',
-        },
-        {
-          image: '/img/4.jpg',
-        },
-        {
-          image: '/img/5.jpg',
-        },
-        {
-          image: '/img/6.jpg',
-        },
-        {
-          image: '/img/7.jpg',
-        },
-        {
-          image: '/img/8.jpg',
-        },
-        {
-          image: '/img/10.jpeg',
-        },
-        {
-          image: '/img/11.jpeg',
-        },
-        {
-          image: '/img/12.jpg',
-        },
-        {
-          image: '/img/13.jpg',
-        },
-        {
-          image: '/img/14.jpeg',
-        },
-        {
-          image: '/img/15.jpeg',
-        },
-        {
-          image: '/img/18.jpeg',
-        },
-        {
-          image: '/img/19.jpeg',
-        },
+        // {
+        //   image: '/img/5.jpg',
+        // },
+        // {
+        //   image: '/img/6.jpg',
+        // },
+        // {
+        //   image: '/img/7.jpg',
+        // },
+        // {
+        //   image: '/img/8.jpg',
+        // },
+        // {
+        //   image: '/img/10.jpeg',
+        // },
+        // {
+        //   image: '/img/11.jpeg',
+        // },
+        // {
+        //   image: '/img/12.jpg',
+        // },
+        // {
+        //   image: '/img/13.jpg',
+        // },
+        // {
+        //   image: '/img/14.jpeg',
+        // },
+        // {
+        //   image: '/img/15.jpeg',
+        // },
+        // {
+        //   image: '/img/18.jpeg',
+        // },
+        // {
+        //   image: '/img/19.jpeg',
+        // },
       ],
     };
   },
