@@ -38,13 +38,13 @@ export default {
     return {
       slides: [
         {
-          image: './TimberjackWebsite/vue2/img/20.png',
+          image: 'https://timberjack.netlify.app/TimberjackWebsite/vue2/img/20.png',
         },
         {
-          image: '/img/1.1.jpg',
+          image: 'https://timberjack.netlify.app/img/1.1.jpg',
         },
         {
-          image: '/img/2.3.jpg',
+          image: '../TimberjackWebsite/vue2/img/2.3.jpg',
         },
         {
           image: '/img/4.jpg',
