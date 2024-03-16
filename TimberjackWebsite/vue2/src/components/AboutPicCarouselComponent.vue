@@ -12,7 +12,7 @@
   <vueper-slides class="small-carousel no-shadow" fixed-height="550px" :autoplay="true" :interval="2000" :bullets="false">
     
     <vueper-slide v-for="(slide, i) in slides" :key="i" :image="slide.image" class="image">
-      <!-- <img :src="slide.image" alt="Slide Image" class="image"> -->
+      <img :src="slide.image" alt="Slide Image" class="image">
     </vueper-slide>
   </vueper-slides>
   <div class="about-text">
@@ -37,54 +37,54 @@ export default {
   data() {
     return {
       slides: [
-        // {
-        //   image: 'https://timberjack.netlify.app/TimberjackWebsite/vue2/img/20.png',
-        // },
-        // {
-        //   image: 'https://timberjack.netlify.app/img/1.1.jpg',
-        // },
-        // {
-        //   image: '../TimberjackWebsite/vue2/img/2.3.jpg',
-        // },
+        {
+          image: '/img/20.png',
+        },
+        {
+          image: '/img/1.1.jpg',
+        },
+        {
+          image: '/img/2.3.jpg',
+        },
         {
           image: '/img/4.jpg',
         },
-        // {
-        //   image: '/img/5.jpg',
-        // },
-        // {
-        //   image: '/img/6.jpg',
-        // },
-        // {
-        //   image: '/img/7.jpg',
-        // },
-        // {
-        //   image: '/img/8.jpg',
-        // },
-        // {
-        //   image: '/img/10.jpeg',
-        // },
-        // {
-        //   image: '/img/11.jpeg',
-        // },
-        // {
-        //   image: '/img/12.jpg',
-        // },
-        // {
-        //   image: '/img/13.jpg',
-        // },
-        // {
-        //   image: '/img/14.jpeg',
-        // },
-        // {
-        //   image: '/img/15.jpeg',
-        // },
-        // {
-        //   image: '/img/18.jpeg',
-        // },
-        // {
-        //   image: '/img/19.jpeg',
-        // },
+        {
+          image: '/img/5.jpg',
+        },
+        {
+          image: '/img/6.jpg',
+        },
+        {
+          image: '/img/7.jpg',
+        },
+        {
+          image: '/img/8.jpg',
+        },
+        {
+          image: '/img/10.jpeg',
+        },
+        {
+          image: '/img/11.jpeg',
+        },
+        {
+          image: '/img/12.jpg',
+        },
+        {
+          image: '/img/13.jpg',
+        },
+        {
+          image: '/img/14.jpeg',
+        },
+        {
+          image: '/img/15.jpeg',
+        },
+        {
+          image: '/img/18.jpeg',
+        },
+        {
+          image: '/img/19.jpeg',
+        },
       ],
     };
   },
