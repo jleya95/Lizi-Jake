@@ -142,7 +142,7 @@ margin-right: 4%;
   }
 
   .mod-20 {
-    max-width: 55%;
+    max-width: 95%;
     margin: 2; 
     max-height: 50%;
     
