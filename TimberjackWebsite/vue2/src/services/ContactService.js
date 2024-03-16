@@ -20,6 +20,6 @@ export default {
     },
 
     contactUsFormSubmit(FormData) {
-        return axios.get(`/contact/send?Name=${FormData.Name}&email=${FormData.Email}&phone=${FormData.Phone}&subject=${FormData.Subject}&message=${FormData.Message}`)
+        return axios.get(`https://timberjacktreeserviceapi.azurewebsites.net/contact/send?Name=${FormData.Name}&email=${FormData.Email}&phone=${FormData.Phone}&subject=${FormData.Subject}&message=${FormData.Message}`)
     }
 };
