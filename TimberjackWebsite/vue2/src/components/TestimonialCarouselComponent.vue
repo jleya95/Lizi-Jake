@@ -25,7 +25,7 @@ export default {
                       I had a tree emergency. It was a difficult job, 
                       and they made me feel comfortable and taken care of during a stressful time. 
                       They know what they are doing! I would highly recommend. -CD`,
-          image: 'https://timberjack.netlify.app//img/13.jpg',
+          image: './img/13.jpg',
         },
         {
           title: '⭐⭐⭐⭐⭐',
