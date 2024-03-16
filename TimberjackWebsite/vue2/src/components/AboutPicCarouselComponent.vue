@@ -40,9 +40,9 @@ export default {
         {
           image: 'https://timberjack.netlify.app/img/20.png',
         },
-        // {
-        //   image: '/img/1.1.jpg',
-        // },
+        {
+          image: 'https://timberjack.netlify.app/img/1.1.jpg',
+        },
         // {
         //   image: '/img/2.3.jpg',
         // },
