@@ -43,7 +43,7 @@ export default {
           image: Picture,
         },
         {
-          image: 'https://timberjack.netlify.app/img/1.1.jpg'
+          image: '../../img/1.1.jpg'
         },
         // {
         //   image: '/img/2.3.jpg',
