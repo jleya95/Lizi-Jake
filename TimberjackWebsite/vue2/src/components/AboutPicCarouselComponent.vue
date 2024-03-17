@@ -11,7 +11,7 @@
   </div>
   <vueper-slides class="small-carousel no-shadow" fixed-height="550px" :autoplay="true" :interval="2000" :bullets="false">
     
-    <vueper-slide v-for="(slide, i) in slides" :key="i" :background-image="slide.image" class="image">
+    <vueper-slide v-for="(slide, i) in slides" :key="i" :image="slide.image" class="image">
       <img :src="slide.image" alt="Slide Image" class="image">
     </vueper-slide>
   </vueper-slides>
@@ -31,14 +31,16 @@
 <script>
 import { VueperSlides, VueperSlide } from 'vueperslides'
 import 'vueperslides/dist/vueperslides.css'
+import Picture from '../../img/20.png'
 
 export default {
   components: { VueperSlides, VueperSlide },
   data() {
     return {
+      
       slides: [
         {
-          image: 'https://timberjack.netlify.app/img/20.png',
+          image: Picture,
         },
         {
           image: 'https://timberjack.netlify.app/img/1.1.jpg'
