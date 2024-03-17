@@ -11,7 +11,7 @@
   </div>
   <vueper-slides class="small-carousel no-shadow" fixed-height="550px" :autoplay="true" :interval="2000" :bullets="false">
     
-    <vueper-slide v-for="(slide, i) in slides" :key="i" :background-image="slide.image" class="image">
+    <vueper-slide v-for="(slide, i) in slides" :key="i" :image="slide.image" class="image">
       <img :src="slide.image" alt="Slide Image" class="image">
     </vueper-slide>
   </vueper-slides>
