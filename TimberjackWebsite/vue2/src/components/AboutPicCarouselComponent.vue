@@ -38,10 +38,10 @@ export default {
     return {
       slides: [
         {
-          image: 'https://timberjack.netlify.app/img/20.png',
+          image: '/dist/assets/img/20.png',
         },
         {
-          image: 'https://timberjack.netlify.app/img/1.1.jpg',
+          image: '/dist/assets/img/1.1.jpg',
         },
         // {
         //   image: '/img/2.3.jpg',
