@@ -31,14 +31,16 @@
 <script>
 import { VueperSlides, VueperSlide } from 'vueperslides'
 import 'vueperslides/dist/vueperslides.css'
+import Picture from '../../img/20.png'
 
 export default {
   components: { VueperSlides, VueperSlide },
   data() {
     return {
+      
       slides: [
         {
-          image: 'https://timberjack.netlify.app/img/20.png',
+          image: Picture,
         },
         {
           image: 'https://timberjack.netlify.app/img/1.1.jpg'
