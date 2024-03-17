@@ -32,7 +32,21 @@
 import { VueperSlides, VueperSlide } from 'vueperslides'
 import 'vueperslides/dist/vueperslides.css'
 import Picture20 from '../../img/20.png'
-import Picture1 from '../../img/1.1.jpg'
+// import Picture1 from '../../img/1.1.jpg'
+import Pic23 from '../../img/2.3.jpg'
+import Pic4 from '../../img/4.jpg'
+import Pic5 from '../../img/5.jpg'
+import Pic6 from '../../img/6.jpg'
+import Pic7 from '../../img/7.jpg'
+import Pic8 from '../../img/8.jpg'
+import Pic10 from '../../img/10.jpeg'
+import Pic11 from '../../img/11.jpeg'
+import Pic12 from '../../img/12.jpg'
+import Pic13 from '../../img/13.jpg'
+import Pic14 from '../../img/14.jpeg'
+import Pic15 from '../../img/15.jpeg'
+import Pic18 from '../../img/18.jpeg'
+import Pic19 from '../../img/19.jpeg'
 
 export default {
   components: { VueperSlides, VueperSlide },
@@ -43,51 +57,51 @@ export default {
         {
           image: Picture20,
         },
+        // {
+        //   image: Picture1
+        // },
         {
-          image: Picture1
+          image: Pic23,
         },
-        // {
-        //   image: '/img/2.3.jpg',
-        // },
-        // {
-        //   image: '/img/4.jpg',
-        // },
-        // {
-        //   image: '/img/5.jpg',
-        // },
-        // {
-        //   image: '/img/6.jpg',
-        // },
-        // {
-        //   image: '/img/7.jpg',
-        // },
-        // {
-        //   image: '/img/8.jpg',
-        // },
-        // {
-        //   image: '/img/10.jpeg',
-        // },
-        // {
-        //   image: '/img/11.jpeg',
-        // },
-        // {
-        //   image: '/img/12.jpg',
-        // },
-        // {
-        //   image: '/img/13.jpg',
-        // },
-        // {
-        //   image: '/img/14.jpeg',
-        // },
-        // {
-        //   image: '/img/15.jpeg',
-        // },
-        // {
-        //   image: '/img/18.jpeg',
-        // },
-        // {
-        //   image: '/img/19.jpeg',
-        // },
+        {
+          image: Pic4,
+        },
+        {
+          image: Pic5,
+        },
+        {
+          image: Pic6,
+        },
+        {
+          image: Pic7,
+        },
+        {
+          image: Pic8,
+        },
+        {
+          image: Pic10,
+        },
+        {
+          image: Pic11,
+        },
+        {
+          image: Pic12,
+        },
+        {
+          image: Pic13,
+        },
+        {
+          image: Pic14,
+        },
+        {
+          image: Pic15,
+        },
+        {
+          image: Pic18,
+        },
+        {
+          image: Pic19,
+        },
       ],
     };
   },
