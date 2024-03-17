@@ -31,7 +31,8 @@
 <script>
 import { VueperSlides, VueperSlide } from 'vueperslides'
 import 'vueperslides/dist/vueperslides.css'
-import Picture from '../../img/20.png'
+import Picture20 from '../../img/20.png'
+import Picture1 from '../../img/1.1.jpg'
 
 export default {
   components: { VueperSlides, VueperSlide },
@@ -40,10 +41,10 @@ export default {
       
       slides: [
         {
-          image: Picture,
+          image: Picture20,
         },
         {
-          image: '../../img/1.1.jpg'
+          image: Picture1
         },
         // {
         //   image: '/img/2.3.jpg',
