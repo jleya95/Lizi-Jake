@@ -1,7 +1,16 @@
 <template>
-<div class="container">
-        <div class="box">
+    <div class="container">
+        <div class="box" id="empty-box" v-if="dragonProp.length < 1">
+            <div class="welcome-text">
+                <h1 class="welcome-header">Welcome to the Wyrmspan Dragon App!</h1>
+                <p class="welcome-p">Please enter a dragon name in the search bar to see stats</p>
+                <span class="note">
+                    <p class="welcome-p">*NOTE: Data may take some time to load!</p>
+                </span>
+            </div>
+        </div>
 
+        <div class="box" v-else>
             <div class="image-section">
                 <div class="dragon-image" v-html="dragonImgHTML"></div>
             </div>
@@ -18,8 +27,9 @@
                 <div class="description">
                     <text-component :dragonDescription="dragonProp.description"></text-component>
                 </div>
-            </div>     
+            </div>
         </div>
+
     </div>
 </template>
 
@@ -63,16 +73,35 @@ img {
     max-width: 100%;
 }
 
+.welcome-text {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 15%;
+    margin-bottom: 15%
+}
+
+.note {
+    margin-top: 2%;
+}
+
+#empty-box {
+    text-align: center;
+    justify-content: center;
+}
+
 .container {
     display: flex;
     justify-content: center;
 }
 
 .box {
+    /* width: auto; */
     width: 80%;
     display: flex;
     flex-direction: row;
-    /* max-height: 550px; */
+    height: 500px;
+    /* max-height: 500px; */
 }
 
 .image-section {
@@ -112,6 +141,15 @@ img {
     height: 100%;
 }
 
+.welcome-header {
+    font-weight: bold;
+    font-size: 200%;
+}
+
+.welcome-p {
+    font-size: 125%;
+}
+
 @media screen and (max-width: 900px) {
 
     img {
@@ -128,7 +166,7 @@ img {
         width: 100%;
         height: 250px;
         justify-content: center;
-        margin-bottom: 8%;
+        margin-bottom: 55%;
     }
 
     .description {

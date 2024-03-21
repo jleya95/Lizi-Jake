@@ -147,6 +147,7 @@ input {
   margin-left: 31.5%; 
   z-index: 1;
   box-shadow: 10px 10px 50px rgb(222, 222, 222);
+  margin-top: 4%;
 }
 
 
