@@ -1,4 +1,4 @@
-USE master
+use master
 GO
 
 --drop database if it exists
