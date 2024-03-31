@@ -3,7 +3,7 @@
     <img class="mod-20" src="/img/16copyCircle.png">
     <div class="text">
       <h1 class="welcome">Welcome to TimberJack Tree Service!</h1>
-      <p class="decription">We are your Neighborhoods Tree Care & Tree Removal Professionals!
+      <p class="decription">We are your Neighborhood's Tree Care & Tree Removal Professionals!
         Our crews have the know-how, equipment, and skills to tackle all of your tree care needs!</p>
         <p class="call">Call, Text or Email Today To Schedule a <span class="free">FREE</span>
           Estimate & Experience the TimberJack Difference! </p>

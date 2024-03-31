@@ -63,7 +63,7 @@
                 <h2 class="service-header">FIREWOOD</h2>
                 <p>Need to stock up on firewood at your home or business for the winter months or just looking to have a
                     relaxing
-                    campfire with family and friends this summer/fall. We have dry seasoned firewood that can be
+                    campfire with family and friends this summer/fall? We have dry seasoned firewood that can be
                     delivered
                     right
                     to
