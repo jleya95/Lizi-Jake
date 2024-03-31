@@ -47,6 +47,11 @@ import Pic14 from '../../img/14.jpeg'
 import Pic15 from '../../img/15.jpeg'
 import Pic18 from '../../img/18.jpeg'
 import Pic19 from '../../img/19.jpeg'
+import CranePic from '../../img/crane_pic.jpg'
+import Pic1 from '../../img/pic1.jpg'
+import Pic2 from '../../img/pic2.jpg'
+import Pic3 from '../../img/pic3.jpg'
+import OtherPic4 from '../../img/pic4.jpg'
 
 export default {
   components: { VueperSlides, VueperSlide },
@@ -102,6 +107,21 @@ export default {
         {
           image: Pic19,
         },
+        {
+          image: CranePic,
+        },
+        {
+          image: Pic1,
+        },
+        {
+          image: Pic2,
+        },
+        {
+          image: Pic3,
+        },
+        {
+          image: OtherPic4,
+        }
       ],
     };
   },
