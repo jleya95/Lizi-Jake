@@ -3,7 +3,7 @@
         <div class="text">
             <h1 class="popup-header">MESSAGE SENT</h1>
             <div class="popup-paragraph">
-                <p>Thank you for your inquiry with TimberJack Tree Services!</p>
+                <p>Thank you for your inquiry with TimberJack Tree Service!</p>
                 <p>Your message has been sent and we will be in contact with you as soon as possible.</p>
             </div>
         </div>

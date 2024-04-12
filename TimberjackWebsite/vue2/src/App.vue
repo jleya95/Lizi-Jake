@@ -11,7 +11,7 @@
   <nav-bar-components v-if="!mobileView"></nav-bar-components>
 
   <router-view />
-  <p class="copyright">©2024 TimberJack Tree Services</p>
+  <p class="copyright">©2024 TimberJack Tree Service</p>
 
 </template>
 
