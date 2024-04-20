@@ -3,13 +3,18 @@
     <nav-bar-component></nav-bar-component>
     <div id="PageSingle">
 
-      <section-component id="Home" :bgPosition="aboutBgPosition" >
+      <section-component id="Home" :bgPosition="aboutBgPosition">
         <home-component></home-component>
       </section-component>
 
       <section-component id="Events" :bgPosition="aboutBgPosition">
         <events-component></events-component>
       </section-component>
+
+      <section-component id="About" :bgPosition="aboutBgPosition">
+     <about-component></about-component>
+      </section-component>
+
 
       <section-component id="ContactUs" :bgPosition="skillsBgPosition">
         <contact-us-component></contact-us-component>
@@ -31,6 +36,7 @@ import HomeComponent from '../components/HomeComponent.vue';
 import EventsComponent from '../components/EventsComponent.vue';
 import ContactUsComponent from '../components/ContactUsComponent.vue';
 import ShopComponent from '../components/ShopComponent.vue';
+import AboutComponent from '../components/AboutComponent.vue';
 
 
 export default {
@@ -40,7 +46,8 @@ export default {
     HomeComponent,
     EventsComponent,
     ContactUsComponent,
-    ShopComponent
+    ShopComponent,
+    AboutComponent
 
 
   }
@@ -51,5 +58,9 @@ export default {
 #PageSingle {
   height: 100vh;
   scrollbar-color: transparent transparent;
+}
+#Home{
+  display: flex;
+  align-items: flex-end;
 }
 </style>

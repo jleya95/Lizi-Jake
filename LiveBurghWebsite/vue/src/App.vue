@@ -27,15 +27,18 @@ export default{
 
 <style>
 #Home{
-  background: url('/src/img/background2.jpg') center/cover no-repeat fixed;
+  background: url('/src/img/undefined-high.gif') center/cover no-repeat fixed;
 }
 #Events{
-  background-color: rgb(27, 27, 27);
+  background-color: rgb(26, 7, 40);
 }
 #ContactUs{
-  background-color: rgb(27, 27, 27);
+  background-color: rgb(26, 7, 40);
 }
 #Shop{
-  background-color: rgb(27, 27, 27);
+  background-color: rgb(26, 7, 40);
+}
+#About{
+  background-color: rgb(26, 7, 40);
 }
 </style>
