@@ -10,6 +10,7 @@ using Microsoft.IdentityModel.Tokens;
 using Capstone.DAO;
 using Capstone.Security;
 using Microsoft.OpenApi.Models;
+using Liveburgh.Services;
 
 namespace Capstone
 {
@@ -64,6 +65,7 @@ namespace Capstone
             services.AddSingleton<ITokenGenerator>(tk => new JwtGenerator(Configuration["JwtSecret"]));
             services.AddSingleton<IPasswordHasher>(ph => new PasswordHasher());
             services.AddTransient<IUserDao>(m => new UserSqlDao(connectionString));
+            services.AddTransient<IFacebookService>(m => new FacebookService());
 
             // Swagger set up
             services.AddSwaggerGen(s => {
