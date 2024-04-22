@@ -30,7 +30,8 @@ nav {
     position: fixed;
     width: 100%;
     top: 0;
-    box-shadow: 100px;
+    box-shadow:  0px 2px 4px rgba(0, 0, 0, 0.167);
+    z-index: 1000;
 }
 
 ul {
