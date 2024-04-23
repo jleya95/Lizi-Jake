@@ -1,11 +1,13 @@
-﻿using Liveburgh.Services;
+﻿using Capstone.Models;
+using Liveburgh.Models;
+using Liveburgh.Services;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Liveburgh.Controllers
 {
     [Route("[controller]")]
     [ApiController]
-    public class FacebookController
+    public class FacebookController : ControllerBase
     {
         private readonly IFacebookService _facebookService;
 
@@ -14,18 +16,30 @@ namespace Liveburgh.Controllers
             this._facebookService = facebookService;
         }
 
-        [HttpPost]
-        public ActionResult<string> PublishPostToFacebook(string postText)
+        [HttpGet]
+        public ActionResult<FBPagePosts> GetFacebookPagePosts(string userId, string userToken)
         {
-            bool postSuccessful = _facebookService.PostToFacebook(postText);
+            string pageAccessToken = _facebookService.GetPageAccessToken(userId, userToken);
+
+            FBPagePosts fBPagePosts = _facebookService.GetPagePosts(pageAccessToken);
+
+            return fBPagePosts;
+        }
+
+        [HttpPost]
+        public ActionResult<string> PublishPostToFacebook(string postText, string userId, string userToken)
+        {
+            string pageAccessToken = _facebookService.GetPageAccessToken(userId, userToken);
+
+            bool postSuccessful = _facebookService.PostToFacebook(postText, pageAccessToken);
 
             if (!postSuccessful)
             {
-                return "Something went wrong";
+                return BadRequest("Something went wrong.");
             }
             else
             {
-                return "Post successful!";
+                return Ok("Post successful!");
             }
         }
     }

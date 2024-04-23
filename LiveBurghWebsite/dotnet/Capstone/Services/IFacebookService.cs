@@ -1,7 +1,11 @@
-﻿namespace Liveburgh.Services
+﻿using Liveburgh.Models;
+
+namespace Liveburgh.Services
 {
     public interface IFacebookService
     {
-        public bool PostToFacebook(string postText);
+        FBPagePosts GetPagePosts(string pageAccessToken);
+        bool PostToFacebook(string postText, string pageAccessToken);
+        string GetPageAccessToken(string userId, string userToken);
     }
 }
