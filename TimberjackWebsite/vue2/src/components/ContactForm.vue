@@ -49,26 +49,28 @@
                                     v-model="Info.Address.City">
                             </p>
                         </div>
+                    </div>
+                    <div class="field-body is-grouped">
                         <div class="field is-grounded">
                             <p class="control is-expanded">
                                 <input class="input" name="State" type="text" placeholder="State"
                                     v-model="Info.Address.State">
                             </p>
                         </div>
-                    </div>
-                    <div class="field-body is-grouped">
                         <div class="field is-grounded">
                             <p class="control is-expanded">
                                 <input class="input" name="ZipCode" type="text" placeholder="Zip Code"
                                     v-model="Info.Address.ZipCode">
                             </p>
                         </div>
-                        <div class="field is-grounded">
+                    </div>
+                    <div class="field-body is-grouped">
+                        <!-- <div class="field is-grounded">
                             <p class="control is-expanded">
                                 <input class="input" name="Country" type="text" placeholder="Country"
                                     v-model="Info.Address.Country">
                             </p>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
             </div>
