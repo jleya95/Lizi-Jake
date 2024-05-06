@@ -9,6 +9,7 @@
 
   <div>
     <nav-bar-component></nav-bar-component>
+    <nav-bar-mobile-component v-if="mobileView"></nav-bar-mobile-component>
     <router-view />
   </div>
 </template>
@@ -16,12 +17,28 @@
 <script>
 
 import NavBarComponent from './components/NavBarComponent.vue';
+import NavBarMobileComponent from './components/NavBarMobileComponent.vue';
 export default{
 
   components: {
-    NavBarComponent
+    NavBarComponent,
+    NavBarMobileComponent
+  },
+  data: () => {
+    return {
+      mobileView: true,
+      // showNav: false,
+    };
+  },
+  methods: {
+    handleView() {
+      this.mobileView = window.innerWidth <= 900;
+    }
+  },
+  created() {
+    this.handleView();
+    window.addEventListener('resize', this.handleView);
   }
-
 }
 </script>
 
@@ -40,5 +57,23 @@ export default{
 }
 #About{
   background-color: rgb(26, 7, 40);
+}
+
+@media screen and (max-width: 900px) {
+  #Home{
+  background: url('/src/img/undefined-high.gif') center/cover no-repeat fixed;
+}
+#Events{
+  background-color: rgb(26, 7, 40);
+}
+#ContactUs{
+  background-color: rgb(26, 7, 40);
+}
+#Shop{
+  background-color: rgb(26, 7, 40);
+}
+#About{
+  background-color: rgb(26, 7, 40);
+}
 }
 </style>
