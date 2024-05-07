@@ -9,7 +9,7 @@
               <h2 class="event-header">Slim Forsythe & the 10th Ward Troubadours</h2>
               <p></p>
             </div>
-            <img src="../img/events3.png" class="event-img">
+            <img src="../img/Events3.png" class="event-img">
           </div>
         </div>
       </div>
