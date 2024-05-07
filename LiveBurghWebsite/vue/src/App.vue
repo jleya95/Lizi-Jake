@@ -8,7 +8,7 @@
   </div> -->
 
   
-    <nav-bar-component v-if="!mobileView"></nav-bar-component>
+    <nav-bar-component></nav-bar-component>
     
     <router-view />
 </template>
@@ -44,6 +44,8 @@ export default{
 @media screen and (max-width: 900px) {
   #Home{
   background: url('/src/img/undefined-high.gif') center/cover no-repeat fixed;
+  background-size: contain;
+  background-position: center; 
 }
 #Events{
   background-color: rgb(26, 7, 40);

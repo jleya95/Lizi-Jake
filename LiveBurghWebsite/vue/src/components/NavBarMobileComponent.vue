@@ -24,14 +24,18 @@ export default {
 
 </script>
 <style scoped>
+
+@media screen and (max-width: 900px) {
+
 nav {
     background-color: rgba(0, 0, 0, 0.305);
     padding: 10px;
     position: fixed;
     width: 100%;
+    font-size: 80%;
     top: 0;
     box-shadow:  0px 2px 4px rgba(0, 0, 0, 0.167);
-    z-index: 1000;
+    /* z-index: 1000; */
 }
 
 ul {
@@ -50,39 +54,7 @@ a {
     text-decoration: none;
     color: rgb(255, 255, 255);
     font-weight: bold;
-    font-size: 140%;
-}
-
-@media screen and (max-width: 900px) {
-    nav {
-    background-color: rgba(0, 0, 0, 0.305);
-    padding: 10px;
-    position: fixed;
-    width: 100%;
-    top: 0;
-    box-shadow:  0px 2px 4px rgba(0, 0, 0, 0.167);
-    z-index: 1000;
-}
-
-ul {
-    list-style: none;
-    padding: 0;
-    display: flex;
-    justify-content: flex-end;
-    margin-right: 5%;
-}
-
-li {
-    margin-left: 5%;
-}
-
-a {
-    text-decoration: none;
-    color: rgb(255, 255, 255);
-    font-weight: bold;
-    font-size: 120%;
+    font-size: 160%;
 }
 }
-
-
 </style>
