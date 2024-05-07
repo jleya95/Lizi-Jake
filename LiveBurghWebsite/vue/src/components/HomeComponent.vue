@@ -13,12 +13,15 @@
    display: flex;
    justify-content: center;
    align-items: center;
+   height: 85vh;
+
 }
 
 .content {
    display: flex;
    flex-direction: column;
    align-items: center;
+   
    
 }
 
@@ -27,6 +30,7 @@
    color: white;
    font-weight: 700;
    height: 0vh;
+
 }
 
 #Arrow {
