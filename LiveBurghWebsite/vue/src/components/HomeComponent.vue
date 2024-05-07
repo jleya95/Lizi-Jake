@@ -34,4 +34,33 @@
    position: absolute; 
    bottom: 0;
 }
+
+@media screen and (max-width: 900px) {
+   .section {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.content {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   
+}
+
+#liveburgh {
+   font-size: 200%;
+   color: white;
+   font-weight: 700;
+   height: 10vh;
+   text-align: center;
+}
+
+#Arrow {
+   color: white;
+   position: absolute; 
+   bottom: 0;
+}
+}
 </style>

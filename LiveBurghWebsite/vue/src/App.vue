@@ -7,10 +7,10 @@
     <router-view />
   </div> -->
 
-  <div>
-    <nav-bar-component></nav-bar-component>
+  
+    <nav-bar-component v-if="!mobileView"></nav-bar-component>
+    
     <router-view />
-  </div>
 </template>
 
 <script>
@@ -19,9 +19,8 @@ import NavBarComponent from './components/NavBarComponent.vue';
 export default{
 
   components: {
-    NavBarComponent
+    NavBarComponent,
   }
-
 }
 </script>
 
@@ -40,5 +39,23 @@ export default{
 }
 #About{
   background-color: rgb(26, 7, 40);
+}
+
+@media screen and (max-width: 900px) {
+  #Home{
+  background: url('/src/img/undefined-high.gif') center/cover no-repeat fixed;
+}
+#Events{
+  background-color: rgb(26, 7, 40);
+}
+#ContactUs{
+  background-color: rgb(26, 7, 40);
+}
+#Shop{
+  background-color: rgb(26, 7, 40);
+}
+#About{
+  background-color: rgb(26, 7, 40);
+}
 }
 </style>

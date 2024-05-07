@@ -1,4 +1,6 @@
 <template>
+  <div class="centered">
+  <div class="half-page-carousel">
     <Carousel :autoplay="2000" :wrap-around="true" pause-autoplay-on-hover>
       <Slide v-for="(image, index) in images" :key="index">
         <div class="carousel__item">
@@ -11,6 +13,8 @@
         <Pagination />
       </template>
     </Carousel>
+    </div>
+    </div>
   </template>
   
   <script>
@@ -42,8 +46,8 @@
           { src: image1, alt: 'Image 1' },
           { src: image2, alt: 'Image 2' },
           { src: image3, alt: 'Image 3' },
-          { src: image4, alt: 'Image 4' },
-          // Add more images as needed
+          // { src: image4, alt: 'Image 4' },
+  
         ]
       };
     },
@@ -60,7 +64,7 @@
   }
   
   .carousel__item img {
-   width: 40%;
+   width: 80%;
   }
   
   .carousel__slide {
@@ -73,6 +77,15 @@
     border: 5px solid white;
   }
 
- 
+  .half-page-carousel {
+  width: 50%;
+  }
+
+  .centered{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+
   </style>
   
