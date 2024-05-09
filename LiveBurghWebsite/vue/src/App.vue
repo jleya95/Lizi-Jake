@@ -8,18 +8,18 @@
   </div> -->
 
   
-    <nav-bar-component></nav-bar-component>
+    <!-- <nav-bar-component></nav-bar-component> -->
     
     <router-view />
 </template>
 
 <script>
 
-import NavBarComponent from './components/NavBarComponent.vue';
+// import NavBarComponent from './components/NavBarComponent.vue';
 export default{
 
   components: {
-    NavBarComponent,
+    // NavBarComponent,
   }
 }
 </script>
@@ -38,6 +38,9 @@ export default{
   background-color: rgb(26, 7, 40);
 }
 #About{
+  background-color: rgb(26, 7, 40);
+}
+#Construction{
   background-color: rgb(26, 7, 40);
 }
 
