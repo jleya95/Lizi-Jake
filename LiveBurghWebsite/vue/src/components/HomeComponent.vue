@@ -29,7 +29,7 @@
    font-size: 200%;
    color: white;
    font-weight: 700;
-   height: 0vh;
+   height: 5vh;
 
 }
 

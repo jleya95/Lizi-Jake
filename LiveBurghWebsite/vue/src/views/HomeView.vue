@@ -7,12 +7,14 @@
         <home-component></home-component>
       </section-component>
 
-      <section-component id="Events" :bgPosition="eventsBgPosition">
-        <events-component></events-component>
+      <section-component id="Events" :bgPosition="aboutBgPosition">
+        <events-component v-if="!mobileView"></events-component>
+        <events-mobile-component v-if="mobileView"></events-mobile-component>
       </section-component>
 
-      <section-component id="Construction" :bgPosition="constructionBgPosition">
-        <under-construction-component></under-construction-component>
+      <section-component id="About" :bgPosition="aboutBgPosition">
+     <about-component v-if="!mobileView"></about-component>
+     <about-mobile-component v-if="mobileView"></about-mobile-component>
       </section-component>
 
       <section-component id="About" :bgPosition="aboutBgPosition">
@@ -42,6 +44,8 @@ import ContactUsComponent from '../components/ContactUsComponent.vue';
 import ShopComponent from '../components/ShopComponent.vue';
 import AboutComponent from '../components/AboutComponent.vue';
 import UnderConstructionComponent from '../components/UnderConstructionComponent.vue'
+import AboutMobileComponent from '../components/AboutMobileComponent.vue';
+import EventsMobileComponent from '../components/EventsMobileComponent.vue'
 
 
 export default {
@@ -53,8 +57,25 @@ export default {
     ContactUsComponent,
     ShopComponent,
     AboutComponent,
-    UnderConstructionComponent
-  }
+    UnderConstructionComponent,
+    AboutMobileComponent,
+    EventsMobileComponent
+  },
+  data() {
+        return {
+            mobileView: true,
+            // showNav: false,
+        };
+    },
+    methods: {
+        handleView() {
+            this.mobileView = window.innerWidth <= 900;
+        }
+    },
+    created() {
+        this.handleView();
+        window.addEventListener('resize', this.handleView);
+    }
 };
 </script>
 
