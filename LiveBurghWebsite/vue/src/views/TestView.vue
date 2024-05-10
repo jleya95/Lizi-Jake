@@ -13,7 +13,7 @@ export default {
 }
 </script>
 
-<script>
+<!-- <script>
   window.fbAsyncInit = function() {
     FB.init({
       appId            : 'your-app-id',
@@ -22,4 +22,4 @@ export default {
     });
   };
 </script>
-<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js"></script>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js"></script> -->
