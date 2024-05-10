@@ -49,7 +49,8 @@
   </style> -->
 
   <template>
-    <section :id="id" class="section" :style="{ backgroundPositionY: bgPosition, height: sectionHeight }">
+    
+    <section :id="id" class="section" :style="{ backgroundPositionY: bgPosition,  backgroundColor: sectionColor, height: sectionHeight }">
       <slot></slot>
     </section>
   </template>
@@ -64,6 +65,7 @@
     },
     setup(props) {
       const sectionHeight = ref('auto'); 
+      const sectionColor = ref('rgba(33, 9, 49, 1)');
   
       const handleResize = () => {
         const section = props.id ? document.getElementById(props.id) : null;
@@ -83,6 +85,8 @@
   
       return {
         sectionHeight,
+        sectionColor,
+
       };
     },
   };
@@ -95,10 +99,12 @@
     justify-content: center;
     align-items: center;
     font-size: 2em;
-    background-attachment: fixed;
-    background-size: cover;
     color: white;
     transition: height 0.3s;
+    margin-left: 10%;
+    margin-right: 10%;
+    
   }
+
   </style>
   

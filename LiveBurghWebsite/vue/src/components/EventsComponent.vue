@@ -64,5 +64,8 @@
     text-align: center;
     outline-style: solid;
   }
+  #Events{
+    background-color: rgb(33, 9, 49);
+  }
   </style>
   
