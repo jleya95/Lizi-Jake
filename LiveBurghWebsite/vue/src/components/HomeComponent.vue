@@ -54,7 +54,7 @@
 }
 
 #liveburgh {
-   font-size: 200%;
+   font-size: 180%;
    color: white;
    font-weight: 700;
    height: 10vh;
