@@ -64,7 +64,7 @@
   }
   
   .carousel__item img {
-   width: 80%;
+   width: 150%;
   }
   
   .carousel__slide {
@@ -78,13 +78,48 @@
   }
 
   .half-page-carousel {
-  width: 50%;
+  width: 75%;
   }
 
   .centered{
     display: flex;
   justify-content: center;
   align-items: center;
+  }
+
+  @media screen and (max-width: 900px) {
+    .carousel__item {
+    min-height: 500px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .carousel__item img {
+   width: 150%;
+  }
+  
+  .carousel__slide {
+    padding: 10px;
+  }
+  
+  .carousel__prev,
+  .carousel__next {
+    box-sizing: content-box;
+    border: 5px solid white;
+  }
+
+  .half-page-carousel {
+  width: 100%;
+  }
+
+  .centered{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+
   }
 
   </style>

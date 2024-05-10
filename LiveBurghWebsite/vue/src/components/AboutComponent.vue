@@ -1,25 +1,20 @@
 <template>
     <div>
-        <!-- <div id="About" class="section">
-    </div> -->
-
         <h1 class="aboutLB">ABOUT LIVEBURGH</h1>
-
-        <div id="About" class="section">
-            <div class="flex-container-services">
-                <img src="../img/joinus.jpg" class="description-img">
-                <div class="description-text">
-                    <h2 class="service-header">Come Join Us!</h2>
-                    <p>Liveburgh is a Music House to rehearse, record, perform,
-                        network & crash while on tour. We have intimate house shows as well as
-                        performers have access to 3 Bedrooms, 2 Baths, fully equipped kitchen,
-                        basement bar/gameroom, large back porch, yard, bikes, basketball, etc.
-                        Within 1 mile of Hartwood Acres Park with music amphitheater as well
-                        as hiking/biking/walking trails.
-                        Come check it out - You're going to have a great time!</p>
-                </div>
+        <div class="flex-container-services">
+            <img src="../img/joinus.jpg" class="description-img">
+            <div class="description-text">
+                <h2 class="service-header">Come Join Us!</h2>
+                <p>Liveburgh is a Music House to rehearse, record, perform,
+                    network & crash while on tour. We have intimate house shows as well as
+                    performers have access to 3 Bedrooms, 2 Baths, fully equipped kitchen,
+                    basement bar/gameroom, large back porch, yard, bikes, basketball, etc.
+                    Within 1 mile of Hartwood Acres Park with music amphitheater as well
+                    as hiking/biking/walking trails.
+                    Come check it out - You're going to have a great time!</p>
             </div>
         </div>
+
 
         <div class="join-us">
             <div class="flex-container-services">
@@ -33,7 +28,7 @@
             </div>
         </div>
 
-        <div class="flex-container-services">
+        <div class="flex-container-services" id="always">
             <img src="../img/goingon.jpg" class="description-img">
             <div class="description-text">
                 <h2 class="service-header">Always Something Going On</h2>
@@ -67,6 +62,9 @@ export default {
 </script>
 
 <style>
+#always {
+    margin-bottom: 15%;
+}
 
 .description-text {
     font-size: 70%;
@@ -74,13 +72,12 @@ export default {
 }
 
 .flex-container-services {
-    margin-left: 5%;
-    margin-right: 5%;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 5%;
 }
 
 .description-img {
@@ -99,5 +96,6 @@ export default {
 
 .aboutLB {
     text-align: center;
+    font-size: 130%;
 }
 </style>

@@ -1,5 +1,3 @@
 <template>
-    <div id="Shop" class="section">
-        <h2>Shop</h2>
-    </div>
+<h1>SHOP</h1>
 </template>
