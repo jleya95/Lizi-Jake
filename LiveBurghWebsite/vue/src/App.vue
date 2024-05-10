@@ -42,6 +42,9 @@ export default {
   background: url('../src/img/background2.jpg');
   overflow-x: hidden;
 }
+#Construction{
+  background-color: rgb(26, 7, 40);
+}
 
 @media screen and (max-width: 900px) {
   #Home {
