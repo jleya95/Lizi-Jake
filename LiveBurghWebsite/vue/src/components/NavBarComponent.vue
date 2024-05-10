@@ -32,6 +32,7 @@ nav {
     top: 0;
     box-shadow:  0px 2px 4px rgba(0, 0, 0, 0.167);
     z-index: 1000;
+    padding-right: 10%;
 }
 
 ul {
