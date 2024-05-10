@@ -16,7 +16,7 @@ namespace Liveburgh.Controllers
             this._facebookService = facebookService;
         }
 
-        [HttpGet]
+        [HttpGet("Posts")]
         public ActionResult<FBPagePosts> GetFacebookPagePosts(string userId, string userToken)
         {
             string pageAccessToken = _facebookService.GetPageAccessToken(userId, userToken);
@@ -26,7 +26,7 @@ namespace Liveburgh.Controllers
             return fBPagePosts;
         }
 
-        [HttpPost]
+        [HttpPost("Post")]
         public ActionResult<string> PublishPostToFacebook(string postText, string userId, string userToken)
         {
             string pageAccessToken = _facebookService.GetPageAccessToken(userId, userToken);
