@@ -17,9 +17,9 @@
      <about-mobile-component v-if="mobileView"></about-mobile-component>
       </section-component>
 
-      <section-component id="About" :bgPosition="aboutBgPosition">
+      <!-- <section-component id="About" :bgPosition="aboutBgPosition">
         <about-component></about-component>
-      </section-component>
+      </section-component> -->
 
       <section-component id="ContactUs" :bgPosition="contactBgPosition">
         <contact-us-component></contact-us-component>
@@ -43,7 +43,7 @@ import EventsComponent from '../components/EventsComponent.vue';
 import ContactUsComponent from '../components/ContactUsComponent.vue';
 import ShopComponent from '../components/ShopComponent.vue';
 import AboutComponent from '../components/AboutComponent.vue';
-import UnderConstructionComponent from '../components/UnderConstructionComponent.vue'
+// import UnderConstructionComponent from '../components/UnderConstructionComponent.vue'
 import AboutMobileComponent from '../components/AboutMobileComponent.vue';
 import EventsMobileComponent from '../components/EventsMobileComponent.vue'
 
@@ -57,9 +57,9 @@ export default {
     ContactUsComponent,
     ShopComponent,
     AboutComponent,
-    UnderConstructionComponent,
     AboutMobileComponent,
-    EventsMobileComponent
+    EventsMobileComponent,
+    // UnderConstructionComponent
   },
   data() {
         return {
