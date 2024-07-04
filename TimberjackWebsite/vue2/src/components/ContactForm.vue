@@ -136,7 +136,7 @@
                 </div>
             </div>
 
-            <div class="field">
+            <!-- <div class="field">
                 <label class="label">Service Needed<span class="required">*</span></label>
                 <div class="field-body">
                     <div class="field is-narrow">
@@ -168,7 +168,42 @@
                         </div>
                     </div>
                 </div>
+            </div> -->
+
+            <div class="field">
+                <label class="label">Service(s) Needed<span class="required">*</span></label>
+                <div class="field-body">
+                    <div class="field is-narrow">
+                        <div class="control">
+                            <input type="checkbox" name="Service(s) Needed" id="risk" value="Tree Risk Assessment"
+                                v-model="Info.Services2">
+                            <label for="risk">Tree Risk Assessment</label><br>
+                            <input type="checkbox" name="Service(s) Needed" id="pruning" value="Tree Pruning"
+                                v-model="Info.Services2">
+                            <label for="pruning">Tree Pruning</label><br>
+                            <input type="checkbox" name="Service(s) Needed" id="removal" value="Tree Removal"
+                                v-model="Info.Services2">
+                            <label for="removal">Tree Removal</label><br>
+                            <input type="checkbox" name="Service(s) Needed" id="land" value="Land and Lot Clearing"
+                                v-model="Info.Services2">
+                            <label for="land">Land & Lot Clearing</label><br>
+                            <input type="checkbox" name="Service(s) Needed" id="stump" value="Stump Grinding"
+                                v-model="Info.Services2">
+                            <label for="stump">Stump Grinding</label><br>
+                            <input type="checkbox" name="Service(s) Needed" id="firewood" value="Firewood"
+                                v-model="Info.Services2">
+                            <label for="firewood">Firewood</label><br>
+                            <input type="checkbox" name="Service(s) Needed" id="leaf" value="Leaf Cleanups"
+                                v-model="Info.Services2">
+                            <label for="leaf">Leaf Cleanups</label><br>
+                            <input type="checkbox" name="Service(s) Needed" id="truck" value="Bucket Truck and Crane Service"
+                                v-model="Info.Services2">
+                            <label for="truck">Bucket Truck & Crane Service</label>
+                        </div>
+                    </div>
+                </div>
             </div>
+
 
             <div class="field">
                 <label class="label">How did you hear about us?</label>
@@ -240,7 +275,8 @@ export default {
                 Phone: "",
                 Comments: "",
                 Preference: "",
-                Services: "",
+                // Services: "",
+                Services2: [],
                 HeardAbout: ""
             },
             FormError: false,
@@ -250,12 +286,12 @@ export default {
     },
     methods: {
         checkForm: function (e) {
-            if (this.Info.Name.First && this.Info.Email && this.Info.Phone && this.Info.Services) {
+            if (this.Info.Name.First && this.Info.Email && this.Info.Phone && this.Info.Services2) {
                 this.replaceEntersInComments(e);
                 return this.submitForm(e);
             }
 
-            if (!this.Info.Name.First || !this.Info.Email || !this.Info.Phone || !this.Info.Services) {
+            if (!this.Info.Name.First || !this.Info.Email || !this.Info.Phone || !this.Info.Services2) {
                 this.FormError = true
                 this.ErrorMessage = "Please fill out all required(*) elements"
             }
