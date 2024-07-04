@@ -136,7 +136,7 @@
                 </div>
             </div>
 
-            <!-- <div class="field">
+            <div class="field">
                 <label class="label">Service Needed<span class="required">*</span></label>
                 <div class="field-body">
                     <div class="field is-narrow">
@@ -168,9 +168,9 @@
                         </div>
                     </div>
                 </div>
-            </div> -->
+            </div>
 
-            <div class="field">
+            <!-- <div class="field">
                 <label class="label">Service(s) Needed<span class="required">*</span></label>
                 <div class="field-body">
                     <div class="field is-narrow">
@@ -202,7 +202,7 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> -->
 
 
             <div class="field">
@@ -275,8 +275,8 @@ export default {
                 Phone: "",
                 Comments: "",
                 Preference: "",
-                // Services: "",
-                Services2: [],
+                Services: "",
+                // Services2: [],
                 HeardAbout: ""
             },
             FormError: false,
@@ -286,12 +286,12 @@ export default {
     },
     methods: {
         checkForm: function (e) {
-            if (this.Info.Name.First && this.Info.Email && this.Info.Phone && this.Info.Services2) {
+            if (this.Info.Name.First && this.Info.Email && this.Info.Phone && this.Info.Services) {
                 this.replaceEntersInComments(e);
                 return this.submitForm(e);
             }
 
-            if (!this.Info.Name.First || !this.Info.Email || !this.Info.Phone || !this.Info.Services2) {
+            if (!this.Info.Name.First || !this.Info.Email || !this.Info.Phone || !this.Info.Services) {
                 this.FormError = true
                 this.ErrorMessage = "Please fill out all required(*) elements"
             }
