@@ -16,8 +16,11 @@ export default {
     //     }
     // }
     formSubmit(FormData) {
-        return axios.get(`https://timberjacktreeserviceapi.azurewebsites.net/email?firstName=${FormData.Name.First}&lastName=${FormData.Name.Last}&addressLine1=${FormData.Address.Line1}&addressLine2=&city=${FormData.Address.City}&state=PA&zipCode=${FormData.Address.ZipCode}&email=${FormData.Email}&phone=${FormData.Phone}&comments=${FormData.Comments}&preference=${FormData.Preference}&service=${FormData.Services}&heardAbout=${FormData.HeardAbout}`)
+        return axios.get(`https://localhost:44315/email?firstName=${FormData.Name.First}&lastName=${FormData.Name.Last}&addressLine1=${FormData.Address.Line1}&addressLine2=&city=${FormData.Address.City}&state=PA&zipCode=${FormData.Address.ZipCode}&email=${FormData.Email}&phone=${FormData.Phone}&comments=${FormData.Comments}&preference=${FormData.Preference}&service=${FormData.Services2}&heardAbout=${FormData.HeardAbout}`)
     },
+    // formSubmit(FormData) {
+    //     return axios.get(`https://timberjacktreeserviceapi.azurewebsites.net/email?firstName=${FormData.Name.First}&lastName=${FormData.Name.Last}&addressLine1=${FormData.Address.Line1}&addressLine2=&city=${FormData.Address.City}&state=PA&zipCode=${FormData.Address.ZipCode}&email=${FormData.Email}&phone=${FormData.Phone}&comments=${FormData.Comments}&preference=${FormData.Preference}&service=${FormData.Services2}&heardAbout=${FormData.HeardAbout}`)
+    // },
     contactUsFormSubmit(FormData) {
         return axios.get(`https://timberjacktreeserviceapi.azurewebsites.net/contact/send?Name=${FormData.Name}&email=${FormData.Email}&phone=${FormData.Phone}&subject=${FormData.Subject}&message=${FormData.Message}`)
     }
